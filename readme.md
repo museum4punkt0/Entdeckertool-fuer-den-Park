@@ -7,8 +7,6 @@ Wo wurde die Maske entdeckt? Was hat man sonst noch gefunden? Wo wurde schon geg
 
 Die VAP-App, unser interaktives Tool zur Varusschlacht + Archäologie im Park entstand als ein Beitrag zum deutschlandweiten Verbundprojekt „museum4punkt0 – Digitale Strategien für das Museum der Zukunft“, gefördert von der Bundesbeauftragten für Kultur und Medien aufgrund eines Beschlusses des deutschen Bundestages.
 
-2,844
-
 - [Förderhinweis](#Förderhinweis)
 
   Ziel der App ist es, ein Vermittlungstool zu bieten, dass den Nutzer*innen das selbstständige Erkunden des 10 Hektar großen Museumsparks ermöglicht. Seit mehr als 30 Jahren finden im Museumspark archäologische Ausgrabungen zur Varusschlacht statt, deren Ergebnisse, Befunde und Funde in der Dauerausstellung präsentiert werden. In der
