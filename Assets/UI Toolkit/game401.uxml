@@ -1,0 +1,120 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <Game4 style="background-color: rgb(255, 255, 255); width: 100%; height: 100%; align-items: center; justify-content: center;">
+        <ui:VisualElement name="empty" style="height: 150px; width: 100%;" />
+        <ui:VisualElement name="Wrapper" style="height: 90%; justify-content: flex-end; margin-top: 0; width: 100%;">
+            <ui:ScrollView style="height: 100%; justify-content: center; padding-left: 50px; padding-right: 50px; width: 100%;">
+                <ui:VisualElement name="header" style="flex-direction: row; width: 100%; justify-content: space-between; margin-bottom: 50px;">
+                    <ui:Label text="Werkstatt" display-tooltip-when-elided="true" name="title" style="background-color: rgba(255, 255, 255, 0); color: rgb(16, 159, 148); -unity-font-definition: url(&apos;project://database/Assets/Fonts/Fira_Sans/FiraSans-SemiBold%20SDF.asset?fileID=11400000&amp;guid=f2b30bdb006924f458d13fa9d2ae7592&amp;type=2#FiraSans-SemiBold SDF&apos;); font-size: 76px; -unity-text-align: middle-left; white-space: normal; width: 60%;" />
+                    <ui:VisualElement name="coins" style="flex-direction: row; align-items: center; justify-content: center; width: auto;">
+                        <ui:VisualElement name="coins-icon" style="background-color: rgba(255, 255, 255, 0); background-image: url(&apos;project://database/Assets/Sprites/roemisch-nicht-roemisch/noun-dollar-coins-481813-1A1A1A.png?fileID=2800000&amp;guid=8b622c847dba0e340ac9b25db77e092b&amp;type=3#noun-dollar-coins-481813-1A1A1A&apos;); -unity-background-image-tint-color: rgb(16, 159, 148); width: 100px; height: 130px;" />
+                        <ui:Label text="0" display-tooltip-when-elided="true" name="coins-label" style="-unity-font: url(&apos;project://database/Assets/Fonts/KalkrBru.ttf?fileID=12800000&amp;guid=ff21b0fabe037e64197c11e63d384b62&amp;type=3#KalkrBru&apos;); color: rgb(16, 159, 148); font-size: 140px; -unity-font-definition: none; margin-left: 50px; -unity-text-align: middle-left; align-items: center; margin-top: 20px;" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:Label text="Restauriere alle 8 Funde." display-tooltip-when-elided="true" name="subText" style="color: rgb(16, 159, 148); font-size: 56px; -unity-font-definition: url(&apos;project://database/Assets/Fonts/Fira_Sans/FiraSans-SemiBold%20SDF.asset?fileID=11400000&amp;guid=f2b30bdb006924f458d13fa9d2ae7592&amp;type=2#FiraSans-SemiBold SDF&apos;); -unity-font-style: bold; margin-bottom: 50px; white-space: normal;" />
+                <ui:VisualElement name="materialWrapper01" class="cms-game4-material-wrapper">
+                    <ui:Label text="Material: Eisen/Blech" display-tooltip-when-elided="true" name="materialTitle" />
+                    <ui:VisualElement name="materiaRow01" class="cms-game4-firstRow">
+                        <ui:Button display-tooltip-when-elided="true" name="vorher" class="cms-game4-card-vorher">
+                            <ui:VisualElement name="Image" class="cms-game4-card-image cms-game4-materialEisen-card01-image cms-game4-materialEisen-card01-vorher-image" />
+                            <ui:Label text="VORHER" display-tooltip-when-elided="true" class="cms-game4-card-vorher-title" />
+                        </ui:Button>
+                        <ui:Button display-tooltip-when-elided="true" name="nachher" class="cms-game4-card-vorher">
+                            <ui:VisualElement name="Image" class="cms-game4-card-image cms-game4-materialEisen-card01-image cms-game4-materialEisen-card01-nachher-image" />
+                            <ui:Label text="NACHHER" display-tooltip-when-elided="true" class="cms-game4-card-vorher-title" />
+                        </ui:Button>
+                    </ui:VisualElement>
+                    <ui:VisualElement name="materiaRow02" class="cms-game4-firstRow">
+                        <ui:Button display-tooltip-when-elided="true" name="vorher" class="cms-game4-card-vorher">
+                            <ui:VisualElement name="Image" class="cms-game4-card-image cms-game4-materialEisen-card01-image cms-game4-materialEisen-card01-vorher-image" />
+                            <ui:Label text="VORHER" display-tooltip-when-elided="true" class="cms-game4-card-vorher-title" />
+                        </ui:Button>
+                        <ui:Button display-tooltip-when-elided="true" name="nachher" class="cms-game4-card-vorher">
+                            <ui:VisualElement name="Image" class="cms-game4-card-image cms-game4-materialEisen-card01-image cms-game4-materialEisen-card01-nachher-image" />
+                            <ui:Label text="NACHHER" display-tooltip-when-elided="true" class="cms-game4-card-vorher-title" />
+                        </ui:Button>
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:VisualElement name="materialWrapper02" class="cms-game4-material-wrapper">
+                    <ui:Label text="Material: Eisen/Blech" display-tooltip-when-elided="true" name="materialTitle" />
+                    <ui:VisualElement name="materiaRow01" class="cms-game4-firstRow">
+                        <ui:Button display-tooltip-when-elided="true" name="vorher" class="cms-game4-card-vorher">
+                            <ui:VisualElement name="Image" class="cms-game4-card-image cms-game4-materialEisen-card01-image cms-game4-materialEisen-card01-vorher-image" />
+                            <ui:Label text="VORHER" display-tooltip-when-elided="true" class="cms-game4-card-vorher-title" />
+                        </ui:Button>
+                        <ui:Button display-tooltip-when-elided="true" name="nachher" class="cms-game4-card-vorher">
+                            <ui:VisualElement name="Image" class="cms-game4-card-image cms-game4-materialEisen-card01-image cms-game4-materialEisen-card01-nachher-image" />
+                            <ui:Label text="NACHHER" display-tooltip-when-elided="true" class="cms-game4-card-vorher-title" />
+                        </ui:Button>
+                    </ui:VisualElement>
+                    <ui:VisualElement name="materiaRow02" class="cms-game4-firstRow">
+                        <ui:Button display-tooltip-when-elided="true" name="vorher" class="cms-game4-card-vorher">
+                            <ui:VisualElement name="Image" class="cms-game4-card-image cms-game4-materialEisen-card01-image cms-game4-materialEisen-card01-vorher-image" />
+                            <ui:Label text="VORHER" display-tooltip-when-elided="true" class="cms-game4-card-vorher-title" />
+                        </ui:Button>
+                        <ui:Button display-tooltip-when-elided="true" name="nachher" class="cms-game4-card-vorher">
+                            <ui:VisualElement name="Image" class="cms-game4-card-image cms-game4-materialEisen-card01-image cms-game4-materialEisen-card01-nachher-image" />
+                            <ui:Label text="NACHHER" display-tooltip-when-elided="true" class="cms-game4-card-vorher-title" />
+                        </ui:Button>
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:VisualElement name="materialWrapper03" class="cms-game4-material-wrapper">
+                    <ui:Label text="Material: Eisen/Blech" display-tooltip-when-elided="true" name="materialTitle" />
+                    <ui:VisualElement name="materiaRow01" class="cms-game4-firstRow">
+                        <ui:Button display-tooltip-when-elided="true" name="vorher" class="cms-game4-card-vorher">
+                            <ui:VisualElement name="Image" class="cms-game4-card-image cms-game4-materialEisen-card01-image cms-game4-materialEisen-card01-vorher-image" />
+                            <ui:Label text="VORHER" display-tooltip-when-elided="true" class="cms-game4-card-vorher-title" />
+                        </ui:Button>
+                        <ui:Button display-tooltip-when-elided="true" name="nachher" class="cms-game4-card-vorher">
+                            <ui:VisualElement name="Image" class="cms-game4-card-image cms-game4-materialEisen-card01-image cms-game4-materialEisen-card01-nachher-image" />
+                            <ui:Label text="NACHHER" display-tooltip-when-elided="true" class="cms-game4-card-vorher-title" />
+                        </ui:Button>
+                    </ui:VisualElement>
+                    <ui:VisualElement name="materiaRow02" class="cms-game4-firstRow">
+                        <ui:Button display-tooltip-when-elided="true" name="vorher" class="cms-game4-card-vorher">
+                            <ui:VisualElement name="Image" class="cms-game4-card-image cms-game4-materialEisen-card01-image cms-game4-materialEisen-card01-vorher-image" />
+                            <ui:Label text="VORHER" display-tooltip-when-elided="true" class="cms-game4-card-vorher-title" />
+                        </ui:Button>
+                        <ui:Button display-tooltip-when-elided="true" name="nachher" class="cms-game4-card-vorher">
+                            <ui:VisualElement name="Image" class="cms-game4-card-image cms-game4-materialEisen-card01-image cms-game4-materialEisen-card01-nachher-image" />
+                            <ui:Label text="NACHHER" display-tooltip-when-elided="true" class="cms-game4-card-vorher-title" />
+                        </ui:Button>
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:VisualElement name="materialWrapper04" class="cms-game4-material-wrapper">
+                    <ui:Label text="Material: Eisen/Blech" display-tooltip-when-elided="true" name="materialTitle" />
+                    <ui:VisualElement name="materiaRow01" class="cms-game4-firstRow">
+                        <ui:Button display-tooltip-when-elided="true" name="vorher" class="cms-game4-card-vorher">
+                            <ui:VisualElement name="Image" class="cms-game4-card-image cms-game4-materialEisen-card01-image cms-game4-materialEisen-card01-vorher-image" />
+                            <ui:Label text="VORHER" display-tooltip-when-elided="true" class="cms-game4-card-vorher-title" />
+                        </ui:Button>
+                        <ui:Button display-tooltip-when-elided="true" name="nachher" class="cms-game4-card-vorher">
+                            <ui:VisualElement name="Image" class="cms-game4-card-image cms-game4-materialEisen-card01-image cms-game4-materialEisen-card01-nachher-image" />
+                            <ui:Label text="NACHHER" display-tooltip-when-elided="true" class="cms-game4-card-vorher-title" />
+                        </ui:Button>
+                    </ui:VisualElement>
+                    <ui:VisualElement name="materiaRow02" class="cms-game4-firstRow">
+                        <ui:Button display-tooltip-when-elided="true" name="vorher" class="cms-game4-card-vorher">
+                            <ui:VisualElement name="Image" class="cms-game4-card-image cms-game4-materialEisen-card01-image cms-game4-materialEisen-card01-vorher-image" />
+                            <ui:Label text="VORHER" display-tooltip-when-elided="true" class="cms-game4-card-vorher-title" />
+                        </ui:Button>
+                        <ui:Button display-tooltip-when-elided="true" name="nachher" class="cms-game4-card-vorher">
+                            <ui:VisualElement name="Image" class="cms-game4-card-image cms-game4-materialEisen-card01-image cms-game4-materialEisen-card01-nachher-image" />
+                            <ui:Label text="NACHHER" display-tooltip-when-elided="true" class="cms-game4-card-vorher-title" />
+                        </ui:Button>
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:ScrollView>
+        </ui:VisualElement>
+        <ui:VisualElement name="PopUp" style="position: absolute; width: 90%; height: 80%; background-color: rgb(16, 159, 148); margin-bottom: 0; justify-content: space-between; margin-top: 0; padding-left: 50px; padding-right: 50px; padding-top: 50px; padding-bottom: 50px; display: none; translate: 0 100px;">
+            <ui:VisualElement name="popup-header" style="flex-direction: row; justify-content: space-between; align-items: center; margin-bottom: 100px;">
+                <ui:VisualElement name="icon" style="background-image: url(&apos;project://database/Assets/Sprites/spiele_icon.png?fileID=2800000&amp;guid=69a856c2cd262b6469c4fdc08f4a0a1a&amp;type=3#spiele_icon&apos;); width: 182px; height: 163px;" />
+                <ui:Button text="&#10;" display-tooltip-when-elided="true" name="popup-close" style="background-image: url(&apos;project://database/Assets/Sprites/InGameUI/exit_cross_sprite.png?fileID=2800000&amp;guid=0cd603c8a0c4c794b8afd0a1b596654e&amp;type=3#exit_cross_sprite&apos;); background-color: rgba(88, 88, 88, 0); border-left-color: rgba(255, 255, 255, 0); border-right-color: rgba(255, 255, 255, 0); border-top-color: rgba(255, 255, 255, 0); border-bottom-color: rgba(255, 255, 255, 0); border-left-width: 0; border-right-width: 0; border-top-width: 0; border-bottom-width: 0; border-top-left-radius: 0; border-bottom-left-radius: 0; border-top-right-radius: 0; border-bottom-right-radius: 0; width: 100px; height: 100px;" />
+            </ui:VisualElement>
+            <ui:Label text="Label" display-tooltip-when-elided="true" name="popup-headline" class="cms-game5-popup-headline" />
+            <ui:Label text="Label" display-tooltip-when-elided="true" name="popup-subHeadline" class="cms-game5-popup-subheadline" />
+            <ui:Button text="Button" display-tooltip-when-elided="true" name="popup-button" class="cms-game5-popup-button" style="height: 300px;">
+                <ui:VisualElement name="icon" style="background-color: rgba(255, 255, 255, 0); background-image: url(&apos;project://database/Assets/Sprites/circle_arrow.png?fileID=2800000&amp;guid=f77a5f3cd8ae8b840a12f9b25645d2d5&amp;type=3#circle_arrow&apos;); width: 180px; height: 180px; margin-right: 0; padding-right: 0; margin-left: -225px;" />
+            </ui:Button>
+        </ui:VisualElement>
+    </Game4>
+</ui:UXML>

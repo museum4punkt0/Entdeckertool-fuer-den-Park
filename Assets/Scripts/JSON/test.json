@@ -1,0 +1,29 @@
+{
+        "Module_0":[
+        {
+            "title":"wo wurde die maske gefunden?",
+            "buttonText" : "Zum Fundort gehen",
+            "subTitle" : "Unser Sensationsfund in Kalkriese!",
+            "text" : "Non laborum veniam consectetur elit fugiat aute mollit. Exercitation ad aliqua mollit irure culpa qui et dolore fugiat sunt. Ea excepteur proident nostrud nostrud adipisicing eu aliqua mollit consectetur. Mollit pariatur fugiat incididunt ipsum cupidatat nisi. Nostrud magna ad eiusmod ea. Proident magna officia excepteur adipisicing mollit in et nulla ex. Velit nulla veniam dolor sit ex enim. Duis cupidatat tempor veniam dolore commodo aliquip eiusmod excepteur.",
+            "buttonDetailsText": "Details zum Fund 'Gesichts' eines Reiterhelms"
+        }],        
+        "Module_1":[
+        {
+            "title": "Archäologie-Parcours",
+            "text":"Nostrud labore sunt consectetur proident consectetur laborum.",
+            "buttonTitle" : "Spiel starten",
+            "color" : "#ff4300"
+        },{
+            "title": "AR-Selfie-Foto und virtuelle Maske entdecken",
+            "text":"",
+            "buttonTitle" : "Du und der virtuelle Fund",
+            "color" : "#47278c"
+        },
+        {
+            "title": "Park-Tour: 'Alltag'",
+            "text":"Consequat consectetur fugiat est sint deserunt officia magna fugiat id ullamco nostrud adipisicing.",
+            "buttonTitle" : "Park-Tour starten",
+            "color" : "#57b330"
+        }]
+
+}

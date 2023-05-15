@@ -1,0 +1,15 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/gameheader.uss?fileID=7433441132597879392&amp;guid=f3c40452a3be9cd4784d1374f3cabc3a&amp;type=3#gameheader" />
+    <AppHeader name="TourHeader" class="cms-header-wrapper" style="height: 255px; padding-top: 70px; top: 0; align-items: flex-start; background-color: rgb(55, 193, 42); border-left-color: rgb(80, 193, 42); border-right-color: rgb(80, 193, 42); border-top-color: rgb(80, 193, 42); border-bottom-color: rgb(80, 193, 42);">
+        <ui:VisualElement style="position: absolute; left: 0; top: 0; right: 0; bottom: 0; background-color: rgb(80, 193, 42);" />
+        <ui:Button text="&#10;" display-tooltip-when-elided="true" name="close" class="cms-header-close" />
+        <ui:VisualElement class="cms-header-label">
+            <ui:Label text="SPIEL BEENDEN" display-tooltip-when-elided="true" name="headline" style="margin-bottom: 25px; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0;" />
+            <ui:VisualElement style="align-items: center; justify-content: center; flex-direction: row;">
+                <ui:Label text="0" display-tooltip-when-elided="true" name="currentScore" style="-unity-font-definition: none; -unity-font: url(&apos;project://database/Assets/Fonts/KalkrBru.ttf?fileID=12800000&amp;guid=ff21b0fabe037e64197c11e63d384b62&amp;type=3#KalkrBru&apos;); font-size: 90px;" />
+                <ui:Label text="/" display-tooltip-when-elided="true" name="Divider" style="-unity-font: url(&apos;project://database/Assets/Fonts/KalkrBru.ttf?fileID=12800000&amp;guid=ff21b0fabe037e64197c11e63d384b62&amp;type=3#KalkrBru&apos;); -unity-font-definition: none; font-size: 90px;" />
+                <ui:Label text="10" display-tooltip-when-elided="true" name="totalScore" style="-unity-font-definition: none; -unity-font: url(&apos;project://database/Assets/Fonts/KalkrBru.ttf?fileID=12800000&amp;guid=ff21b0fabe037e64197c11e63d384b62&amp;type=3#KalkrBru&apos;); font-size: 90px;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </AppHeader>
+</ui:UXML>

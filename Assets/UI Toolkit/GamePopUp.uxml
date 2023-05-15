@@ -1,0 +1,20 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/game5.uss?fileID=7433441132597879392&amp;guid=3706b10804d98b544b0b1b05e8e5d679&amp;type=3#game5" />
+    <Style src="project://database/Assets/UIBuilder/styles/GameOverlay.uss?fileID=7433441132597879392&amp;guid=57feafdb8c9394024a77a47dbe1ff66d&amp;type=3#GameOverlay" />
+    <Game5 name="Game5" style="width: 100%; height: 100%; background-color: rgba(255, 255, 255, 0); justify-content: center; align-items: center; display: flex; overflow: hidden; visibility: visible;">
+        <ui:VisualElement name="PopUp" class="inFokus" style="position: absolute; width: 90%; height: auto; margin-bottom: 0; justify-content: space-between; margin-top: 0; padding-left: 50px; padding-right: 50px; padding-top: 50px; padding-bottom: 50px; display: flex; translate: 0 100px;">
+            <ui:VisualElement name="popup-header" style="flex-direction: row; justify-content: space-between; align-items: center; margin-bottom: 100px;">
+                <ui:VisualElement name="icon" style="background-image: url(&apos;project://database/Assets/Sprites/spiele_icon.png?fileID=2800000&amp;guid=69a856c2cd262b6469c4fdc08f4a0a1a&amp;type=3#spiele_icon&apos;); width: 182px; height: 163px;" />
+                <ui:Button text="&#10;" display-tooltip-when-elided="true" name="popup-close" style="background-image: url(&apos;project://database/Assets/Sprites/InGameUI/exit_cross_sprite.png?fileID=2800000&amp;guid=0cd603c8a0c4c794b8afd0a1b596654e&amp;type=3#exit_cross_sprite&apos;); background-color: rgba(88, 88, 88, 0); border-left-color: rgba(255, 255, 255, 0); border-right-color: rgba(255, 255, 255, 0); border-top-color: rgba(255, 255, 255, 0); border-bottom-color: rgba(255, 255, 255, 0); border-left-width: 0; border-right-width: 0; border-top-width: 0; border-bottom-width: 0; border-top-left-radius: 0; border-bottom-left-radius: 0; border-top-right-radius: 0; border-bottom-right-radius: 0; width: 100px; height: 100px;" />
+            </ui:VisualElement>
+            <ui:GroupBox>
+                <ui:Label text="Schritt 1:   " display-tooltip-when-elided="true" name="popup-headline" class="cms-game5-popup-headline" style="margin-bottom: 10px;" />
+                <ui:Label text="Grabungszelt einrichten " display-tooltip-when-elided="true" name="popup-extraheadline" class="cms-game5-popup-headline" />
+            </ui:GroupBox>
+            <ui:Label text="Wähle das passende Objekt im Inventar-Rad aus und platziere es im Raum." display-tooltip-when-elided="true" name="popup-subHeadline" class="cms-game5-popup-subheadline" />
+            <ui:Button text="Weiter" display-tooltip-when-elided="true" name="popup-button" class="cms-game5-popup-button" style="height: 300px; margin-top: 50px;">
+                <ui:VisualElement name="icon" style="background-color: rgba(255, 255, 255, 0); background-image: url(&apos;project://database/Assets/Sprites/circle_arrow.png?fileID=2800000&amp;guid=f77a5f3cd8ae8b840a12f9b25645d2d5&amp;type=3#circle_arrow&apos;); width: 180px; height: 180px; margin-right: 0; padding-right: 0; margin-left: -225px;" />
+            </ui:Button>
+        </ui:VisualElement>
+    </Game5>
+</ui:UXML>

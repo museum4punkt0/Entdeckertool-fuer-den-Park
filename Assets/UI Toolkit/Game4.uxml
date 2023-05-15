@@ -1,0 +1,73 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/game5.uss?fileID=7433441132597879392&amp;guid=3706b10804d98b544b0b1b05e8e5d679&amp;type=3#game5" />
+    <Style src="project://database/Assets/game4.uss?fileID=7433441132597879392&amp;guid=57e71b1aa4bc8be47bca63a14608333c&amp;type=3#game4" />
+    <Style src="project://database/Assets/gametutorial.uss?fileID=7433441132597879392&amp;guid=400371ec30215244ebae5436dc1c8c4e&amp;type=3#gametutorial" />
+    <ui:VisualElement name="Tutorial" style="width: 100%; height: 100%; display: flex;">
+        <GameTutorial style="width: 100%; height: 100%; display: flex;">
+            <ui:VisualElement name="header" class="cms-gametutorial-header-wrapper" style="height: 40%; background-color: rgb(253, 131, 0); align-items: center; justify-content: center; -unity-text-align: middle-center;">
+                <ui:VisualElement name="empty" style="height: 150px;" />
+                <ui:Button text="Spiel starten" display-tooltip-when-elided="true" name="startBtn" class="cms-gametutorial-button" style="display: flex;">
+                    <ui:VisualElement name="icon" class="cms-gametutorial-button-icon" />
+                </ui:Button>
+            </ui:VisualElement>
+            <ui:VisualElement name="content" class="cms-gametutorial-content-wrapper" style="height: 100%; background-color: rgb(255, 255, 255);" />
+        </GameTutorial>
+    </ui:VisualElement>
+    <Game4 name="Game" style="background-color: rgb(255, 255, 255); width: 100%; height: 100%; align-items: center; justify-content: center; display: none;">
+        <ui:VisualElement name="empty" style="height: 200px; width: 100%;" />
+        <ui:VisualElement name="Wrapper" style="height: 90%; justify-content: flex-end; margin-top: 0; width: 100%; display: flex;">
+            <ui:ScrollView horizontal-scroller-visibility="Hidden" vertical-scroller-visibility="Auto" focusable="false" style="height: 100%; justify-content: center; padding-left: 50px; padding-right: 50px; width: 100%;">
+                <ui:VisualElement name="header" style="flex-direction: row; width: 100%; justify-content: space-between; margin-bottom: 50px;">
+                    <ui:Label text="Werkstatt" display-tooltip-when-elided="true" name="title" style="background-color: rgba(255, 255, 255, 0); color: rgb(16, 159, 148); -unity-font-definition: url(&apos;project://database/Assets/Fonts/Fira_Sans/FiraSans-SemiBold%20SDF.asset?fileID=11400000&amp;guid=f2b30bdb006924f458d13fa9d2ae7592&amp;type=2#FiraSans-SemiBold SDF&apos;); font-size: 76px; -unity-text-align: middle-left; white-space: normal; width: 60%;" />
+                    <ui:VisualElement name="coins" style="flex-direction: row; align-items: center; justify-content: center; width: auto;">
+                        <ui:VisualElement name="coins-icon" style="background-color: rgba(255, 255, 255, 0); background-image: url(&apos;project://database/Assets/Sprites/roemisch-nicht-roemisch/noun-dollar-coins-481813-1A1A1A.png?fileID=2800000&amp;guid=8b622c847dba0e340ac9b25db77e092b&amp;type=3#noun-dollar-coins-481813-1A1A1A&apos;); -unity-background-image-tint-color: rgb(16, 159, 148); width: 100px; height: 130px;" />
+                        <ui:Label text="0" display-tooltip-when-elided="true" name="coins-label" style="-unity-font: url(&apos;project://database/Assets/Fonts/KalkrBru.ttf?fileID=12800000&amp;guid=ff21b0fabe037e64197c11e63d384b62&amp;type=3#KalkrBru&apos;); color: rgb(16, 159, 148); font-size: 140px; -unity-font-definition: none; margin-left: 50px; -unity-text-align: middle-left; align-items: center; margin-top: 20px;" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:Label text="Restauriere alle 8 Funde." display-tooltip-when-elided="true" name="subText" style="color: rgb(16, 159, 148); font-size: 56px; -unity-font-definition: url(&apos;project://database/Assets/Fonts/Fira_Sans/FiraSans-SemiBold%20SDF.asset?fileID=11400000&amp;guid=f2b30bdb006924f458d13fa9d2ae7592&amp;type=2#FiraSans-SemiBold SDF&apos;); -unity-font-style: bold; margin-bottom: 50px; white-space: normal;" />
+                <ui:VisualElement name="temp" style="width: 100%; background-color: rgb(253, 137, 137); height: auto;" />
+                <ui:VisualElement name="materialWrappers">
+                    <ui:VisualElement name="materialWrapper02" class="cms-game4-material-wrapper">
+                        <ui:Label text="Material: Eisen/Blech" display-tooltip-when-elided="true" name="materialTitle" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="materialWrapper03" class="cms-game4-material-wrapper">
+                        <ui:Label text="Material: Eisen/Blech" display-tooltip-when-elided="true" name="materialTitle" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="materialWrapper04" class="cms-game4-material-wrapper">
+                        <ui:Label text="Material: Eisen/Blech" display-tooltip-when-elided="true" name="materialTitle" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="materialWrapper01" class="cms-game4-material-wrapper">
+                        <ui:Label text="Material: Eisen/Blech" display-tooltip-when-elided="true" name="materialTitle" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:VisualElement name="BtnContainer" style="align-items: center; margin-left: 0; margin-right: 0; margin-top: 100px; margin-bottom: 100px; display: none;">
+                    <ui:Button display-tooltip-when-elided="true" style="width: 90%; height: 300px; border-left-color: rgb(253, 131, 0); border-right-color: rgb(253, 131, 0); border-top-color: rgb(253, 131, 0); border-bottom-color: rgb(253, 131, 0); border-left-width: 15px; border-right-width: 15px; border-top-width: 15px; border-bottom-width: 15px; border-top-left-radius: 150px; border-bottom-left-radius: 150px; border-top-right-radius: 150px; border-bottom-right-radius: 150px; background-color: rgb(255, 255, 255); -unity-font-definition: url(&apos;project://database/Assets/Fonts/Fira_Sans/FiraSans-SemiBold%20SDF.asset?fileID=11400000&amp;guid=f2b30bdb006924f458d13fa9d2ae7592&amp;type=2#FiraSans-SemiBold SDF&apos;); color: rgb(253, 131, 0); font-size: 52px; -unity-text-align: middle-left; padding-left: 90px; white-space: normal; padding-right: 300px; align-items: flex-end; justify-content: center;">
+                        <ui:VisualElement style="background-image: url(&apos;project://database/Assets/Sprites/circle_arrow.png?fileID=2800000&amp;guid=f77a5f3cd8ae8b840a12f9b25645d2d5&amp;type=3#circle_arrow&apos;); width: 210px; height: 210px; -unity-background-image-tint-color: rgb(253, 131, 0); -unity-text-align: middle-left; margin-left: 0; margin-right: -250px;" />
+                    </ui:Button>
+                </ui:VisualElement>
+            </ui:ScrollView>
+        </ui:VisualElement>
+        <ui:VisualElement name="PopUpStart" style="position: absolute; width: 90%; height: 80%; background-color: rgb(16, 159, 148); margin-bottom: 0; justify-content: space-between; margin-top: 0; padding-left: 50px; padding-right: 50px; padding-top: 50px; padding-bottom: 50px; display: none; translate: 0 100px;">
+            <ui:VisualElement name="popup-header" style="flex-direction: row; justify-content: space-between; align-items: flex-start; margin-bottom: 100px;">
+                <ui:VisualElement name="icon" style="background-image: url(&apos;project://database/Assets/Sprites/spiele_icon.png?fileID=2800000&amp;guid=69a856c2cd262b6469c4fdc08f4a0a1a&amp;type=3#spiele_icon&apos;); width: 182px; height: 163px;" />
+                <ui:Button text="&#10;" display-tooltip-when-elided="true" name="popup-close" style="background-image: url(&apos;project://database/Assets/Sprites/InGameUI/exit_cross_sprite.png?fileID=2800000&amp;guid=0cd603c8a0c4c794b8afd0a1b596654e&amp;type=3#exit_cross_sprite&apos;); background-color: rgba(88, 88, 88, 0); border-left-color: rgba(255, 255, 255, 0); border-right-color: rgba(255, 255, 255, 0); border-top-color: rgba(255, 255, 255, 0); border-bottom-color: rgba(255, 255, 255, 0); border-left-width: 0; border-right-width: 0; border-top-width: 0; border-bottom-width: 0; border-top-left-radius: 0; border-bottom-left-radius: 0; border-top-right-radius: 0; border-bottom-right-radius: 0; width: 100px; height: 100px;" />
+            </ui:VisualElement>
+            <ui:Label text="Wähle das passende Werkzeug im Inventar-Rad aus und rubbel mit dem Finger über den Fund." display-tooltip-when-elided="true" name="popup-headline" enable-rich-text="false" class="cms-game5-popup-headline" style="-unity-text-align: middle-left; margin-top: 100px;" />
+            <ui:Label text="Psst! Nicht jedes der Werkzeuge funktioniert." display-tooltip-when-elided="true" name="popup-subHeadline" class="cms-game5-popup-subheadline" style="-unity-text-align: middle-left;" />
+            <ui:Button text="Weiter" display-tooltip-when-elided="true" name="popup-button" class="cms-game5-popup-button" style="height: 250px; margin-bottom: 20px;">
+                <ui:VisualElement name="icon" style="background-color: rgba(255, 255, 255, 0); background-image: url(&apos;project://database/Assets/Sprites/circle_arrow.png?fileID=2800000&amp;guid=f77a5f3cd8ae8b840a12f9b25645d2d5&amp;type=3#circle_arrow&apos;); width: 150px; height: 150px; margin-right: 0; padding-right: 0; margin-left: -225px;" />
+            </ui:Button>
+        </ui:VisualElement>
+        <ui:VisualElement name="PopUpEnd" style="position: absolute; width: 90%; height: 80%; background-color: rgb(39, 48, 255); margin-bottom: 0; justify-content: space-between; margin-top: 0; padding-left: 50px; padding-right: 50px; padding-top: 50px; padding-bottom: 50px; display: none; translate: 0 100px;">
+            <ui:VisualElement name="popup-header" style="flex-direction: row; justify-content: space-between; align-items: flex-start; margin-bottom: 100px;">
+                <ui:VisualElement name="icon" style="background-image: url(&apos;project://database/Assets/Sprites/Group%201419.png?fileID=2800000&amp;guid=d43292c55e7e03245a37124b2f4b2552&amp;type=3#Group 1419&apos;); width: 120px; height: 150px;" />
+                <ui:Button text="&#10;" display-tooltip-when-elided="true" name="popup-close" style="background-image: url(&apos;project://database/Assets/Sprites/InGameUI/exit_cross_sprite.png?fileID=2800000&amp;guid=0cd603c8a0c4c794b8afd0a1b596654e&amp;type=3#exit_cross_sprite&apos;); background-color: rgba(88, 88, 88, 0); border-left-color: rgba(255, 255, 255, 0); border-right-color: rgba(255, 255, 255, 0); border-top-color: rgba(255, 255, 255, 0); border-bottom-color: rgba(255, 255, 255, 0); border-left-width: 0; border-right-width: 0; border-top-width: 0; border-bottom-width: 0; border-top-left-radius: 0; border-bottom-left-radius: 0; border-top-right-radius: 0; border-bottom-right-radius: 0; width: 100px; height: 100px;" />
+            </ui:VisualElement>
+            <ui:Label text=" " display-tooltip-when-elided="true" name="popup-headline" enable-rich-text="false" class="cms-game5-popup-headline" style="-unity-text-align: middle-left; margin-top: 100px;" />
+            <ui:Label display-tooltip-when-elided="true" name="popup-subHeadline" enable-rich-text="false" class="cms-game5-popup-subheadline" style="-unity-text-align: middle-left;" />
+            <ui:Button text="Experten-Video anschauen" display-tooltip-when-elided="true" name="popup-button" class="cms-game5-popup-button" style="height: 250px; margin-bottom: 20px;">
+                <ui:VisualElement name="icon" style="background-color: rgba(255, 255, 255, 0); background-image: url(&apos;project://database/Assets/Sprites/circle_arrow.png?fileID=2800000&amp;guid=f77a5f3cd8ae8b840a12f9b25645d2d5&amp;type=3#circle_arrow&apos;); width: 150px; height: 150px; margin-right: 0; padding-right: 0; margin-left: -225px;" />
+            </ui:Button>
+        </ui:VisualElement>
+    </Game4>
+</ui:UXML>

@@ -1,0 +1,106 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - roemisch
+  - nicht-roemisch
+  - coin
+  - digger
+  - discoverable_object
+  - tent_frame
+  - tent_canvas
+  - spiel2_teil1
+  - spiel2_teil2
+  - Radial_UI_Element
+  - Canvas
+  - AR_Plane
+  - anchor
+  - errorlogging
+  - radial_wheel_canvas
+  - tool1
+  - tool2
+  - tool3
+  - tool4
+  - DragContainer
+  - ARSessionOrigin
+  - custom_color
+  - MapMarker
+  - TourMap
+  - CrossGameManager
+  - ui_element_to_change_color
+  - RM_DragItem2
+  - RM_DragItem3
+  - RM_DragItem4
+  - RM_DragItem5
+  - RM_DragItem6
+  - RM_DragItem7
+  - RM_DragItem8
+  - RM_DragItem9
+  - RM_DragItem1
+  - mapElementsToDestroy
+  - ClickBlocker
+  - tourloader
+  - MainMenu
+  - errorlog-distance
+  - ignore
+  - gameTutorial
+  - ListeClickBlocker
+  - ARSession
+  - MapTiles
+  - Game1_Level1
+  - Game1_Level2
+  - Game1_Level3
+  - GameHeader
+  - Game1Tutorial
+  - detector
+  - FindTool
+  - video
+  - videoPlayer
+  - yearPanel
+  - knocken
+  - helm
+  - sandalen
+  - tier
+  - munzen
+  - fund
+  - popup
+  - LocationProvider
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - stencilLayers
+  - watermark
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

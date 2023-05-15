@@ -1,0 +1,81 @@
+.cms-gametutorial-button {
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 58px;
+    -unity-font-definition: url('project://database/Assets/Fonts/Fira_Sans/FiraSans-SemiBold%20SDF.asset?fileID=11400000&guid=f2b30bdb006924f458d13fa9d2ae7592&type=2#FiraSans-SemiBold SDF');
+    -unity-text-align: middle-left;
+    border-left-color: rgb(255, 255, 255);
+    border-right-color: rgb(255, 255, 255);
+    border-top-color: rgb(255, 255, 255);
+    border-bottom-color: rgb(255, 255, 255);
+    border-left-width: 20px;
+    border-right-width: 20px;
+    border-top-width: 20px;
+    border-bottom-width: 20px;
+    height: 250px;
+    width: 80%;
+    border-top-left-radius: 120px;
+    border-bottom-left-radius: 120px;
+    border-top-right-radius: 120px;
+    border-bottom-right-radius: 120px;
+    justify-content: center;
+    align-items: flex-end;
+    padding-left: 10%;
+}
+
+.cms-gametutorial-subtitle {
+    color: rgb(253, 131, 0);
+    font-size: 52px;
+    -unity-font-definition: url('project://database/Assets/Fonts/Fira_Sans/FiraSans-SemiBold%20SDF.asset?fileID=11400000&guid=f2b30bdb006924f458d13fa9d2ae7592&type=2#FiraSans-SemiBold SDF');
+    margin-top: 50px;
+}
+
+.cms-gametutorial-title {
+    font-size: 80px;
+    color: rgb(253, 131, 0);
+    -unity-font-definition: url('project://database/Assets/Fonts/Fira_Sans/FiraSans-SemiBold%20SDF.asset?fileID=11400000&guid=f2b30bdb006924f458d13fa9d2ae7592&type=2#FiraSans-SemiBold SDF');
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 80%;
+    white-space: normal;
+}
+
+.cms-gametutorial-subheadline {
+    color: rgb(0, 0, 0);
+    font-size: 56px;
+    -unity-font-style: bold;
+    -unity-font-definition: url('project://database/Assets/Fonts/Fira_Sans/FiraSans-Medium%20SDF.asset?fileID=11400000&guid=2ed7cd1b7d2844dac8c5aa3504b8af57&type=2#FiraSans-Medium SDF');
+    margin-bottom: 50px;
+    white-space: normal;
+}
+
+.cms-gametutorial-content-wrapper {
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.cms-gametutorial-header-wrapper {
+    background-color: rgb(253, 131, 0);
+    height: 40%;
+    align-items: center;
+    justify-content: center;
+}
+
+.cms-gametutorial-button-icon {
+    width: 180px;
+    height: 180px;
+    margin-right: 20px;
+    background-image: url('project://database/Assets/Sprites/circle_arrow.png?fileID=2800000&guid=f77a5f3cd8ae8b840a12f9b25645d2d5&type=3#circle_arrow');
+}
+
+.cms-gametutorial-scroller {
+    color: rgb(0, 0, 0);
+    font-size: 48px;
+    -unity-font-definition: url('project://database/Assets/Fonts/Fira_Sans/FiraSans-SemiBold%20SDF.asset?fileID=11400000&guid=f2b30bdb006924f458d13fa9d2ae7592&type=2#FiraSans-SemiBold SDF');
+    white-space: normal;
+    height: 100%;
+}

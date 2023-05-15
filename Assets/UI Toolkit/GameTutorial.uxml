@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/gametutorial.uss?fileID=7433441132597879392&amp;guid=400371ec30215244ebae5436dc1c8c4e&amp;type=3#gametutorial" />
+    <GameTutorial style="width: 100%; height: 100%; display: flex;">
+        <ui:VisualElement name="header" class="cms-gametutorial-header-wrapper" style="height: 40%; background-color: rgb(253, 131, 0); align-items: center; justify-content: center; -unity-text-align: middle-center;">
+            <ui:VisualElement name="empty" style="height: 150px;" />
+            <ui:Button text="Spiel starten" display-tooltip-when-elided="true" name="btnStartGame" style="border-left-width: 20px; border-right-width: 20px; border-top-width: 20px; border-bottom-width: 20px; border-top-left-radius: 130px; border-bottom-left-radius: 130px; border-top-right-radius: 130px; border-bottom-right-radius: 130px; border-left-color: rgb(255, 255, 255); border-right-color: rgb(255, 255, 255); border-top-color: rgb(255, 255, 255); border-bottom-color: rgb(255, 255, 255); width: 80%; height: 250px; background-color: rgba(228, 228, 228, 0); padding-left: 10%; padding-right: 26px; align-items: flex-end; justify-content: center; -unity-font-definition: url(&apos;project://database/Assets/Fonts/Fira_Sans/FiraSans-SemiBold%20SDF.asset?fileID=11400000&amp;guid=f2b30bdb006924f458d13fa9d2ae7592&amp;type=2#FiraSans-SemiBold SDF&apos;); color: rgb(255, 255, 255); font-size: 58px; -unity-text-align: middle-left;">
+                <ui:VisualElement style="background-image: url(&apos;project://database/Assets/Sprites/circle_arrow.png?fileID=2800000&amp;guid=f77a5f3cd8ae8b840a12f9b25645d2d5&amp;type=3#circle_arrow&apos;); width: 180px; height: 180px; -unity-background-scale-mode: scale-to-fit;" />
+            </ui:Button>
+        </ui:VisualElement>
+        <ui:VisualElement name="content" class="cms-gametutorial-content-wrapper" style="height: 100%; background-color: rgb(255, 255, 255); display: flex;" />
+    </GameTutorial>
+</ui:UXML>

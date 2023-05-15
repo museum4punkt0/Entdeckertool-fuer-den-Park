@@ -1,0 +1,15 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <ui:VisualElement name="Canvas" style="width: 100%; height: 100%; justify-content: flex-end; margin-top: 0;">
+        <ui:VisualElement name="ARMenu" style="flex-direction: row; justify-content: center; align-items: center;">
+            <ui:VisualElement name="bar" style="width: 100%; height: 20px; background-color: rgb(255, 255, 255); position: absolute;" />
+            <ui:VisualElement style="flex-direction: row; align-items: center; width: 70%; justify-content: space-between;">
+                <ui:Button text="&#10;" display-tooltip-when-elided="true" name="emty" style="width: 125px; height: 125px; border-left-color: rgba(255, 255, 255, 0); border-right-color: rgba(255, 255, 255, 0); border-top-color: rgba(255, 255, 255, 0); border-bottom-color: rgba(255, 255, 255, 0); background-color: rgba(88, 88, 88, 0); color: rgba(238, 238, 238, 0);" />
+                <ui:Button text="&#10;" display-tooltip-when-elided="true" name="mainBtn" style="background-image: url(&apos;project://database/Assets/Sprites/360mainbtn.png?fileID=2800000&amp;guid=8b00e0a97c10edc4ab655665e1d74e59&amp;type=3#360mainbtn&apos;); width: 300px; height: 300px; justify-content: center; border-left-color: rgba(255, 255, 255, 0); border-right-color: rgba(255, 255, 255, 0); border-top-color: rgba(255, 255, 255, 0); border-bottom-color: rgba(255, 255, 255, 0); background-color: rgba(88, 88, 88, 0);" />
+                <ui:VisualElement style="align-items: center; justify-content: center; margin-bottom: -60px;">
+                    <ui:Button text="&#10;" display-tooltip-when-elided="true" name="closeSceneBtn" style="background-color: rgba(88, 88, 88, 0); border-left-color: rgba(255, 255, 255, 0); border-right-color: rgba(255, 255, 255, 0); border-top-color: rgba(255, 255, 255, 0); border-bottom-color: rgba(255, 255, 255, 0); background-image: url(&apos;project://database/Assets/Sprites/360closebtn.png?fileID=2800000&amp;guid=de0ce9caefae4ed4f897f41b75a14a98&amp;type=3#360closebtn&apos;); width: 125px; height: 125px; justify-content: flex-end; align-items: center; padding-bottom: 0; padding-top: 0; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0;" />
+                    <ui:Label text="schliessen" display-tooltip-when-elided="true" style="-unity-font-definition: url(&apos;project://database/Assets/Fonts/Fira_Sans/FiraSans-SemiBold%20SDF.asset?fileID=11400000&amp;guid=f2b30bdb006924f458d13fa9d2ae7592&amp;type=2#FiraSans-SemiBold SDF&apos;); font-size: 30px; -unity-text-align: lower-center; margin-top: 20px; padding-top: 0; padding-bottom: 0; padding-right: 0; padding-left: 0; color: rgb(255, 255, 255); position: relative; top: 0; left: 0; width: 200px; align-items: center; margin-bottom: 0;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

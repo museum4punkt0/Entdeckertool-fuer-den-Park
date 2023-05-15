@@ -1,0 +1,12 @@
+.img-in-container {
+    width: 100%;
+    height: 100%;
+    -unity-background-scale-mode: scale-to-fit;
+}
+
+.animation-circle-open {
+    transition-property: opacity;
+    transition-duration: 2s;
+    opacity: 1;
+    transition-timing-function: ease-in-out;
+}

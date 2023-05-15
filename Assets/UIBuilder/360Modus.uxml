@@ -1,0 +1,10 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="Canvas" style="justify-content: flex-end; height: 100%;">
+        <ui:VisualElement name="Menu" style="align-items: center; flex-direction: row; justify-content: center;">
+            <ui:VisualElement name="bar" style="background-color: rgb(255, 255, 255); width: 100%; height: 20px; position: absolute;" />
+            <ui:VisualElement />
+            <ui:Button display-tooltip-when-elided="true" name="main-button" style="width: 300px; height: 300px; background-color: rgba(255, 255, 255, 0); align-items: center; flex-direction: row; justify-content: center; background-image: url(&apos;project://database/Assets/Sprites/360mainbtn.png?fileID=2800000&amp;guid=8b00e0a97c10edc4ab655665e1d74e59&amp;type=3#360mainbtn&apos;);" />
+            <ui:Button display-tooltip-when-elided="true" name="close-button" style="width: 100px; height: 100px; background-color: rgba(123, 123, 123, 0); background-image: url(&apos;project://database/Assets/Sprites/360closebtn.png?fileID=2800000&amp;guid=de0ce9caefae4ed4f897f41b75a14a98&amp;type=3#360closebtn&apos;);" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

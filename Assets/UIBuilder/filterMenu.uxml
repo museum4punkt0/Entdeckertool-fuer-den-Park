@@ -1,0 +1,20 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <Style src="project://database/Assets/UIBuilder/styles/menu.uss?fileID=7433441132597879392&amp;guid=9cc7a1d049252e84ca6a8d38f8a72425&amp;type=3#menu" />
+    <ui:VisualElement name="ARFILTER" style="width: 100%; height: 100%; flex-direction: column; display: flex; background-color: rgba(255, 255, 255, 0);">
+        <ui:VisualElement name="PanelFilter" style="width: 100%; height: 100%; background-color: rgb(255, 255, 255); display: none; padding-left: 20px; padding-right: 20px; padding-top: 200px; padding-bottom: 35%;">
+            <ui:ScrollView style="width: 100%;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="Panel" style="-unity-text-outline-color: rgb(255, 255, 255); color: rgb(0, 0, 0); background-color: rgba(255, 255, 255, 0); top: 78%; bottom: auto; translate: 0 0; transition-property: translate; transition-duration: 1s; transition-timing-function: ease-out; transition-delay: 0s; padding-left: 0; padding-right: 0; padding-top: 25px; padding-bottom: 0; width: 100%; height: 100%; background-image: none; display: flex; overflow: visible; position: absolute;">
+            <ui:VisualElement name="Menu" style="flex-direction: row; align-items: center; justify-content: center; height: 20%; flex-grow: 1; flex-shrink: 1; background-color: rgba(0, 0, 0, 0); margin-top: 10%; border-left-color: rgba(0, 0, 0, 0); border-right-color: rgba(0, 0, 0, 0); border-top-color: rgba(0, 0, 0, 0); border-bottom-color: rgba(0, 0, 0, 0); display: flex;">
+                <ui:VisualElement name="background" style="position: absolute; width: 100%; height: 100%; justify-content: flex-end; align-items: center; background-color: rgb(255, 255, 255); margin-top: 0; top: 45%; display: flex;" />
+                <ui:VisualElement name="bar" style="position: absolute; width: 110%; height: 20px; background-color: rgb(92, 55, 2); justify-content: center; top: 40%; display: flex;" />
+                <ui:Button display-tooltip-when-elided="true" name="menu-filter" class="menuButton" style="background-image: url(&apos;project://database/Assets/Resources/menu/icons/innactive/filter.png?fileID=2800000&amp;guid=8c84d856a5b46492b94b22a150ca257c&amp;type=3#filter&apos;); -unity-background-scale-mode: scale-to-fit; -unity-text-outline-color: rgb(51, 202, 159); background-color: rgba(0, 0, 0, 0); align-items: stretch; justify-content: center; width: 12%; -unity-background-image-tint-color: rgb(255, 255, 255); height: 100%; display: flex; position: absolute; left: 5%;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="wrapper" style="width: 100%; height: 100%;">
+                <ui:VisualElement name="FixedContent" style="height: 100%; background-color: rgb(255, 255, 255); display: none; padding-left: 15px; padding-right: 15px; -unity-font-definition: url(&apos;project://database/Assets/Fonts/Fira_Sans/FiraSans-Medium%20SDF.asset?fileID=11400000&amp;guid=2ed7cd1b7d2844dac8c5aa3504b8af57&amp;type=2#FiraSans-Medium SDF&apos;); font-size: 58px; -unity-text-align: middle-left;" />
+                <ui:VisualElement name="FixedBar" style="width: 100%; height: auto; display: flex; background-color: rgb(255, 255, 255); padding-left: 20px; padding-right: 20px; padding-top: 20px; padding-bottom: 50px;" />
+                <ui:ScrollView name="ScrollContent" view-data-key="ScrollContent" horizontal-scroller-visibility="Hidden" vertical-scroller-visibility="Auto" horizontal-page-size="-1" focusable="false" scroll-deceleration-rate="0.05" class="cms-text cms-headline" style="width: 100%; height: 100%; align-items: stretch; flex-grow: 0; margin-top: 0; background-color: rgb(255, 255, 255); display: flex; margin-bottom: 0; padding-bottom: 0; padding-left: 15px; padding-right: 15px; position: relative; min-width: auto; overflow: visible; flex-direction: column; padding-top: 0;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

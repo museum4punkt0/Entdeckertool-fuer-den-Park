@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement style="width: 100%; height: 100%; align-items: center; justify-content: center;">
+        <ui:ScrollView mode="VerticalAndHorizontal" touch-scroll-type="Elastic" style="width: auto;">
+            <ui:VisualElement name="img" style="background-image: resource(&apos;MapboxStyles/DefaultStyleAssets/Textures/DefaultTopTexture&apos;); width: 3000px; height: 3000px;" />
+        </ui:ScrollView>
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,600 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &559081341250711541
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 559081341250711543}
+  - component: {fileID: 559081341250711540}
+  - component: {fileID: 8356729935404168467}
+  m_Layer: 5
+  m_Name: ParkTourPopUp
+  m_TagString: popup
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &559081341250711543
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 559081341250711541}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &559081341250711540
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 559081341250711541}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 19102, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_PanelSettings: {fileID: 11400000, guid: b58b7c5bd1aae4d83a590c8e8b62e46e, type: 2}
+  m_ParentUI: {fileID: 0}
+  sourceAsset: {fileID: 9197481963319205126, guid: b4871ac74a7bed64b91785edb2949cd5, type: 3}
+  m_SortingOrder: 6
+--- !u!114 &8356729935404168467
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 559081341250711541}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1cf3f713065cea408c65b6ca1a53ccc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Target: unknown
+  GameTarget: 
+  linkedTour:
+    id: 0
+    attributes:
+      tourTeaser:
+        id: 0
+        headline: 
+        subheadline: 
+        body: 
+        duration: 0
+        reward: 0
+      TourOverlayActive:
+        icons: []
+        headline: 
+        subHeadline: 
+        body: 
+        image: {fileID: 0}
+      point_of_interests:
+        data: []
+  overrideType: 
+  Type: 
+  NewSceneName: MainScene
+  MainSceneName: MainScene
+  GameController: {fileID: 0}
+  crossGameManager: {fileID: 0}
+  currentItemOnMap:
+    HasBeenVisited: 0
+    HasBeenVisitedBy: 0
+    ID: 0
+    IsWithinReach: 0
+    distanceToPlayer: 0
+    Pin: {fileID: 0}
+    TourPoint:
+      TourPointOverlayInactive:
+        headline: 
+        subHeadline: 
+        body: 
+        Target: 
+        image: {fileID: 0}
+        icons: []
+      headline: 
+      point_of_interest:
+        data:
+          id: 0
+          attributes:
+            title: 
+            lat: 0
+            lng: 0
+            type: 
+            reward: 0
+            tourPoint:
+              TourPointOverlayInactive:
+                headline: 
+                subHeadline: 
+                body: 
+                Target: 
+                image: {fileID: 0}
+                icons: []
+              headline: 
+              point_of_interest:
+                data:
+                  id: 0
+                  attributes:
+                    title: 
+                    lat: 0
+                    lng: 0
+                    type: 
+                    reward: 0
+                    tourPoint:
+                      TourPointOverlayInactive:
+                        headline: 
+                        subHeadline: 
+                        body: 
+                        Target: 
+                      headline: 
+                      TourPointOverlayActive:
+                        headline: 
+                        subHeadline: 
+                        body: 
+                        Target: 
+                      id: 0
+                      buttons: []
+                    fundobjekt:
+                      data:
+                        id: 0
+                    pin:
+                      id: 0
+                      attibutes:
+                        scale: 0
+                        color: 
+                        animationSpeed: 0
+                        scan: 
+                    grabung:
+                      data:
+                        id: 0
+                    illustration:
+                      data:
+                        id: 0
+              TourPointOverlayActive:
+                headline: 
+                subHeadline: 
+                body: 
+                Target: 
+                image: {fileID: 0}
+                icons: []
+              id: 0
+              buttons: []
+            fundobjekt:
+              data:
+                id: 0
+                attributes:
+                  headline: 
+                  subHeadline: 0
+                  shortText: 
+                  longText: 
+                  sliderItems: []
+                  point_of_interest:
+                    id: 0
+                    attributes:
+                      title: 
+                      lat: 0
+                      lng: 0
+                      type: 
+                      reward: 0
+                      tourPoint:
+                        headline: 
+                        id: 0
+                      pin:
+                        id: 0
+                  mainImage:
+                    data:
+                      attributes:
+                        name: 
+                        alternativeText: 
+                        caption: 
+                        width: 0
+                        height: 0
+                        hash: 
+                        ext: 
+                        mime: 
+                        size: 0
+                        url: 
+                        previewUrl: 
+                        provider: 
+                        createdAt: 
+                        updatedAt: 
+                      id: 0
+                    ConvertedSprite: {fileID: 0}
+                  category: 
+            pin:
+              id: 0
+              attibutes:
+                scale: 0
+                color: 
+                animationSpeed: 0
+                scan: 
+            grabung:
+              data:
+                id: 0
+                attributes:
+                  headline: 
+                  subHeadline: 0
+                  shortText: 
+                  longText: 
+                  sliderItems: []
+                  point_of_interest:
+                    id: 0
+                    attributes:
+                      title: 
+                      lat: 0
+                      lng: 0
+                      type: 
+                      reward: 0
+                      tourPoint:
+                        headline: 
+                        id: 0
+                      pin:
+                        id: 0
+                  mainImage:
+                    data:
+                      attributes:
+                        name: 
+                        alternativeText: 
+                        caption: 
+                        width: 0
+                        height: 0
+                        hash: 
+                        ext: 
+                        mime: 
+                        size: 0
+                        url: 
+                        previewUrl: 
+                        provider: 
+                        createdAt: 
+                        updatedAt: 
+                      id: 0
+                    ConvertedSprite: {fileID: 0}
+                  category: 
+            illustration:
+              data:
+                id: 0
+                attributes:
+                  animationSpeed: 0
+                  color: 
+                  contains3D: 0
+                  isFramed: 0
+                  IllustrationParts: []
+      TourPointOverlayActive:
+        headline: 
+        subHeadline: 
+        body: 
+        Target: 
+        image: {fileID: 0}
+        icons: []
+      id: 0
+      buttons: []
+    Poi:
+      id: 0
+      attributes:
+        title: 
+        lat: 0
+        lng: 0
+        type: 
+        reward: 0
+        tourPoint:
+          TourPointOverlayInactive:
+            headline: 
+            subHeadline: 
+            body: 
+            Target: 
+            image: {fileID: 0}
+            icons: []
+          headline: 
+          point_of_interest:
+            data:
+              id: 0
+              attributes:
+                title: 
+                lat: 0
+                lng: 0
+                type: 
+                reward: 0
+                tourPoint:
+                  TourPointOverlayInactive:
+                    headline: 
+                    subHeadline: 
+                    body: 
+                    Target: 
+                    image: {fileID: 0}
+                    icons: []
+                  headline: 
+                  point_of_interest:
+                    data:
+                      id: 0
+                      attributes:
+                        title: 
+                        lat: 0
+                        lng: 0
+                        type: 
+                        reward: 0
+                  TourPointOverlayActive:
+                    headline: 
+                    subHeadline: 
+                    body: 
+                    Target: 
+                    image: {fileID: 0}
+                    icons: []
+                  id: 0
+                  buttons: []
+                fundobjekt:
+                  data:
+                    id: 0
+                    attributes:
+                      headline: 
+                      subHeadline: 0
+                      shortText: 
+                      longText: 
+                      sliderItems: []
+                      point_of_interest:
+                        id: 0
+                      category: 
+                pin:
+                  id: 0
+                  attibutes:
+                    scale: 0
+                    color: 
+                    animationSpeed: 0
+                    scan: 
+                grabung:
+                  data:
+                    id: 0
+                    attributes:
+                      headline: 
+                      subHeadline: 0
+                      shortText: 
+                      longText: 
+                      sliderItems: []
+                      point_of_interest:
+                        id: 0
+                      category: 
+                illustration:
+                  data:
+                    id: 0
+                    attributes:
+                      animationSpeed: 0
+                      color: 
+                      contains3D: 0
+                      isFramed: 0
+                      IllustrationParts: []
+          TourPointOverlayActive:
+            headline: 
+            subHeadline: 
+            body: 
+            Target: 
+            image: {fileID: 0}
+            icons: []
+          id: 0
+          buttons: []
+        fundobjekt:
+          data:
+            id: 0
+            attributes:
+              headline: 
+              subHeadline: 0
+              shortText: 
+              longText: 
+              sliderItems: []
+              point_of_interest:
+                id: 0
+                attributes:
+                  title: 
+                  lat: 0
+                  lng: 0
+                  type: 
+                  reward: 0
+                  tourPoint:
+                    TourPointOverlayInactive:
+                      headline: 
+                      subHeadline: 
+                      body: 
+                      Target: 
+                      image: {fileID: 0}
+                      icons: []
+                    headline: 
+                    point_of_interest:
+                      data:
+                        id: 0
+                    TourPointOverlayActive:
+                      headline: 
+                      subHeadline: 
+                      body: 
+                      Target: 
+                      image: {fileID: 0}
+                      icons: []
+                    id: 0
+                    buttons: []
+                  fundobjekt:
+                    data:
+                      id: 0
+                      attributes:
+                        headline: 
+                        subHeadline: 0
+                        shortText: 
+                        longText: 
+                        category: 
+                  pin:
+                    id: 0
+                    attibutes:
+                      scale: 0
+                      color: 
+                      animationSpeed: 0
+                      scan: 
+                  grabung:
+                    data:
+                      id: 0
+                      attributes:
+                        headline: 
+                        subHeadline: 0
+                        shortText: 
+                        longText: 
+                        category: 
+                  illustration:
+                    data:
+                      id: 0
+                      attributes:
+                        animationSpeed: 0
+                        color: 
+                        contains3D: 0
+                        isFramed: 0
+              mainImage:
+                data:
+                  attributes:
+                    name: 
+                    alternativeText: 
+                    caption: 
+                    width: 0
+                    height: 0
+                    hash: 
+                    ext: 
+                    mime: 
+                    size: 0
+                    url: 
+                    previewUrl: 
+                    provider: 
+                    createdAt: 
+                    updatedAt: 
+                  id: 0
+                ConvertedSprite: {fileID: 0}
+              category: 
+        pin:
+          id: 0
+          attibutes:
+            scale: 0
+            color: 
+            animationSpeed: 0
+            scan: 
+        grabung:
+          data:
+            id: 0
+            attributes:
+              headline: 
+              subHeadline: 0
+              shortText: 
+              longText: 
+              sliderItems: []
+              point_of_interest:
+                id: 0
+                attributes:
+                  title: 
+                  lat: 0
+                  lng: 0
+                  type: 
+                  reward: 0
+                  tourPoint:
+                    TourPointOverlayInactive:
+                      headline: 
+                      subHeadline: 
+                      body: 
+                      Target: 
+                      image: {fileID: 0}
+                      icons: []
+                    headline: 
+                    point_of_interest:
+                      data:
+                        id: 0
+                    TourPointOverlayActive:
+                      headline: 
+                      subHeadline: 
+                      body: 
+                      Target: 
+                      image: {fileID: 0}
+                      icons: []
+                    id: 0
+                    buttons: []
+                  fundobjekt:
+                    data:
+                      id: 0
+                      attributes:
+                        headline: 
+                        subHeadline: 0
+                        shortText: 
+                        longText: 
+                        category: 
+                  pin:
+                    id: 0
+                    attibutes:
+                      scale: 0
+                      color: 
+                      animationSpeed: 0
+                      scan: 
+                  grabung:
+                    data:
+                      id: 0
+                      attributes:
+                        headline: 
+                        subHeadline: 0
+                        shortText: 
+                        longText: 
+                        category: 
+                  illustration:
+                    data:
+                      id: 0
+                      attributes:
+                        animationSpeed: 0
+                        color: 
+                        contains3D: 0
+                        isFramed: 0
+              mainImage:
+                data:
+                  attributes:
+                    name: 
+                    alternativeText: 
+                    caption: 
+                    width: 0
+                    height: 0
+                    hash: 
+                    ext: 
+                    mime: 
+                    size: 0
+                    url: 
+                    previewUrl: 
+                    provider: 
+                    createdAt: 
+                    updatedAt: 
+                  id: 0
+                ConvertedSprite: {fileID: 0}
+              category: 
+        illustration:
+          data:
+            id: 0
+            attributes:
+              animationSpeed: 0
+              color: 
+              contains3D: 0
+              isFramed: 0
+              IllustrationParts: []
+    Position: {x: 0, y: 0, z: 0}
+    Name: 
+    Target: 
+    TargetID: 0
+    AssociatedMenuItems: []
+  connectPoiToGame: {fileID: 0}
+  IsWithinRange: 0
+  hasBeenVisited: 0
+  isInARScene: 0
+  AllowedDistanceToRange: 30
+  errorColor: {r: 0.9098039, g: 0.42352942, b: 0.36078432, a: 0}
+  overRideColor: 
+  pin_icon: {fileID: 21300000, guid: a3fc4fb21b29e5c4a8d7c3aceb4e2399, type: 3}
+  game_icon: {fileID: 21300000, guid: 69a856c2cd262b6469c4fdc08f4a0a1a, type: 3}
+  tour_icon: {fileID: 21300000, guid: 0e21eeefc1106b1409aa7a9edb4ecb23, type: 3}
+  AR_icon: {fileID: 21300000, guid: 0084b9242a8f8f046bea5badc98dc2d5, type: 3}
+  AR_icon_visited: {fileID: 21300000, guid: 728871ae91b726f4580a769a82d76f5e, type: 3}
+  uIItemViewController: {fileID: 0}
+  ARButtonImage: {fileID: 21300000, guid: d9a6e1829b2d41945b5419d0d8f6633b, type: 3}
+  IsInGame: 0

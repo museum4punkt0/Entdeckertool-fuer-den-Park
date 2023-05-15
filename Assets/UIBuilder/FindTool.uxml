@@ -1,0 +1,48 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/findTool.uss?fileID=7433441132597879392&amp;guid=ec10282773c104ec498fe9dd22f7ae83&amp;type=3#findTool" />
+    <ui:ScrollView style="background-color: rgb(255, 255, 255); width: 100%; height: 100%; padding-left: 20px; padding-right: 20px; padding-top: 20px; padding-bottom: 20px; align-items: center;">
+        <ui:VisualElement name="header" style="flex-direction: row; justify-content: space-between; align-items: center;">
+            <ui:Button text="&#10;" display-tooltip-when-elided="true" name="closeBtn" style="background-image: url(&apos;project://database/Assets/Sprites/roemisch-nicht-roemisch/Icon%20material-close.png?fileID=2800000&amp;guid=67ba1b4b7c5d7944ca79dc256a16ddee&amp;type=3#Icon material-close&apos;); background-color: rgba(255, 255, 255, 0); -unity-background-image-tint-color: rgb(0, 0, 0); width: 100px; height: 100px; border-left-color: rgba(255, 255, 255, 0); border-right-color: rgba(255, 255, 255, 0); border-top-color: rgba(255, 255, 255, 0); border-bottom-color: rgba(255, 255, 255, 0); border-left-width: 0; border-right-width: 0; border-top-width: 0; border-bottom-width: 0; border-top-left-radius: 0; border-bottom-left-radius: 0; border-top-right-radius: 0; border-bottom-right-radius: 0;" />
+            <ui:Button text="&#10;" display-tooltip-when-elided="true" name="smBtn" style="width: 90px; height: 100px; border-left-color: rgba(255, 255, 255, 0); border-right-color: rgba(255, 255, 255, 0); border-top-color: rgba(255, 255, 255, 0); border-bottom-color: rgba(255, 255, 255, 0); border-left-width: 0; border-right-width: 0; border-top-width: 0; border-bottom-width: 0; border-top-left-radius: 0; border-bottom-left-radius: 0; border-top-right-radius: 0; border-bottom-right-radius: 0; background-color: rgba(255, 255, 255, 0); -unity-background-image-tint-color: rgb(0, 0, 0); background-image: url(&apos;project://database/Assets/Sprites/Path%203538.png?fileID=2800000&amp;guid=8a73281d21ac0f748991716f112262c8&amp;type=3#Path 3538&apos;); justify-content: center;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="fundIMG" style="background-image: resource(&apos;Images/MASKE Master-51516&apos;); width: auto; height: auto; align-items: stretch; margin-left: 10%; margin-right: 10%; min-width: 300px; min-height: 1000px;" />
+        <ui:Label text="Label" display-tooltip-when-elided="true" name="text" class="text" />
+        <ui:Button text="Button" display-tooltip-when-elided="true" name="link" class="link-mehrerfahren" style="-unity-text-align: middle-left; font-size: 50px;" />
+        <ui:Button text="&#10;" display-tooltip-when-elided="true" class="btn-fund" style="width: 100%; justify-content: flex-start; flex-direction: row; align-items: center; -unity-text-align: upper-center; white-space: nowrap; padding-left: 50px; padding-right: 50px;">
+            <ui:VisualElement name="icon" style="background-image: url(&apos;project://database/Assets/Sprites/link_icon.png?fileID=2800000&amp;guid=0b35e2098464949809f97f54108b24ec&amp;type=3#link_icon&apos;); background-color: rgb(255, 255, 255); width: 150px; height: 150px;" />
+            <ui:Label text="Fundzettel anschauen" display-tooltip-when-elided="true" name="text" style="-unity-text-align: upper-left; transform-origin: center; translate: 0 0; margin-right: 0; margin-left: 50px;" />
+        </ui:Button>
+        <ui:Foldout text="Foldout" class="btn-accordeon">
+            <ui:VisualElement name="icon" style="background-image: url(&apos;project://database/Assets/Sprites/arrowdown.png?fileID=21300000&amp;guid=951d7cf5a9c8e46288e174c26caf9357&amp;type=3#arrowdown&apos;); width: 100px; height: 56px;" />
+        </ui:Foldout>
+        <ui:VisualElement class="btn-accordeon" style="flex-direction: row-reverse; justify-content: space-between;">
+            <ui:VisualElement name="icon" style="background-image: url(&apos;project://database/Assets/Sprites/arrowdown.png?fileID=21300000&amp;guid=951d7cf5a9c8e46288e174c26caf9357&amp;type=3#arrowdown&apos;); width: 100px; height: 56px; position: absolute; overflow: hidden; flex-direction: column; justify-content: flex-start; top: 60px; left: 0; align-items: flex-end; right: 0;" />
+            <ui:Foldout text="Foldout" style="width: 100%;">
+                <ui:VisualElement name="boxSpiel" class="box-spiel">
+                    <ui:Label text="Label" display-tooltip-when-elided="true" class="box-title" />
+                    <ui:Label text="Label" display-tooltip-when-elided="true" class="box-text" />
+                    <ui:Button display-tooltip-when-elided="true" class="box-btn" style="color: rgb(255, 255, 255);">
+                        <ui:VisualElement name="icon" style="background-color: rgba(255, 255, 255, 0); width: 150px; height: 150px; background-image: url(&apos;project://database/Assets/Sprites/link_iconw.png?fileID=2800000&amp;guid=503ec8db160a242d58546865fe1f064c&amp;type=3#link_iconw&apos;);" />
+                        <ui:Label text="Button" display-tooltip-when-elided="true" class="box-btntext" />
+                    </ui:Button>
+                </ui:VisualElement>
+                <ui:VisualElement name="boxSpiel" class="box-spiel" style="background-color: rgb(28, 179, 255);">
+                    <ui:Label text="Label" display-tooltip-when-elided="true" class="box-title" />
+                    <ui:Label text="Label" display-tooltip-when-elided="true" class="box-text" />
+                    <ui:Button display-tooltip-when-elided="true" class="box-btn" style="color: rgb(255, 255, 255);">
+                        <ui:VisualElement name="icon" style="background-color: rgba(255, 255, 255, 0); width: 150px; height: 150px; background-image: url(&apos;project://database/Assets/Sprites/link_iconw.png?fileID=2800000&amp;guid=503ec8db160a242d58546865fe1f064c&amp;type=3#link_iconw&apos;);" />
+                        <ui:Label text="Button" display-tooltip-when-elided="true" class="box-btntext" />
+                    </ui:Button>
+                </ui:VisualElement>
+                <ui:VisualElement name="boxSpiel" class="box-spiel" style="background-color: rgb(80, 193, 42);">
+                    <ui:Label text="Label" display-tooltip-when-elided="true" class="box-title" />
+                    <ui:Label text="Label" display-tooltip-when-elided="true" class="box-text" />
+                    <ui:Button display-tooltip-when-elided="true" class="box-btn" style="color: rgb(255, 255, 255);">
+                        <ui:VisualElement name="icon" style="background-color: rgba(255, 255, 255, 0); width: 150px; height: 150px; background-image: url(&apos;project://database/Assets/Sprites/link_iconw.png?fileID=2800000&amp;guid=503ec8db160a242d58546865fe1f064c&amp;type=3#link_iconw&apos;);" />
+                        <ui:Label text="Button" display-tooltip-when-elided="true" class="box-btntext" />
+                    </ui:Button>
+                </ui:VisualElement>
+            </ui:Foldout>
+        </ui:VisualElement>
+    </ui:ScrollView>
+</ui:UXML>

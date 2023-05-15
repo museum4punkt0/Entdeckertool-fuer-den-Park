@@ -1,0 +1,213 @@
+.cms-game5-card-wrapper {
+    align-items: flex-start;
+    font-size: 52px;
+    color: rgb(0, 0, 0);
+    -unity-text-align: middle-left;
+    -unity-font-definition: url('project://database/Assets/Fonts/Fira_Sans/FiraSans-SemiBold%20SDF.asset?fileID=11400000&guid=f2b30bdb006924f458d13fa9d2ae7592&type=2#FiraSans-SemiBold SDF');
+    -unity-font-style: bold;
+    margin-bottom: 100px;
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.cms-game5-card01-image {
+    align-items: flex-end;
+    justify-content: flex-end;
+    width: 100%;
+    height: 900px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: rgba(0, 0, 0, 0);
+    border-left-color: rgb(146, 146, 146);
+    border-right-color: rgb(146, 146, 146);
+    border-top-color: rgb(146, 146, 146);
+    border-bottom-color: rgb(146, 146, 146);
+    border-left-width: 20px;
+    border-right-width: 20px;
+    border-top-width: 20px;
+    border-bottom-width: 20px;
+    background-image: url('project://database/Assets/Sprites/Game5Illustrations/01.png?fileID=2800000&guid=349bd974cab69b5458fe823ef6cbce9e&type=3#01');
+    margin-bottom: 20px;
+}
+
+.cms-game5-card-pinIcon {
+    background-image: url('project://database/Assets/Sprites/noun-pin-1037259-1A1A1A_Tour.png?fileID=2800000&guid=a3fc4fb21b29e5c4a8d7c3aceb4e2399&type=3#noun-pin-1037259-1A1A1A_Tour');
+    -unity-background-image-tint-color: rgb(253, 131, 0);
+    width: 85px;
+    height: 133px;
+}
+
+.cms-game5-popup-headline {
+    -unity-font-definition: url('project://database/Assets/Fonts/Fira_Sans/FiraSans-SemiBold%20SDF.asset?fileID=11400000&guid=f2b30bdb006924f458d13fa9d2ae7592&type=2#FiraSans-SemiBold SDF');
+    font-size: 80px;
+    -unity-text-align: middle-left;
+    margin-bottom: 100px;
+    white-space: normal;
+    color: rgb(255, 255, 255);
+}
+
+.cms-game5-popup-subheadline {
+    -unity-font-definition: url('project://database/Assets/Fonts/Fira_Sans/FiraSans-SemiBold%20SDF.asset?fileID=11400000&guid=f2b30bdb006924f458d13fa9d2ae7592&type=2#FiraSans-SemiBold SDF');
+    -unity-font-style: bold;
+    font-size: 58px;
+    margin-bottom: 100px;
+    white-space: normal;
+    color: rgb(255, 255, 255);
+}
+
+.cms-game5-popup-button {
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0);
+    border-left-color: rgb(255, 255, 255);
+    border-right-color: rgb(255, 255, 255);
+    border-top-color: rgb(255, 255, 255);
+    border-bottom-color: rgb(255, 255, 255);
+    border-left-width: 10px;
+    border-right-width: 10px;
+    border-top-width: 10px;
+    border-bottom-width: 10px;
+    -unity-font-definition: url('project://database/Assets/Fonts/Fira_Sans/FiraSans-SemiBold%20SDF.asset?fileID=11400000&guid=f2b30bdb006924f458d13fa9d2ae7592&type=2#FiraSans-SemiBold SDF');
+    -unity-font-style: normal;
+    font-size: 56px;
+    align-items: flex-start;
+    -unity-text-align: middle-left;
+    padding-left: 300px;
+    justify-content: center;
+    white-space: normal;
+    color: rgb(255, 255, 255);
+}
+
+.cms-game5-card02-image {
+    align-items: flex-end;
+    justify-content: flex-end;
+    width: 100%;
+    height: 900px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: rgba(0, 0, 0, 0);
+    border-left-color: rgb(146, 146, 146);
+    border-right-color: rgb(146, 146, 146);
+    border-top-color: rgb(146, 146, 146);
+    border-bottom-color: rgb(146, 146, 146);
+    border-left-width: 20px;
+    border-right-width: 20px;
+    border-top-width: 20px;
+    border-bottom-width: 20px;
+    background-image: url('project://database/Assets/Sprites/Game5Illustrations/02.png?fileID=2800000&guid=92aa8a3a73328e242a195d8ecb7dc69e&type=3#02');
+    margin-bottom: 20px;
+}
+
+.cms-game5-card03-image {
+    align-items: flex-end;
+    justify-content: flex-end;
+    width: 100%;
+    height: 900px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: rgba(0, 0, 0, 0);
+    border-left-color: rgb(146, 146, 146);
+    border-right-color: rgb(146, 146, 146);
+    border-top-color: rgb(146, 146, 146);
+    border-bottom-color: rgb(146, 146, 146);
+    border-left-width: 20px;
+    border-right-width: 20px;
+    border-top-width: 20px;
+    border-bottom-width: 20px;
+    background-image: url('project://database/Assets/Sprites/Game5Illustrations/03.png?fileID=2800000&guid=b4c1d7c79df6e654fa9daa8c1ce1e342&type=3#03');
+    margin-bottom: 20px;
+}
+
+.cms-game5-card04-image {
+    align-items: flex-end;
+    justify-content: flex-end;
+    width: 100%;
+    height: 900px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: rgba(0, 0, 0, 0);
+    border-left-color: rgb(146, 146, 146);
+    border-right-color: rgb(146, 146, 146);
+    border-top-color: rgb(146, 146, 146);
+    border-bottom-color: rgb(146, 146, 146);
+    border-left-width: 20px;
+    border-right-width: 20px;
+    border-top-width: 20px;
+    border-bottom-width: 20px;
+    background-image: url('project://database/Assets/Sprites/Game5Illustrations/04.png?fileID=2800000&guid=7b32d84054d884741a747cd57249bc2d&type=3#04');
+    margin-bottom: 20px;
+}
+
+.cms-game5-card01-image-active {
+    align-items: flex-end;
+    justify-content: flex-end;
+    width: 100%;
+    height: 900px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: rgba(0, 0, 0, 0);
+    border-left-color: rgb(16, 159, 148);
+    border-right-color: rgb(16, 159, 148);
+    border-top-color: rgb(16, 159, 148);
+    border-bottom-color: rgb(16, 159, 148);
+    border-left-width: 20px;
+    border-right-width: 20px;
+    border-top-width: 20px;
+    border-bottom-width: 20px;
+    background-image: url('project://database/Assets/Sprites/Game5Illustrations/01_filled.png?fileID=2800000&guid=5e6a194a03cc80d4d99969ccc40a1aa8&type=3#01_filled');
+    margin-bottom: 20px;
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+}
+
+.cms-game5-card-pinIcon-active {
+    background-image: url('project://database/Assets/Sprites/pinActive.png?fileID=2800000&guid=30785a6dab5e06d4ca909bf370426340&type=3#pinActive');
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+    width: 85px;
+    height: 133px;
+}
+
+.cms-game5-card-wrapper:disabled {
+    align-items: flex-start;
+    font-size: 52px;
+    color: rgb(0, 0, 0);
+    -unity-text-align: middle-left;
+    -unity-font-definition: url('project://database/Assets/Fonts/Fira_Sans/FiraSans-SemiBold%20SDF.asset?fileID=11400000&guid=f2b30bdb006924f458d13fa9d2ae7592&type=2#FiraSans-SemiBold SDF');
+    -unity-font-style: bold;
+    margin-bottom: 100px;
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    background-color: rgba(255, 255, 255, 0);
+    -unity-background-image-tint-color: rgba(255, 255, 255, 0);
+}
+
+.unity-button:disabled {
+    opacity: 1;
+}
+
+.cms-game4-card-vorher-title {
+}
+
+.cms-game4-materialEisen-card01-image {
+}

@@ -1,0 +1,148 @@
+.gameoverlay-content {
+    -unity-font-definition: url('project://database/Assets/Fonts/Fira_Sans/FiraSans-Bold%20SDF.asset?fileID=11400000&guid=a4ecc89a33ea740bdbc8ab39e9a81286&type=2#FiraSans-Bold SDF');
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+}
+
+.gameoverlay-container {
+    border-radius: 0 0 150px 150px;
+    transition-duration: 4s;
+    top: -100%;
+    transition-timing-function: ease-out-back;
+    background-color: pink;
+}
+
+.regular-padding {
+    padding: 5%;
+}
+
+.move-into-view {
+    transition-property: top, background-color;
+    background-color: red;
+    top: 0;
+    translate: 0 100%;
+}
+
+.endGameButton {
+    height: 8%;
+    max-height: 150px;
+    min-height: 100px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(253, 131, 0);
+    flex-direction: row;
+    background-image: none;
+    align-items: center;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 40px;
+    z-index: 9999999;
+    left: 0;
+    top: 0;
+    right: 0;
+}
+
+.FixedOnTop {
+    position: fixed;
+}
+.FixedONBottom{
+    position: fixed;
+    bottom: 0;
+}
+.AbsoluteOnTop {
+    position: absolute;
+}
+
+.ActionButton {
+    position: relative;
+    bottom: 0;
+    justify-content: space-between;
+    align-items: center;
+    opacity: 1;
+    visibility: visible;
+    width: 100%;
+    height: 300px;
+    background-color: rgb(16, 159, 148);
+    border-left-color: rgb(255, 255, 255);
+    border-right-color: rgb(255, 255, 255);
+    border-top-color: rgb(255, 255, 255);
+    border-bottom-color: rgb(255, 255, 255);
+    border-left-width: 15px;
+    border-right-width: 15px;
+    border-top-width: 15px;
+    border-bottom-width: 15px;
+    border-top-left-radius: 150px;
+    border-bottom-left-radius: 150px;
+    border-top-right-radius: 150px;
+    border-bottom-right-radius: 150px;
+    translate: 0 0;
+    flex-direction: row;
+    padding-left: 80px;
+    padding-right: 40px;
+}
+
+.menu-icon {
+}
+
+.neutral{
+    background-color: #FFFFFF;
+    -unity-background-image-tint-color: #FFFFFF;
+}
+.spiel{
+    background-color: #FD8300;
+    -unity-background-image-tint-color: #FD8300;
+}
+.fundObjekt{
+    background-color: #1CB3FF;
+    -unity-background-image-tint-color: #1CB3FF;
+}
+.tour{
+    background-color: #50C12A;
+    -unity-background-image-tint-color: #50C12A;
+}
+.panorama{
+    background-color: #4D319A;
+    -unity-background-image-tint-color: #4D319A;
+}
+.illustration{
+    background-color: #ED2E69;
+    -unity-background-image-tint-color: #ED2E69;
+}
+.pin{
+    background-color: #1CB3FF;
+    -unity-background-image-tint-color: #1CB3FF;
+}
+
+.landschaft{
+    background-color: #1CB3FF;
+    -unity-background-image-tint-color: #1CB3FF;
+}
+
+.inFokus{
+    background-color:#109F94;
+    -unity-background-image-tint-color: #109F94;
+}
+.error{
+    background-color:#E86C5C;
+    -unity-background-image-tint-color: #E86C5C;
+}
+
+.spielbackground{
+    background-color: #FD8300;
+}
+.fundObjektbackground{
+    background-color: #1CB3FF;
+}
+.tourbackground{
+    background-color: #50C12A;
+}
+.panoramabackground{
+    background-color: #4D319A;
+}
+.illustrationbackground{
+    background-color: #ED2E69;
+}
+.pinbackground{
+    background-color: #1CB3FF;
+}

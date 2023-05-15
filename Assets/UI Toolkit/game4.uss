@@ -1,0 +1,144 @@
+.cms-game4-card-info-icon {
+}
+
+.cms-game4-material-wrapper {
+    -unity-font-definition: url('project://database/Assets/Fonts/Fira_Sans/FiraSans-SemiBold%20SDF.asset?fileID=11400000&guid=f2b30bdb006924f458d13fa9d2ae7592&type=2#FiraSans-SemiBold SDF');
+    color: rgb(0, 0, 0);
+    font-size: 56px;
+    width: 100%;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.cms-game4-firstRow {
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 40px;
+    width: 100%;
+}
+
+.cms-game4-card-vorher {
+    width: auto;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0);
+    -unity-font-definition: url('project://database/Assets/Fonts/Fira_Sans/FiraSans-Medium%20SDF.asset?fileID=11400000&guid=2ed7cd1b7d2844dac8c5aa3504b8af57&type=2#FiraSans-Medium SDF');
+    color: rgb(0, 0, 0);
+    align-items: flex-start;
+    font-size: 48px;
+    justify-content: center;
+    padding-left: 0;
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+}
+
+.cms-game4-card-title {
+    margin-top: 0;
+    width: auto;
+    height: auto;
+}
+
+.cms-game4-materialEisen-card01-vorher-image {
+    width: 400px;
+    height: 400px;
+    border-left-color: rgb(146, 146, 146);
+    border-right-color: rgb(146, 146, 146);
+    border-top-color: rgb(146, 146, 146);
+    border-bottom-color: rgb(146, 146, 146);
+    border-left-width: 20px;
+    border-right-width: 20px;
+    border-top-width: 20px;
+    border-bottom-width: 20px;
+    margin-bottom: 20px;
+    background-image: none;
+    -unity-background-scale-mode: scale-to-fit;
+}
+
+.cms-game4-materialEisen-card01-vorher-image-win {
+    width: 500px;
+    height: 500px;
+    border-left-color: rgb(16, 159, 148);
+    border-right-color: rgb(16, 159, 148);
+    border-top-color: rgb(16, 159, 148);
+    border-bottom-color: rgb(16, 159, 148);
+    border-left-width: 20px;
+    border-right-width: 20px;
+    border-top-width: 20px;
+    border-bottom-width: 20px;
+    margin-bottom: 20px;
+    background-image: url('project://database/Assets/Sprites/Game4/rockSmall.png?fileID=2800000&guid=fb4f4e0aa6b0d4f4f9f12580dd0e5396&type=3#rockSmall');
+    align-items: flex-start;
+}
+
+.cms-game4-materialEisen-card01-nachher-image {
+    width: 400px;
+    height: 400px;
+    border-left-color: rgb(232, 108, 92);
+    border-right-color: rgb(232, 108, 92);
+    border-top-color: rgb(232, 108, 92);
+    border-bottom-color: rgb(232, 108, 92);
+    border-left-width: 20px;
+    border-right-width: 20px;
+    border-top-width: 20px;
+    border-bottom-width: 20px;
+    margin-bottom: 20px;
+    -unity-background-scale-mode: scale-to-fit;
+}
+
+.cms-game4-materialEisen-card01-nachher-image-win {
+    width: 500px;
+    height: 500px;
+    border-left-color: rgb(16, 159, 148);
+    border-right-color: rgb(16, 159, 148);
+    border-top-color: rgb(16, 159, 148);
+    border-bottom-color: rgb(16, 159, 148);
+    border-left-width: 20px;
+    border-right-width: 20px;
+    border-top-width: 20px;
+    border-bottom-width: 20px;
+    margin-bottom: 20px;
+    background-image: url('project://database/Assets/Sprites/Game4/object01small.png?fileID=2800000&guid=530cd3df9c894ea46b293168bd1f80af&type=3#object01small');
+}
+
+.cms-game4-info-icon {
+    background-image: url('project://database/Assets/Sprites/info%20icon%20small.png?fileID=2800000&guid=842037dd3263a854a94a377291a62ad4&type=3#info icon small');
+    width: 80px;
+    height: 80px;
+    display: flex;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.cms-game4-bg {
+    background-color: rgb(16, 159, 148);
+    width: 100%;
+    height: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: none;
+    justify-content: space-between;
+    -unity-font-definition: url('project://database/Assets/Fonts/Fira_Sans/FiraSans-SemiBold%20SDF.asset?fileID=11400000&guid=f2b30bdb006924f458d13fa9d2ae7592&type=2#FiraSans-SemiBold SDF');
+}
+
+.cms-game4-close-icon {
+    background-image: url('project://database/Assets/Sprites/roemisch-nicht-roemisch/Group%201925.png?fileID=2800000&guid=bf4ca79ba5bec51499b0df06328b2e83&type=3#Group 1925');
+    width: 80px;
+    height: 80px;
+    display: flex;
+}
+
+.cms-game4-bg-title {
+    -unity-text-align: middle-left;
+    font-size: 48px;
+    color: rgb(255, 255, 255);
+}

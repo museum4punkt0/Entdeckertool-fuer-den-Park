@@ -1,0 +1,16 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <ui:GroupBox name="StatusBar" style="width: 100%; align-items: flex-start; justify-content: space-between; flex-direction: row;">
+        <ui:GroupBox name="StatusItem" style="align-items: center; flex-direction: row;">
+            <ui:VisualElement name="StatusIcon" style="background-image: url(&apos;project://database/Assets/Sprites/MapAssets/fund_icon.png?fileID=2800000&amp;guid=0305a5a130d94b04384ca05d0cc372c2&amp;type=3#fund_icon&apos;); width: auto; height: 100px; max-width: none; min-width: 50px; -unity-background-scale-mode: scale-to-fit; margin-right: 15px;" />
+            <ui:Label text="10 Funde" display-tooltip-when-elided="true" name="fund_amount" style="-unity-font: url(&apos;project://database/Assets/Fonts/Fira_Sans/FiraSans-Medium.ttf?fileID=12800000&amp;guid=c8cad423f7ade48afb118eaa04dee0dd&amp;type=3#FiraSans-Medium&apos;); color: rgb(255, 255, 255); font-size: 50px; -unity-text-align: middle-center; -unity-font-style: bold;" />
+        </ui:GroupBox>
+        <ui:GroupBox name="StatusItem" style="align-items: center; flex-direction: row;">
+            <ui:VisualElement name="StatusIcon" style="background-image: url(&apos;project://database/Assets/Sprites/MapAssets/time_icon.png?fileID=2800000&amp;guid=284eb2602522720418615d4eb8b9f5a6&amp;type=3#time_icon&apos;); width: auto; height: 100px; max-width: none; min-width: 50px; -unity-background-scale-mode: scale-to-fit; margin-right: 15px;" />
+            <ui:Label text="45 min" display-tooltip-when-elided="true" name="time" style="-unity-font: url(&apos;project://database/Assets/Fonts/Fira_Sans/FiraSans-Medium.ttf?fileID=12800000&amp;guid=c8cad423f7ade48afb118eaa04dee0dd&amp;type=3#FiraSans-Medium&apos;); color: rgb(255, 255, 255); font-size: 50px; -unity-text-align: middle-center; -unity-font-style: bold;" />
+        </ui:GroupBox>
+        <ui:GroupBox name="StatusItem" style="align-items: center; flex-direction: row;">
+            <ui:VisualElement name="StatusIcon" style="background-image: url(&apos;project://database/Assets/Sprites/roemisch-nicht-roemisch/noun-dollar-coins-481813-1A1A1A.png?fileID=2800000&amp;guid=8b622c847dba0e340ac9b25db77e092b&amp;type=3#noun-dollar-coins-481813-1A1A1A&apos;); width: auto; height: 100px; max-width: none; min-width: 50px; -unity-background-scale-mode: scale-to-fit; margin-right: 15px;" />
+            <ui:Label text="16" display-tooltip-when-elided="true" name="coin_amount" style="-unity-font: url(&apos;project://database/Assets/Fonts/Fira_Sans/FiraSans-Medium.ttf?fileID=12800000&amp;guid=c8cad423f7ade48afb118eaa04dee0dd&amp;type=3#FiraSans-Medium&apos;); color: rgb(255, 255, 255); font-size: 50px; -unity-text-align: middle-center; -unity-font-style: bold;" />
+        </ui:GroupBox>
+    </ui:GroupBox>
+</ui:UXML>

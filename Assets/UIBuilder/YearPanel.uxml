@@ -1,0 +1,13 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement style="width: 100%; height: 100%; background-color: rgb(255, 255, 255);">
+        <ui:VisualElement name="img" style="width: 100%; height: 100%; -unity-background-scale-mode: scale-to-fit;" />
+        <ui:VisualElement style="position: absolute; width: 100%; height: 100%; justify-content: space-between;">
+            <ui:VisualElement name="header" style="padding-left: 20px; padding-right: 20px; padding-top: 50px; padding-bottom: 20px;">
+                <ui:Button display-tooltip-when-elided="true" name="close" style="background-image: url(&apos;project://database/Assets/Sprites/InGameUI/exit_cross_sprite.png?fileID=2800000&amp;guid=0cd603c8a0c4c794b8afd0a1b596654e&amp;type=3#exit_cross_sprite&apos;); width: 80px; height: 80px; -unity-background-image-tint-color: rgb(0, 0, 0); background-color: rgba(88, 88, 88, 0); border-left-color: rgba(255, 255, 255, 0); border-right-color: rgba(255, 255, 255, 0); border-top-color: rgba(255, 255, 255, 0); border-bottom-color: rgba(255, 255, 255, 0);" />
+            </ui:VisualElement>
+            <ui:VisualElement name="bar" style="background-color: rgb(255, 255, 255); width: 100%; height: 200px; border-top-width: 20px; border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); -unity-text-align: middle-left; align-items: flex-start; justify-content: center; padding-left: 50px; padding-right: 50px;">
+                <ui:Label text="lorem ipsum / sit dolor amet" display-tooltip-when-elided="true" name="description" style="color: rgb(0, 0, 0); -unity-font-definition: url(&apos;project://database/Assets/Fonts/Fira_Sans/FiraSans-Regular%20SDF.asset?fileID=11400000&amp;guid=36e729ffba2314c35b160205607647ca&amp;type=2#FiraSans-Regular SDF&apos;); font-size: 52px; white-space: normal;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

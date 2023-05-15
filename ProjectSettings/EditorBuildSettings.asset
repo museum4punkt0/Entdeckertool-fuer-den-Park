@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/IntroScene.unity
+    guid: bdd4e1eaa5cccf543a67fc6d9c54edab
+  - enabled: 1
+    path: Assets/Scenes/MainScene.unity
+    guid: 61953e794a2ad1a4eb1490c0b6ee7f6d
+  - enabled: 1
+    path: Assets/Scenes/ParkTour.unity
+    guid: 50ae1883e8073a540b8f86747035eac0
+  - enabled: 1
+    path: Assets/Scenes/games/Game1.unity
+    guid: 067567edad1f54a1cb0a02feea88ca7c
+  - enabled: 1
+    path: Assets/Scenes/games/game2.unity
+    guid: 94a601e5ed47a384b8c703831407068c
+  - enabled: 1
+    path: Assets/Scenes/games/Game3.unity
+    guid: 235661c9a13db024cb62216c709de79b
+  - enabled: 1
+    path: Assets/Scenes/games/Game4.unity
+    guid: 079cc2c3f8de9ee46a55235029d74176
+  - enabled: 1
+    path: Assets/Scenes/games/Game5.unity
+    guid: 540c7c2afa2a2994ca92f53ee31b6023
+  - enabled: 1
+    path: Assets/Scenes/games/Game2_AR.unity
+    guid: 5151d85583287a3428cc6fff1923b317
+  - enabled: 1
+    path: Assets/Scenes/games/Game3_AR.unity
+    guid: e30f94f1efacff346b6af7224fce1ccd
+  - enabled: 1
+    path: Assets/Scenes/games/Game5_AR.unity
+    guid: 2907c5fc9beb76f43af1a4a47092ef5f
+  - enabled: 1
+    path: Assets/Scenes/Unused/FindTool.unity
+    guid: b565a709d44854d8d80f54d899d4a641
+  - enabled: 1
+    path: Assets/Scenes/Unused/ARScene.unity
+    guid: febe9518d0df6134690bb70f8335dc4b
+  - enabled: 1
+    path: Assets/Scenes/ARFilterScene.unity
+    guid: 023a320c0253b4f1f8eca3d4966e4526
+  - enabled: 1
+    path: Assets/Scenes/ARFilterSceneHelmet.unity
+    guid: ac200417c83b2d84c950480e49ca2dee
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/360_Illustrations.unity
+    guid: cea6c4640a00f49fab6c549f144b2f58
+  - enabled: 0
+    path: Assets/Scenes/TrialScenes/panorama_test.unity
+    guid: b72cc89c5bd987543acc98f1a38f907f
+  - enabled: 0
+    path: Assets/Scenes/TrialScenes/DragNDrop_PinPlacement.unity
+    guid: 66597f30771aa7840963e84b10e813fd
+  - enabled: 0
+    path: Assets/Scenes/TrialScenes/AR_Template.unity
+    guid: df647452bfb8cdf4dbf58d826c20e81b
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/games/GAME6/Game6_1.unity
+    guid: e58bab0ff41719244973cb96f8aaf851
+  - enabled: 1
+    path: Assets/Scenes/games/GAME6/Game6_3.unity
+    guid: 3ea861c3b8281cf4d97fc958eb4324c2
+  - enabled: 1
+    path: Assets/Scenes/games/GAME6/Game6_2.unity
+    guid: 4aed214250a728a458fc9891fa50287c
+  - enabled: 1
+    path: Assets/Scenes/Tutorial.unity
+    guid: 7b49eb5743b32417f9d7d25504c2bc91
+  - enabled: 1
+    path: Assets/Scenes/games/Game7.unity
+    guid: 7f172a74efbd86e4c8f960fe8ee478c4
+  - enabled: 1
+    path: Assets/Scenes/Unused/Zoom.unity
+    guid: b43f365648a56be49a1f778fa6349d6e
+  m_configObjects:
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 0317c2d801eb443478536d5e6a818dfb, type: 2}
+    UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: aa47b1bb0dcabde4fb8f65a14a1c1e3a, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 6b872efc9bc304c41896b606a630f66c, type: 2}
+    xr.sdk.mock-hmd.settings: {fileID: 11400000, guid: 03a2baa852f4346b295e05053ebbaf7a, type: 2}

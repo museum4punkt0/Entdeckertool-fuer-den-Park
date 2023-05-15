@@ -1,0 +1,9 @@
+.cms-animation-fade-out {
+    opacity: 1;
+    transition-duration: 2s;
+    transition-delay: 0.5s;
+}
+
+.cms-animation-fade-out-animate {
+    opacity: 0;
+}

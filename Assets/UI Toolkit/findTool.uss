@@ -1,0 +1,114 @@
+.text {
+    color: rgba(0, 0, 0, 255);
+    font-size: 58px;
+    -unity-font-definition: url('project://database/Assets/Fonts/Fira_Sans/FiraSans-Medium%20SDF.asset?fileID=11400000&guid=2ed7cd1b7d2844dac8c5aa3504b8af57&type=2#FiraSans-Medium SDF');
+}
+
+.link-mehrerfahren {
+    font-size: 52px;
+    color: rgba(28, 179, 255, 255);
+    background-color: rgba(255, 255, 255, 0);
+    border-left-color: rgba(255, 255, 255, 0);
+    border-right-color: rgba(255, 255, 255, 0);
+    border-top-color: rgba(255, 255, 255, 0);
+    border-bottom-color: rgba(255, 255, 255, 0);
+    -unity-font-definition: url('project://database/Assets/Fonts/Fira_Sans/FiraSans-Medium%20SDF.asset?fileID=11400000&guid=2ed7cd1b7d2844dac8c5aa3504b8af57&type=2#FiraSans-Medium SDF');
+    align-items: flex-start;
+    margin-top: 30px;
+}
+
+.btn-fund {
+    background-color: rgba(255, 255, 255, 255);
+    font-size: 62px;
+    -unity-text-outline-color: rgba(255, 255, 255, 0);
+    -unity-font-definition: url('project://database/Assets/Fonts/Fira_Sans/FiraSans-Bold%20SDF.asset?fileID=11400000&guid=a4ecc89a33ea740bdbc8ab39e9a81286&type=2#FiraSans-Bold SDF');
+    color: rgba(28, 179, 255, 255);
+    border-left-color: rgba(28, 179, 255, 255);
+    border-right-color: rgba(28, 179, 255, 255);
+    border-top-color: rgba(28, 179, 255, 255);
+    border-bottom-color: rgba(28, 179, 255, 255);
+    border-left-width: 10px;
+    border-right-width: 10px;
+    border-top-width: 10px;
+    border-bottom-width: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    -unity-text-align: upper-left;
+    margin-right: 0;
+}
+
+.btn-accordeon {
+    color: rgba(0, 0, 0, 255);
+    font-size: 68px;
+    -unity-font-definition: url('project://database/Assets/Fonts/Fira_Sans/FiraSans-Bold%20SDF.asset?fileID=11400000&guid=a4ecc89a33ea740bdbc8ab39e9a81286&type=2#FiraSans-Bold SDF');
+    border-top-width: 8px;
+    border-left-color: rgba(0, 0, 0, 255);
+    border-right-color: rgba(0, 0, 0, 255);
+    border-top-color: rgba(0, 0, 0, 255);
+    border-bottom-color: rgba(0, 0, 0, 255);
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 0;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.box-spiel {
+    -unity-background-image-tint-color: rgba(255, 255, 255, 255);
+    background-color: rgb(253, 131, 0);
+    width: 100%;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 50px;
+    margin-bottom: 0;
+}
+
+.box-title {
+    color: rgba(255, 255, 255, 255);
+    font-size: 90px;
+}
+
+.box-text {
+    color: rgba(255, 255, 255, 255);
+    font-size: 62px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.box-btn {
+    background-color: rgba(0, 0, 0, 0);
+    border-left-color: rgba(255, 255, 255, 255);
+    border-right-color: rgba(255, 255, 255, 255);
+    border-top-color: rgba(255, 255, 255, 255);
+    border-bottom-color: rgba(255, 255, 255, 255);
+    border-left-width: 8px;
+    border-right-width: 8px;
+    border-top-width: 8px;
+    border-bottom-width: 8px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 60px;
+    -unity-text-align: middle-left;
+    flex-direction: row;
+}
+
+.box-btntext {
+    padding-right: 0;
+    margin-right: 0;
+    margin-left: 50px;
+}

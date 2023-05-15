@@ -1,0 +1,2971 @@
+.cms-headline {
+    -unity-font-definition: url('project://database/Assets/Fonts/Fira_Sans/FiraSans-Bold%20SDF.asset?fileID=11400000&guid=a4ecc89a33ea740bdbc8ab39e9a81286&type=2#FiraSans-Bold SDF');
+    font-size: 60px;
+    color: rgb(0, 0, 0);
+    -unity-text-align: middle-left;
+    display: flex;
+    -unity-font: url('project://database/Assets/Fonts/Fira_Sans/FiraSans-Medium.ttf?fileID=12800000&guid=c8cad423f7ade48afb118eaa04dee0dd&type=3#FiraSans-Medium');
+    white-space: normal;
+    flex-wrap: nowrap;
+}
+
+.cms-text {
+    -unity-font-definition: url('project://database/Assets/Fonts/Fira_Sans/FiraSans-Medium%20SDF.asset?fileID=11400000&guid=2ed7cd1b7d2844dac8c5aa3504b8af57&type=2#FiraSans-Medium SDF');
+    font-size: 58px;
+    -unity-font-style: normal;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    white-space: normal;
+    -unity-text-align: middle-left;
+}
+
+.animPanelClose {
+    transition-duration: 1s, 0s;
+    transition-property: translate, background-color;
+    translate: 0 100%;
+}
+
+.closeMenu {
+    top: 80%;
+    transition-property: top;
+    transition-duration: 1s;
+}
+
+.opacityOut {
+    background-color: rgba(255, 255, 255, 0);
+    transition-property: background-color;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+.menuButton {
+    height: 75%;
+    width: 12%;
+    background-color: rgba(0, 0, 0, 0);
+    -unity-text-outline-width: 0;
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.cms-image {
+    min-width: 1080px;
+    min-height: 800px;
+    height: auto;
+    max-height: 800px;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: flex-start;
+    -unity-background-scale-mode: scale-to-fit;
+}
+
+.cms-slider {
+    min-height: auto;
+    min-width: 800px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.cms-buttonAR {
+    font-size: 80px;
+    color: rgba(255, 255, 255, 0);
+    background-image: url('project://database/Assets/Sprites/cta.png?fileID=21300000&guid=120e0ca7271ea7a4f8eed596326cd8b6&type=3#cta');
+    width: 915px;
+    height: 310px;
+    background-color: rgba(0, 0, 0, 0);
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    align-items: center;
+    margin-top: 125px;
+    margin-bottom: 125px;
+    margin-left: 0;
+}
+
+.cms-buttonScroll {
+    width: 120px;
+    height: 132px;
+    background-image: url('project://database/Assets/Sprites/Group%201754.png?fileID=2800000&guid=0fdf483303eeffb47bd7a4d9f9f9168e&type=3#Group 1754');
+    background-color: rgba(0, 0, 0, 0);
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    color: rgba(210, 210, 210, 0);
+    -unity-text-outline-color: rgba(0, 0, 0, 0);
+}
+
+.cms-DivisionBar {
+    width: 100%;
+    height: 20px;
+    background-color: rgb(0, 0, 0);
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.cms-buttonFund {
+    background-image: none;
+    background-color: rgba(0, 0, 0, 0);
+    width: 99%;
+    height: 320px;
+    color: rgb(28, 179, 255);
+    border-left-color: rgb(28, 179, 255);
+    border-right-color: rgb(28, 179, 255);
+    border-top-color: rgb(28, 179, 255);
+    border-bottom-color: rgb(28, 179, 255);
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-left-width: 10px;
+    border-right-width: 10px;
+    border-top-width: 10px;
+    border-bottom-width: 10px;
+    padding-left: 30%;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    font-size: 60px;
+    -unity-text-align: middle-left;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.cms-accordion {
+    margin-top: 0;
+    margin-right: 0;
+    justify-content: flex-start;
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 10px;
+    border-bottom-width: 0;
+    border-left-color: rgb(0, 0, 0);
+    border-right-color: rgb(0, 0, 0);
+    border-top-color: rgb(0, 0, 0);
+    border-bottom-color: rgb(0, 0, 0);
+    padding-top: 20px;
+    -unity-text-align: upper-left;
+    padding-right: 0;
+}
+
+.cms-accordionIconClose {
+    background-image: url('project://database/Assets/Sprites/arrowdown.png?fileID=2800000&guid=951d7cf5a9c8e46288e174c26caf9357&type=3#arrowdown');
+    width: 80px;
+    height: 50px;
+    align-items: flex-end;
+    margin-left: 0;
+    margin-right: 40px;
+    padding-left: 0;
+    -unity-text-align: upper-left;
+}
+
+.cms-accordionIconOpen {
+    background-image: url('project://database/Assets/Sprites/Path%203542.png?fileID=2800000&guid=4c418c97eab98fb4794a948a9c718608&type=3#Path 3542');
+    width: 80px;
+    height: 50px;
+    align-items: flex-end;
+    -unity-background-image-tint-color: rgb(0, 0, 0);
+    flex-wrap: nowrap;
+    margin-left: 0;
+    padding-left: 0;
+    padding-right: 0;
+    margin-right: 40px;
+}
+
+.cms-accordionWrapper {
+    color: rgb(0, 0, 0);
+    font-size: 58px;
+    margin-top: 0;
+    background-color: rgba(0, 0, 0, 0);
+    align-items: flex-end;
+    top: 100px;
+    white-space: normal;
+    flex-wrap: wrap;
+    padding-right: 0;
+    -unity-text-align: upper-left;
+    justify-content: center;
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    border-left-color: rgb(103, 103, 103);
+    border-right-color: rgb(103, 103, 103);
+    border-top-color: rgb(103, 103, 103);
+    border-bottom-color: rgb(103, 103, 103);
+    padding-top: 0;
+}
+
+.cms-groupbox {
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+    font-size: 52px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    align-items: flex-start;
+    -unity-font-definition: url('project://database/Assets/Fonts/Fira_Sans/FiraSans-SemiBold%20SDF.asset?fileID=11400000&guid=f2b30bdb006924f458d13fa9d2ae7592&type=2#FiraSans-SemiBold SDF');
+    margin-bottom: 25px;
+    margin-top: 50px;
+    margin-left: 0;
+    margin-right: 0;
+    white-space: normal;
+}
+
+.cms-box-sub-headline {
+    font-size: 52px;
+    color: rgb(255, 255, 255);
+    margin-right: 0;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+    white-space: normal;
+    -unity-text-align: middle-left;
+}
+
+.cms-box-headline {
+    -unity-font-definition: url('project://database/Assets/Fonts/Fira_Sans/FiraSans-SemiBold%20SDF.asset?fileID=11400000&guid=f2b30bdb006924f458d13fa9d2ae7592&type=2#FiraSans-SemiBold SDF');
+    font-size: 80px;
+    color: rgb(255, 255, 255);
+    flex-wrap: wrap;
+    white-space: normal;
+}
+
+.cms-slider-zoomIcon {
+    background-image: url('project://database/Assets/Sprites/Group%201476.png?fileID=2800000&guid=9e3033fb6d1bef641a139e0cd1409411&type=3#Group 1476');
+    width: 100px;
+    height: 100px;
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.cms-slider-counter {
+    -unity-font-definition: none;
+    -unity-font: url('project://database/Assets/Fonts/KalkrBru.ttf?fileID=12800000&guid=ff21b0fabe037e64197c11e63d384b62&type=3#KalkrBru');
+    color: rgb(0, 0, 0);
+    font-size: 90px;
+}
+
+.cms-toggleTextButton {
+    font-size: 56px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    color: rgb(28, 179, 255);
+    width: 60%;
+    -unity-text-align: upper-left;
+    background-color: rgba(0, 0, 0, 0);
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+}
+
+.cms-box-link-button {
+    font-size: 60px;
+    background-color: rgba(255, 255, 255, 0);
+    -unity-text-align: middle-left;
+    width: 100%;
+    border-left-color: rgb(255, 255, 255);
+    border-right-color: rgb(255, 255, 255);
+    border-top-color: rgb(255, 255, 255);
+    border-bottom-color: rgb(255, 255, 255);
+    border-left-width: 10px;
+    border-right-width: 10px;
+    border-top-width: 10px;
+    border-bottom-width: 10px;
+    background-image: none;
+    -unity-slice-left: 0;
+    -unity-slice-top: 0;
+    -unity-slice-right: 0;
+    -unity-slice-bottom: 0;
+    -unity-background-scale-mode: scale-and-crop;
+    padding-left: 30%;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    white-space: normal;
+}
+
+.cms-box-link-icon {
+    background-image: url('project://database/Assets/Sprites/link_iconw.png?fileID=2800000&guid=503ec8db160a242d58546865fe1f064c&type=3#link_iconw');
+    width: 150px;
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+    padding-left: 0;
+    margin-left: -225px;
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+}
+
+.cms-hideText {
+}
+
+.cms-fund-link-icon {
+    background-image: url('project://database/Assets/Sprites/link_iconw.png?fileID=2800000&guid=503ec8db160a242d58546865fe1f064c&type=3#link_iconw');
+    -unity-background-image-tint-color: rgb(28, 179, 255);
+    background-color: rgb(255, 255, 255);
+    width: 150px;
+    height: 200px;
+    margin-left: -222px;
+}
+
+.cms-zoom-bg {
+    width: 100%;
+    height: 200%;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    overflow: visible;
+    opacity: 1;
+}
+
+.unity-scroller--vertical {
+    width: 0;
+}
+
+.headline-highlights {
+    color: rgb(28, 179, 255);
+    font-size: 80px;
+    letter-spacing: 10px;
+    margin-left: 10px;
+    margin-top: -15px;
+}
+
+.cms-menu-highlights-slider {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 300px;
+    -unity-text-align: upper-left;
+    font-size: 46px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: rgb(255, 255, 255);
+    align-items: center;
+    flex-direction: row;
+}
+
+.cms-menu-entry-container {
+    width: auto;
+    height: auto;
+    font-size: 80px;
+    -unity-font-definition: url('project://database/Assets/Fonts/Fira_Sans/FiraSans-Medium%20SDF.asset?fileID=11400000&guid=2ed7cd1b7d2844dac8c5aa3504b8af57&type=2#FiraSans-Medium SDF');
+    max-height: 300px;
+    min-height: 200px;
+    background-color: rgb(253, 131, 0);
+    -unity-text-align: middle-left;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: rgb(255, 255, 255);
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: row;
+    margin-top: 25px;
+    margin-left: 10px;
+}
+
+.cms-menu-entry-icon {
+    background-color: rgb(255, 255, 255);
+    width: 100px;
+    height: 100px;
+}
+
+.cms-menu-highlights-box {
+    background-color: rgb(28, 179, 255);
+    width: 800px;
+    height: 250px;
+    -unity-font-definition: url('project://database/Assets/Fonts/Fira_Sans/FiraSans-Medium%20SDF.asset?fileID=11400000&guid=2ed7cd1b7d2844dac8c5aa3504b8af57&type=2#FiraSans-Medium SDF');
+    font-size: 38px;
+    align-items: stretch;
+    -unity-text-align: upper-left;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    justify-content: space-between;
+    color: rgb(255, 255, 255);
+    flex-direction: column;
+    margin-right: 40px;
+    white-space: normal;
+}
+
+.cms-menu-highlights-box-link {
+    align-items: flex-end;
+    width: auto;
+    -unity-text-align: lower-right;
+    font-size: 42px;
+    -unity-font-definition: url('project://database/Assets/Fonts/Fira_Sans/FiraSans-Medium%20SDF.asset?fileID=11400000&guid=2ed7cd1b7d2844dac8c5aa3504b8af57&type=2#FiraSans-Medium SDF');
+    border-left-color: rgba(255, 255, 255, 0);
+    border-right-color: rgba(255, 255, 255, 0);
+    border-top-color: rgba(255, 255, 255, 0);
+    border-bottom-color: rgba(255, 255, 255, 0);
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.cms-menu-game-cards {
+    height: 100%;
+    background-color: rgb(253, 131, 0);
+    width: 800px;
+    color: rgb(255, 255, 255);
+    align-items: center;
+    -unity-text-align: upper-center;
+    justify-content: space-around;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 25px;
+    margin-right: 100px;
+    translate: 0 0;
+    min-width: auto;
+    max-width: none;
+    margin-left: 100px;
+}
+
+.cms-menu-game-icon {
+    width: 180px;
+    height: 170px;
+    background-color: rgba(255, 255, 255, 0);
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    background-image: url('project://database/Assets/Sprites/spiele_icon.png?fileID=2800000&guid=69a856c2cd262b6469c4fdc08f4a0a1a&type=3#spiele_icon');
+}
+
+.cms-menu-game-headline {
+    -unity-font-definition: none;
+    -unity-font: url('project://database/Assets/Fonts/KalkrBru.ttf?fileID=12800000&guid=ff21b0fabe037e64197c11e63d384b62&type=3#KalkrBru');
+    font-size: 100px;
+    white-space: normal;
+    -unity-text-align: upper-center;
+    width: 75%;
+    max-width: 900px;
+    min-width: 800px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: rgb(255, 255, 255);
+    margin-right: 0;
+}
+
+.cms-menu-game-button {
+    flex-direction: column;
+    border-left-color: rgb(255, 255, 255);
+    border-right-color: rgb(255, 255, 255);
+    border-top-color: rgb(255, 255, 255);
+    border-bottom-color: rgb(255, 255, 255);
+    border-top-left-radius: 125px;
+    border-bottom-left-radius: 125px;
+    border-top-right-radius: 125px;
+    border-bottom-right-radius: 125px;
+    border-left-width: 15px;
+    border-right-width: 15px;
+    border-top-width: 15px;
+    border-bottom-width: 15px;
+    width: 700px;
+    height: 250px;
+    background-color: rgba(255, 255, 255, 0);
+    -unity-font-definition: url('project://database/Assets/Fonts/Fira_Sans/FiraSans-Medium%20SDF.asset?fileID=11400000&guid=2ed7cd1b7d2844dac8c5aa3504b8af57&type=2#FiraSans-Medium SDF');
+    font-size: 60px;
+    -unity-text-align: middle-left;
+    padding-left: 80px;
+    justify-content: center;
+    align-items: flex-end;
+    padding-right: 20px;
+    padding-top: 0;
+}
+
+.cms-menu-game-button-icon {
+    width: 150px;
+    height: 150px;
+    background-image: url('project://database/Assets/Sprites/circle_arrow.png?fileID=2800000&guid=f77a5f3cd8ae8b840a12f9b25645d2d5&type=3#circle_arrow');
+    -unity-text-align: middle-left;
+    justify-content: center;
+}
+
+.game-headline {
+    background-color: rgba(255, 255, 255, 0);
+    color: rgb(253, 131, 0);
+    -unity-font-definition: url('project://database/Assets/Fonts/Fira_Sans/FiraSans-Medium%20SDF.asset?fileID=11400000&guid=2ed7cd1b7d2844dac8c5aa3504b8af57&type=2#FiraSans-Medium SDF');
+    font-size: 42px;
+}
+
+.cms-menu-game-coincounter-icon {
+    background-image: url('project://database/Assets/Sprites/spiel2_UI/noun-dollar-coins-481813-1A1A1A.png?fileID=2800000&guid=164b26ae9816e9a40ac0ec16d9c24904&type=3#noun-dollar-coins-481813-1A1A1A');
+    background-color: rgba(255, 255, 255, 0);
+    width: 80px;
+    height: 90px;
+    margin-right: 20px;
+}
+
+.cms-menu-game-coincounter {
+    flex-direction: row;
+    justify-content: center;
+    -unity-font-definition: none;
+    -unity-font: url('project://database/Assets/Fonts/KalkrBru.ttf?fileID=12800000&guid=ff21b0fabe037e64197c11e63d384b62&type=3#KalkrBru');
+    -unity-text-align: upper-left;
+    align-items: center;
+}
+
+.cms-menu-game-subtitle {
+    font-size: 70px;
+    color: rgb(255, 255, 255);
+    -unity-font-definition: url('project://database/Assets/Fonts/Fira_Sans/FiraSans-Medium%20SDF.asset?fileID=11400000&guid=2ed7cd1b7d2844dac8c5aa3504b8af57&type=2#FiraSans-Medium SDF');
+    -unity-text-align: middle-center;
+    width: 75%;
+    align-items: center;
+    justify-content: center;
+}
+
+.cms-menu-game-coincounter-box {
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-end;
+    -unity-text-align: middle-center;
+    width: auto;
+    margin-left: 30px;
+    margin-right: 20px;
+    font-size: 45px;
+}
+
+.cms-menu-game-slider {
+    height: 1500px;
+    align-items: flex-end;
+    margin-right: 0;
+    width: auto;
+    background-color: rgba(255, 0, 211, 0);
+    margin-left: -20px;
+}
+
+.cms-menu-highlights-box-headline {
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+    -unity-font-definition: url('project://database/Assets/Fonts/Fira_Sans/FiraSans-Medium%20SDF.asset?fileID=11400000&guid=2ed7cd1b7d2844dac8c5aa3504b8af57&type=2#FiraSans-Medium SDF');
+}
+
+.cms-info-category {
+    font-size: 42px;
+    color: rgb(237, 46, 105);
+    -unity-font-definition: url('project://database/Assets/Fonts/Fira_Sans/FiraSans-Medium%20SDF.asset?fileID=11400000&guid=2ed7cd1b7d2844dac8c5aa3504b8af57&type=2#FiraSans-Medium SDF');
+    position: relative;
+    top: auto;
+}
+
+.cms-info-headline {
+    color: rgb(237, 46, 105);
+    font-size: 80px;
+    padding-top: 0;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    -unity-font-definition: url('project://database/Assets/Fonts/Fira_Sans/FiraSans-SemiBold%20SDF.asset?fileID=11400000&guid=f2b30bdb006924f458d13fa9d2ae7592&type=2#FiraSans-SemiBold SDF');
+    display: flex;
+    -unity-font-style: normal;
+    -unity-text-align: middle-left;
+}
+
+.cms-info-impressum {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.cms-info-varus {
+    background-image: url('project://database/Assets/Sprites/varusschlacht.jpg?fileID=2800000&guid=b9095cd68c14b4448b089809e77cae07&type=3#varusschlacht');
+    width: 100%;
+    height: 100px;
+    margin-top: 200px;
+    margin-bottom: 50px;
+}
+
+.cms-arch-category {
+    font-size: 42px;
+    -unity-font-definition: url('project://database/Assets/Fonts/Fira_Sans/FiraSans-Medium%20SDF.asset?fileID=11400000&guid=2ed7cd1b7d2844dac8c5aa3504b8af57&type=2#FiraSans-Medium SDF');
+    color: rgb(39, 48, 255);
+}
+
+.cms-arch-headline {
+    font-size: 80px;
+    -unity-font-definition: url('project://database/Assets/Fonts/Fira_Sans/FiraSans-Medium%20SDF.asset?fileID=11400000&guid=2ed7cd1b7d2844dac8c5aa3504b8af57&type=2#FiraSans-Medium SDF');
+    color: rgb(39, 48, 255);
+    margin-right: 0;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    white-space: normal;
+    width: auto;
+}
+
+.cms-menu-arch-icon {
+    width: 180px;
+    height: 200px;
+    background-image: url('project://database/Assets/Sprites/Group%201419.png?fileID=2800000&guid=d43292c55e7e03245a37124b2f4b2552&type=3#Group 1419');
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.cms-menu-arch-cards {
+    height: 100%;
+    background-color: rgb(39, 48, 255);
+    width: 800px;
+    color: rgb(255, 255, 255);
+    align-items: center;
+    -unity-text-align: upper-center;
+    justify-content: space-around;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 25px;
+    margin-right: 0;
+    translate: 0 0;
+    min-width: auto;
+    max-width: none;
+    margin-left: 80px;
+}
+
+.cms-menu-touren-cards {
+    height: 100%;
+    background-color: rgb(80, 193, 42);
+    width: 800px;
+    color: rgb(255, 255, 255);
+    align-items: center;
+    -unity-text-align: upper-center;
+    justify-content: space-around;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 25px;
+    margin-right: 100px;
+    translate: 0 0;
+    min-width: auto;
+    max-width: none;
+    margin-left: 100px;
+    left: auto;
+}
+
+.cms-arch-highlights-box {
+    background-color: rgb(39, 48, 255);
+    width: 800px;
+    height: 250px;
+    -unity-font-definition: url('project://database/Assets/Fonts/Fira_Sans/FiraSans-Medium%20SDF.asset?fileID=11400000&guid=2ed7cd1b7d2844dac8c5aa3504b8af57&type=2#FiraSans-Medium SDF');
+    font-size: 38px;
+    align-items: stretch;
+    -unity-text-align: upper-left;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    justify-content: space-between;
+    color: rgb(255, 255, 255);
+    flex-direction: column;
+    margin-right: 40px;
+    white-space: normal;
+}
+
+.cms-arch-footer {
+    width: 100%;
+    height: 200px;
+}
+
+.cms-menu-touren-icon {
+    background-image: url('project://database/Assets/Sprites/park%20icon%202.png?fileID=2800000&guid=9e18f845ddc2cdd498c6933782d70566&type=3#park icon 2');
+    background-color: rgba(0, 0, 0, 0);
+    width: 180px;
+    height: 180px;
+}
+
+.cms-menu-touren-category {
+    color: rgb(80, 193, 42);
+    font-size: 60px;
+    -unity-font-definition: url('project://database/Assets/Fonts/Fira_Sans/FiraSans-Medium%20SDF.asset?fileID=11400000&guid=2ed7cd1b7d2844dac8c5aa3504b8af57&type=2#FiraSans-Medium SDF');
+    justify-content: center;
+    align-items: flex-start;
+    -unity-text-align: middle-left;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.cms-coincounter-footer {
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.cms-touren-footer-funde {
+    background-image: url('project://database/Assets/Sprites/noun-archaeology-3412965.png?fileID=2800000&guid=8336d8cb1b3315b44b6fe22357c21af1&type=3#noun-archaeology-3412965');
+    background-color: rgba(0, 0, 0, 0);
+    width: 60px;
+    height: 85px;
+    margin-right: 20px;
+    margin-left: 0;
+}
+
+.cms-touren-footer-timer {
+    background-image: url('project://database/Assets/Sprites/noun-time-1232928.png?fileID=2800000&guid=3f1afbf261af2004095806720efc10cc&type=3#noun-time-1232928');
+    background-color: rgba(0, 0, 0, 0);
+    width: 80px;
+    height: 80px;
+    margin-left: 100px;
+    margin-right: 20px;
+}
+
+.cms-menu-game-category {
+    color: rgb(253, 131, 0);
+    font-size: 60px;
+    -unity-font-definition: url('project://database/Assets/Fonts/Fira_Sans/FiraSans-Medium%20SDF.asset?fileID=11400000&guid=2ed7cd1b7d2844dac8c5aa3504b8af57&type=2#FiraSans-Medium SDF');
+    justify-content: center;
+    align-items: flex-start;
+    -unity-text-align: middle-left;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.headline-belohnungen {
+    color: rgb(92, 55, 2);
+    font-size: 80px;
+    letter-spacing: 10px;
+    margin-left: 10px;
+}
+
+.cms-belohnungen-coins {
+    border-left-width: 10px;
+    border-right-width: 10px;
+    border-top-width: 10px;
+    border-bottom-width: 10px;
+    border-left-color: rgb(92, 55, 2);
+    border-right-color: rgb(92, 55, 2);
+    border-top-color: rgb(92, 55, 2);
+    border-bottom-color: rgb(92, 55, 2);
+    height: 250px;
+    color: rgb(92, 55, 2);
+    font-size: 60px;
+    -unity-text-align: middle-left;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 40px;
+    flex-direction: row;
+    -unity-font-definition: url('project://database/Assets/Fonts/Fira_Sans/FiraSans-ExtraBold%20SDF.asset?fileID=11400000&guid=1b3c08b7161dd4c27bfdfd7f145fce61&type=2#FiraSans-ExtraBold SDF');
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.cms-belohnungen-icon-wrapper {
+    flex-direction: row;
+    -unity-font-definition: none;
+    -unity-font-style: normal;
+    font-size: 90px;
+    -unity-font: url('project://database/Assets/Fonts/KalkrBru.ttf?fileID=12800000&guid=ff21b0fabe037e64197c11e63d384b62&type=3#KalkrBru');
+}
+
+.cms-belohnungen-icon {
+    background-image: url('project://database/Assets/Sprites/roemisch-nicht-roemisch/noun-dollar-coins-481813-1A1A1A.png?fileID=2800000&guid=8b622c847dba0e340ac9b25db77e092b&type=3#noun-dollar-coins-481813-1A1A1A');
+    -unity-background-image-tint-color: rgb(92, 55, 2);
+    width: 90px;
+    height: 110px;
+    margin-right: 30px;
+}
+
+.cms-belohnungen-accordion-wrapper-active {
+    border-bottom-color: rgb(92, 55, 2);
+    border-bottom-width: 10px;
+    -unity-font-definition: url('project://database/Assets/Fonts/Fira_Sans/FiraSans-Medium%20SDF.asset?fileID=11400000&guid=2ed7cd1b7d2844dac8c5aa3504b8af57&type=2#FiraSans-Medium SDF');
+    -unity-font-style: bold;
+    color: rgb(92, 55, 2);
+    padding-bottom: 20px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.cms-belohnungen-accordion-icon-active {
+    background-image: url('project://database/Assets/Sprites/Path%203542.png?fileID=2800000&guid=4c418c97eab98fb4794a948a9c718608&type=3#Path 3542');
+    -unity-background-image-tint-color: rgb(92, 55, 2);
+    width: 80px;
+    height: 50px;
+    rotate: 180deg;
+}
+
+.cms-belohnungen-button {
+    border-left-color: rgb(28, 179, 255);
+    border-right-color: rgb(28, 179, 255);
+    border-top-color: rgb(28, 179, 255);
+    border-bottom-color: rgb(28, 179, 255);
+    border-left-width: 20px;
+    border-right-width: 20px;
+    border-top-width: 20px;
+    border-bottom-width: 20px;
+    border-top-left-radius: 150px;
+    border-bottom-left-radius: 150px;
+    border-top-right-radius: 150px;
+    border-bottom-right-radius: 150px;
+    width: 90%;
+    -unity-text-align: middle-left;
+    align-items: center;
+    height: 300px;
+    color: rgb(28, 179, 255);
+    justify-content: space-between;
+    flex-direction: row;
+    padding-left: 100px;
+    padding-right: 50px;
+    -unity-font-definition: url('project://database/Assets/Fonts/Fira_Sans/FiraSans-Medium%20SDF.asset?fileID=11400000&guid=2ed7cd1b7d2844dac8c5aa3504b8af57&type=2#FiraSans-Medium SDF');
+    -unity-font-style: bold;
+    background-color: rgba(255, 255, 255, 0);
+    margin-top: 150px;
+}
+
+.cms-belohnungen-button-icon {
+    background-image: url('project://database/Assets/Sprites/circle_arrow.png?fileID=2800000&guid=f77a5f3cd8ae8b840a12f9b25645d2d5&type=3#circle_arrow');
+    -unity-background-image-tint-color: rgb(28, 179, 255);
+    width: 200px;
+    height: 200px;
+}
+
+.cms-belohnungen-button-text {
+    width: 60%;
+    white-space: normal;
+    font-size: 52px;
+}
+
+.cms-belohnungen-buttons-wrapper {
+    align-items: center;
+}
+
+.spiele-background {
+    background-color: rgb(253, 131, 0);
+}
+
+.touren-background {
+    background-color: rgb(80, 193, 42);
+}
+
+.archaologie-background {
+    background-color: rgb(39, 48, 255);
+}
+
+.funde-background {
+    background-color: rgb(77, 49, 154);
+}
+
+.cms-menu-entry-icon-spiele {
+    background-image: url('project://database/Assets/Sprites/spiele_icon.png?fileID=2800000&guid=69a856c2cd262b6469c4fdc08f4a0a1a&type=3#spiele_icon');
+    width: 120px;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.cms-menu-entry-icon-arch {
+    background-image: url('project://database/Assets/Sprites/Group%201419.png?fileID=2800000&guid=d43292c55e7e03245a37124b2f4b2552&type=3#Group 1419');
+    width: 90px;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.cms-menu-entry-icon-touren {
+    background-image: url('project://database/Assets/Sprites/park%20icon%202.png?fileID=2800000&guid=9e18f845ddc2cdd498c6933782d70566&type=3#park icon 2');
+    width: 120px;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.cms-menu-fragen-cards {
+    height: 90%;
+    background-color: rgba(255, 255, 255, 0);
+    width: 800px;
+    color: rgb(0, 0, 0);
+    align-items: center;
+    -unity-text-align: upper-left;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-top: 25px;
+    margin-right: 100px;
+    translate: 0 0;
+    min-width: auto;
+    max-width: none;
+    -unity-background-image-tint-color: rgba(255, 255, 255, 0);
+    border-left-color: rgb(77, 49, 154);
+    border-right-color: rgb(77, 49, 154);
+    border-top-color: rgb(77, 49, 154);
+    border-bottom-color: rgb(77, 49, 154);
+    border-left-width: 10px;
+    border-right-width: 10px;
+    border-top-width: 10px;
+    border-bottom-width: 10px;
+    margin-left: 100px;
+}
+
+.cms-menu-fragen-headline {
+    -unity-text-align: upper-center;
+    -unity-font-definition: none;
+    -unity-font: url('project://database/Assets/Fonts/KalkrBru.ttf?fileID=12800000&guid=ff21b0fabe037e64197c11e63d384b62&type=3#KalkrBru');
+    font-size: 120px;
+    -unity-font-style: normal;
+    color: rgb(0, 0, 0);
+    justify-content: flex-start;
+    align-items: stretch;
+}
+
+.funde-text {
+    color: rgb(28, 179, 255);
+}
+
+.cms-menu-fragen-button-funde {
+    flex-direction: column;
+    border-left-color: rgb(28, 179, 255);
+    border-right-color: rgb(28, 179, 255);
+    border-top-color: rgb(28, 179, 255);
+    border-bottom-color: rgb(28, 179, 255);
+    border-top-left-radius: 150px;
+    border-bottom-left-radius: 150px;
+    border-top-right-radius: 150px;
+    border-bottom-right-radius: 150px;
+    border-left-width: 15px;
+    border-right-width: 15px;
+    border-top-width: 15px;
+    border-bottom-width: 15px;
+    width: 700px;
+    height: 280px;
+    background-color: rgb(255, 255, 255);
+    -unity-font-definition: url('project://database/Assets/Fonts/Fira_Sans/FiraSans-Medium%20SDF.asset?fileID=11400000&guid=2ed7cd1b7d2844dac8c5aa3504b8af57&type=2#FiraSans-Medium SDF');
+    font-size: 52px;
+    -unity-text-align: middle-left;
+    padding-left: 80px;
+    justify-content: center;
+    align-items: flex-end;
+    padding-right: 170px;
+    padding-top: 0;
+    -unity-background-image-tint-color: rgb(28, 179, 255);
+    flex-wrap: nowrap;
+    white-space: normal;
+}
+
+.cms-menu-fragen-button-icon-funde {
+    width: 150px;
+    height: 150px;
+    background-image: url('project://database/Assets/Sprites/circle_arrow.png?fileID=2800000&guid=f77a5f3cd8ae8b840a12f9b25645d2d5&type=3#circle_arrow');
+    -unity-text-align: middle-left;
+    justify-content: center;
+    -unity-background-image-tint-color: rgb(28, 179, 255);
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: -150px;
+}
+
+.welt-text {
+    color: rgb(77, 49, 154);
+}
+
+.cms-menu-fragen-button-welt {
+    flex-direction: column;
+    border-left-color: rgb(77, 49, 154);
+    border-right-color: rgb(77, 49, 154);
+    border-top-color: rgb(77, 49, 154);
+    border-bottom-color: rgb(77, 49, 154);
+    border-top-left-radius: 150px;
+    border-bottom-left-radius: 150px;
+    border-top-right-radius: 150px;
+    border-bottom-right-radius: 150px;
+    border-left-width: 15px;
+    border-right-width: 15px;
+    border-top-width: 15px;
+    border-bottom-width: 15px;
+    width: 700px;
+    height: 280px;
+    background-color: rgb(255, 255, 255);
+    -unity-font-definition: url('project://database/Assets/Fonts/Fira_Sans/FiraSans-Medium%20SDF.asset?fileID=11400000&guid=2ed7cd1b7d2844dac8c5aa3504b8af57&type=2#FiraSans-Medium SDF');
+    font-size: 52px;
+    -unity-text-align: middle-left;
+    padding-left: 80px;
+    justify-content: center;
+    align-items: flex-end;
+    padding-right: 170px;
+    padding-top: 0;
+    -unity-background-image-tint-color: rgb(77, 49, 154);
+    flex-wrap: nowrap;
+    white-space: normal;
+}
+
+.cms-menu-fragen-button-icon-welt {
+    width: 150px;
+    height: 150px;
+    background-image: url('project://database/Assets/Sprites/circle_arrow.png?fileID=2800000&guid=f77a5f3cd8ae8b840a12f9b25645d2d5&type=3#circle_arrow');
+    -unity-text-align: middle-left;
+    justify-content: center;
+    -unity-background-image-tint-color: rgb(77, 49, 154);
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: -150px;
+}
+
+.touren-text {
+    color: rgb(80, 193, 42);
+}
+
+.cms-menu-fragen-button-touren {
+    flex-direction: column;
+    border-left-color: rgb(80, 193, 42);
+    border-right-color: rgb(80, 193, 42);
+    border-top-color: rgb(80, 193, 42);
+    border-bottom-color: rgb(80, 193, 42);
+    border-top-left-radius: 150px;
+    border-bottom-left-radius: 150px;
+    border-top-right-radius: 150px;
+    border-bottom-right-radius: 150px;
+    border-left-width: 15px;
+    border-right-width: 15px;
+    border-top-width: 15px;
+    border-bottom-width: 15px;
+    width: 700px;
+    height: 280px;
+    background-color: rgb(255, 255, 255);
+    -unity-font-definition: url('project://database/Assets/Fonts/Fira_Sans/FiraSans-Medium%20SDF.asset?fileID=11400000&guid=2ed7cd1b7d2844dac8c5aa3504b8af57&type=2#FiraSans-Medium SDF');
+    font-size: 52px;
+    -unity-text-align: middle-left;
+    padding-left: 80px;
+    justify-content: center;
+    align-items: flex-end;
+    padding-right: 170px;
+    padding-top: 0;
+    -unity-background-image-tint-color: rgb(80, 193, 42);
+    flex-wrap: nowrap;
+    white-space: normal;
+}
+
+.cms-menu-fragen-button-icon-touren {
+    width: 150px;
+    height: 150px;
+    background-image: url('project://database/Assets/Sprites/circle_arrow.png?fileID=2800000&guid=f77a5f3cd8ae8b840a12f9b25645d2d5&type=3#circle_arrow');
+    -unity-text-align: middle-left;
+    justify-content: center;
+    -unity-background-image-tint-color: rgb(80, 193, 42);
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: -150px;
+}
+
+.ausgrabungen-text {
+    color: rgb(39, 48, 255);
+}
+
+.cms-menu-fragen-button-ausgrabungen {
+    flex-direction: column;
+    border-left-color: rgb(39, 48, 255);
+    border-right-color: rgb(39, 48, 255);
+    border-top-color: rgb(39, 48, 255);
+    border-bottom-color: rgb(39, 48, 255);
+    border-top-left-radius: 150px;
+    border-bottom-left-radius: 150px;
+    border-top-right-radius: 150px;
+    border-bottom-right-radius: 150px;
+    border-left-width: 15px;
+    border-right-width: 15px;
+    border-top-width: 15px;
+    border-bottom-width: 15px;
+    width: 700px;
+    height: 280px;
+    background-color: rgb(255, 255, 255);
+    -unity-font-definition: url('project://database/Assets/Fonts/Fira_Sans/FiraSans-Medium%20SDF.asset?fileID=11400000&guid=2ed7cd1b7d2844dac8c5aa3504b8af57&type=2#FiraSans-Medium SDF');
+    font-size: 52px;
+    -unity-text-align: middle-left;
+    padding-left: 80px;
+    justify-content: center;
+    align-items: flex-end;
+    padding-right: 170px;
+    padding-top: 0;
+    -unity-background-image-tint-color: rgb(39, 48, 255);
+    flex-wrap: nowrap;
+    white-space: normal;
+}
+
+.cms-menu-fragen-button-icon-ausgrabungen {
+    width: 150px;
+    height: 150px;
+    background-image: url('project://database/Assets/Sprites/circle_arrow.png?fileID=2800000&guid=f77a5f3cd8ae8b840a12f9b25645d2d5&type=3#circle_arrow');
+    -unity-text-align: middle-left;
+    justify-content: center;
+    -unity-background-image-tint-color: rgb(39, 48, 255);
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: -150px;
+}
+
+.spiele-text {
+    color: rgb(253, 131, 0);
+}
+
+.cms-menu-fragen-button-spiele {
+    flex-direction: column;
+    border-left-color: rgb(253, 131, 0);
+    border-right-color: rgb(253, 131, 0);
+    border-top-color: rgb(253, 131, 0);
+    border-bottom-color: rgb(253, 131, 0);
+    border-top-left-radius: 150px;
+    border-bottom-left-radius: 150px;
+    border-top-right-radius: 150px;
+    border-bottom-right-radius: 150px;
+    border-left-width: 15px;
+    border-right-width: 15px;
+    border-top-width: 15px;
+    border-bottom-width: 15px;
+    width: 700px;
+    height: 280px;
+    background-color: rgb(255, 255, 255);
+    -unity-font-definition: url('project://database/Assets/Fonts/Fira_Sans/FiraSans-Medium%20SDF.asset?fileID=11400000&guid=2ed7cd1b7d2844dac8c5aa3504b8af57&type=2#FiraSans-Medium SDF');
+    font-size: 52px;
+    -unity-text-align: middle-left;
+    padding-left: 80px;
+    justify-content: center;
+    align-items: flex-end;
+    padding-right: 170px;
+    padding-top: 0;
+    -unity-background-image-tint-color: rgb(253, 131, 0);
+    flex-wrap: nowrap;
+    white-space: normal;
+}
+
+.cms-menu-fragen-button-icon-spiele {
+    width: 150px;
+    height: 150px;
+    background-image: url('project://database/Assets/Sprites/circle_arrow.png?fileID=2800000&guid=f77a5f3cd8ae8b840a12f9b25645d2d5&type=3#circle_arrow');
+    -unity-text-align: middle-left;
+    justify-content: center;
+    -unity-background-image-tint-color: rgb(253, 131, 0);
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: -150px;
+}
+
+.cms-menu-fragen-fixed-numbers {
+    -unity-font-definition: none;
+    -unity-font: url('project://database/Assets/Fonts/KalkrBru.ttf?fileID=12800000&guid=ff21b0fabe037e64197c11e63d384b62&type=3#KalkrBru');
+    font-size: 80px;
+    color: rgb(92, 55, 2);
+    flex-direction: column;
+    justify-content: flex-start;
+    -unity-text-align: upper-right;
+    align-items: auto;
+}
+
+.cms-menu-arch-button {
+    flex-direction: column;
+    border-left-color: rgb(255, 255, 255);
+    border-right-color: rgb(255, 255, 255);
+    border-top-color: rgb(255, 255, 255);
+    border-bottom-color: rgb(255, 255, 255);
+    border-top-left-radius: 150px;
+    border-bottom-left-radius: 150px;
+    border-top-right-radius: 150px;
+    border-bottom-right-radius: 150px;
+    border-left-width: 15px;
+    border-right-width: 15px;
+    border-top-width: 15px;
+    border-bottom-width: 15px;
+    width: 700px;
+    height: 300px;
+    background-color: rgba(255, 255, 255, 0);
+    -unity-font-definition: url('project://database/Assets/Fonts/Fira_Sans/FiraSans-Medium%20SDF.asset?fileID=11400000&guid=2ed7cd1b7d2844dac8c5aa3504b8af57&type=2#FiraSans-Medium SDF');
+    font-size: 52px;
+    -unity-text-align: middle-left;
+    padding-left: 80px;
+    justify-content: center;
+    align-items: flex-end;
+    padding-right: 40px;
+    padding-top: 0;
+    -unity-background-image-tint-color: rgb(39, 48, 255);
+    flex-wrap: nowrap;
+    white-space: normal;
+}
+
+.cms-item-header {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    padding-top: 0;
+    border-left-color: rgb(0, 0, 0);
+    border-right-color: rgb(0, 0, 0);
+    border-top-color: rgb(0, 0, 0);
+    border-bottom-color: rgb(0, 0, 0);
+    border-top-width: 0;
+}
+
+.cms-item-header-button-close {
+    background-image: url('project://database/Assets/Sprites/roemisch-nicht-roemisch/Icon%20material-close.png?fileID=2800000&guid=67ba1b4b7c5d7944ca79dc256a16ddee&type=3#Icon material-close');
+    -unity-background-image-tint-color: rgb(0, 0, 0);
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0);
+    color: rgba(210, 210, 210, 0);
+    width: 90px;
+    height: 90px;
+}
+
+.cms-item-header-button-share {
+    background-image: url('project://database/Assets/Sprites/Path%203538.png?fileID=2800000&guid=8a73281d21ac0f748991716f112262c8&type=3#Path 3538');
+    -unity-background-image-tint-color: rgb(0, 0, 0);
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0);
+    color: rgba(210, 210, 210, 0);
+    width: 80px;
+    height: 90px;
+}
+
+.cms-hilfe-btn {
+    font-size: 54px;
+    color: rgb(237, 46, 105);
+    -unity-text-align: middle-left;
+    border-left-color: rgb(237, 46, 105);
+    border-right-color: rgb(237, 46, 105);
+    border-top-color: rgb(237, 46, 105);
+    border-bottom-color: rgb(237, 46, 105);
+    border-left-width: 8px;
+    border-right-width: 8px;
+    border-top-width: 8px;
+    border-bottom-width: 8px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    background-color: rgb(255, 255, 255);
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 200px;
+    -unity-font-definition: url('project://database/Assets/Fonts/Fira_Sans/FiraSans-SemiBold%20SDF.asset?fileID=11400000&guid=f2b30bdb006924f458d13fa9d2ae7592&type=2#FiraSans-SemiBold SDF');
+    padding-right: 100px;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    white-space: normal;
+}
+
+.cms-hilfe-btn-icon {
+    background-image: url('project://database/Assets/Sprites/link_iconw.png?fileID=2800000&guid=503ec8db160a242d58546865fe1f064c&type=3#link_iconw');
+    -unity-background-image-tint-color: rgb(237, 46, 105);
+    width: 120px;
+    height: 120px;
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    margin-left: -150px;
+}
+
+.cms-hilfe-slider-tracker {
+    height: 100px;
+    width: 225px;
+    border-left-color: rgb(237, 46, 105);
+    border-right-color: rgb(237, 46, 105);
+    border-top-color: rgb(237, 46, 105);
+    border-bottom-color: rgb(237, 46, 105);
+    border-left-width: 8px;
+    border-right-width: 8px;
+    border-top-width: 8px;
+    border-bottom-width: 8px;
+    background-color: rgb(255, 255, 255);
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    margin-bottom: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.cms-hilfe-slider-dragger {
+    width: 120px;
+    height: 120px;
+    background-color: rgb(255, 255, 255);
+    border-left-color: rgb(237, 46, 105);
+    border-right-color: rgb(237, 46, 105);
+    border-top-color: rgb(237, 46, 105);
+    border-bottom-color: rgb(237, 46, 105);
+    border-top-left-radius: 150px;
+    border-bottom-left-radius: 150px;
+    border-top-right-radius: 150px;
+    border-bottom-right-radius: 150px;
+    border-left-width: 10px;
+    border-right-width: 10px;
+    border-top-width: 10px;
+    border-bottom-width: 10px;
+}
+
+.cms-hilfe-slider-wrapper {
+    align-items: center;
+    justify-content: center;
+    font-size: 48px;
+    color: rgb(0, 0, 0);
+    flex-direction: column;
+    margin-top: 40px;
+    -unity-font-definition: url('project://database/Assets/Fonts/Fira_Sans/FiraSans-SemiBold%20SDF.asset?fileID=11400000&guid=f2b30bdb006924f458d13fa9d2ae7592&type=2#FiraSans-SemiBold SDF');
+    width: auto;
+    -unity-text-align: upper-center;
+    margin-bottom: 80px;
+}
+
+.cms-hilfe-slider {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    display: flex;
+    margin-bottom: 150px;
+    -unity-text-align: upper-center;
+    padding-right: 0;
+    margin-right: 0;
+    margin-left: 0;
+    height: auto;
+    width: 200px;
+}
+
+.belohnungen-background {
+    background-color: rgb(255, 255, 255);
+    border-left-color: rgb(92, 55, 2);
+    border-right-color: rgb(92, 55, 2);
+    border-top-color: rgb(92, 55, 2);
+    border-bottom-color: rgb(92, 55, 2);
+    border-left-width: 8px;
+    border-right-width: 8px;
+    border-top-width: 8px;
+    border-bottom-width: 8px;
+    color: rgb(92, 55, 2);
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-right: 120px;
+    align-items: center;
+    -unity-text-align: upper-left;
+}
+
+.cms-menu-entry-icon-belohnungen {
+    -unity-background-image-tint-color: rgb(92, 55, 2);
+    background-image: url('project://database/Assets/Sprites/roemisch-nicht-roemisch/noun-dollar-coins-481813-1A1A1A.png?fileID=2800000&guid=8b622c847dba0e340ac9b25db77e092b&type=3#noun-dollar-coins-481813-1A1A1A');
+    flex-direction: row;
+    justify-content: space-around;
+    margin-right: 0;
+    margin-left: 0;
+    padding-left: 100px;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    align-items: center;
+    -unity-font-definition: none;
+    -unity-font: url('project://database/Assets/Fonts/KalkrBru.ttf?fileID=12800000&guid=ff21b0fabe037e64197c11e63d384b62&type=3#KalkrBru');
+    font-size: 100px;
+    -unity-text-align: upper-center;
+}
+
+.cms-item-fragen-button-link {
+    border-left-color: rgb(28, 179, 255);
+    border-right-color: rgb(28, 179, 255);
+    border-top-color: rgb(28, 179, 255);
+    border-bottom-color: rgb(28, 179, 255);
+    border-left-width: 10px;
+    border-right-width: 10px;
+    border-top-width: 10px;
+    border-bottom-width: 10px;
+    border-top-left-radius: 120px;
+    border-bottom-left-radius: 120px;
+    border-top-right-radius: 120px;
+    border-bottom-right-radius: 120px;
+    -unity-font-definition: url('project://database/Assets/Fonts/Fira_Sans/FiraSans-SemiBold%20SDF.asset?fileID=11400000&guid=f2b30bdb006924f458d13fa9d2ae7592&type=2#FiraSans-SemiBold SDF');
+    color: rgb(28, 179, 255);
+    background-color: rgb(255, 255, 255);
+    align-items: flex-end;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    -unity-text-align: middle-left;
+    padding-left: 80px;
+    justify-content: center;
+    padding-right: 40px;
+    width: 90%;
+}
+
+.cms-item-fragen-title {
+    -unity-font-definition: url('project://database/Assets/Fonts/Fira_Sans/FiraSans-Medium%20SDF.asset?fileID=11400000&guid=2ed7cd1b7d2844dac8c5aa3504b8af57&type=2#FiraSans-Medium SDF');
+    font-size: 68px;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+.cms-item-fragen-button-link-icon {
+    background-image: url('project://database/Assets/Sprites/circle_arrow.png?fileID=2800000&guid=f77a5f3cd8ae8b840a12f9b25645d2d5&type=3#circle_arrow');
+    -unity-background-image-tint-color: rgb(28, 179, 255);
+    background-color: rgba(0, 0, 0, 0);
+    width: 150px;
+    height: 150px;
+}
+
+.cms-center-justifier-wrapper {
+    align-items: center;
+    justify-content: center;
+}
+
+.cms-item-fragen-btn2 {
+    border-left-color: rgb(28, 179, 255);
+    border-right-color: rgb(28, 179, 255);
+    border-top-color: rgb(28, 179, 255);
+    border-bottom-color: rgb(28, 179, 255);
+    border-left-width: 10px;
+    border-right-width: 10px;
+    border-top-width: 10px;
+    border-bottom-width: 10px;
+    background-color: rgb(255, 255, 255);
+    -unity-text-align: middle-left;
+    -unity-font-definition: url('project://database/Assets/Fonts/Fira_Sans/FiraSans-SemiBold%20SDF.asset?fileID=11400000&guid=f2b30bdb006924f458d13fa9d2ae7592&type=2#FiraSans-SemiBold SDF');
+    color: rgb(28, 179, 255);
+    padding-left: 250px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    white-space: normal;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.cms-item-fragen-btn2-icon {
+    background-image: url('project://database/Assets/Sprites/link_iconw.png?fileID=2800000&guid=503ec8db160a242d58546865fe1f064c&type=3#link_iconw');
+    -unity-background-image-tint-color: rgb(28, 179, 255);
+    width: 150px;
+    height: 150px;
+    padding-left: 0;
+    margin-left: -200px;
+}
+
+.cms-app-logo {
+    background-image: url('project://database/Assets/Sprites/vaplogo.png?fileID=2800000&guid=6be31aade13d1b64884d30a0cbba93b7&type=3#vaplogo');
+    height: 300px;
+    width: 600px;
+    align-items: center;
+    justify-content: center;
+    -unity-text-align: upper-center;
+    -unity-background-image-tint-color: rgb(92, 55, 2);
+}
+
+.cms-app-logo-wrapper {
+    align-items: center;
+    width: auto;
+}
+
+.cms-animation-menu-close {
+    translate: 0 70%;
+    transition-duration: 2s;
+    transition-delay: 0.5s;
+}
+
+.cms-animation-menu-open {
+    translate: 0 0;
+    transition-duration: 2s;
+    transition-delay: 0.5s;
+}
+
+.cms-menu-info-label {
+    -unity-font-definition: url('project://database/Assets/Fonts/Fira_Sans/FiraSans-SemiBold%20SDF.asset?fileID=11400000&guid=f2b30bdb006924f458d13fa9d2ae7592&type=2#FiraSans-SemiBold SDF');
+    font-size: 62px;
+    -unity-font-style: normal;
+    margin-bottom: 100px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 200px;
+}
+
+.cms-logo-varus {
+    background-image: url('project://database/Assets/Sprites/varus.png?fileID=2800000&guid=9e25fc6bf74eaa44585ee570787967a9&type=3#varus');
+    width: 100%;
+    height: 225px;
+    margin-top: 200px;
+    margin-bottom: 400px;
+}
+
+.cms-filter-header-wrapper {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: auto;
+    margin-right: 0;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    font-size: 42px;
+}
+
+.cms-filter-header-filter-button {
+    -unity-font-definition: url('project://database/Assets/Fonts/Fira_Sans/FiraSans-Medium%20SDF.asset?fileID=11400000&guid=2ed7cd1b7d2844dac8c5aa3504b8af57&type=2#FiraSans-Medium SDF');
+    color: rgb(0, 0, 0);
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0);
+    width: auto;
+    -unity-text-align: middle-left;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.cms-filter-header-auswahlAnzeigen-disabled {
+    -unity-font-definition: url('project://database/Assets/Fonts/Fira_Sans/FiraSans-Medium%20SDF.asset?fileID=11400000&guid=2ed7cd1b7d2844dac8c5aa3504b8af57&type=2#FiraSans-Medium SDF');
+    background-color: rgba(0, 0, 0, 0);
+    border-left-color: rgb(146, 146, 146);
+    border-right-color: rgb(146, 146, 146);
+    border-top-color: rgb(146, 146, 146);
+    border-bottom-color: rgb(146, 146, 146);
+    border-left-width: 10px;
+    border-right-width: 10px;
+    border-top-width: 10px;
+    border-bottom-width: 10px;
+    color: rgb(146, 146, 146);
+    width: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 42px;
+}
+
+.cms-filter-box {
+    height: 150px;
+    -unity-text-align: middle-left;
+    font-size: 58px;
+    -unity-font-definition: url('project://database/Assets/Fonts/Fira_Sans/FiraSans-SemiBold%20SDF.asset?fileID=11400000&guid=f2b30bdb006924f458d13fa9d2ae7592&type=2#FiraSans-SemiBold SDF');
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-left-width: 10px;
+    border-right-width: 10px;
+    border-top-width: 10px;
+    border-bottom-width: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.cms-filter-box-selected {
+    height: 150px;
+    -unity-text-align: middle-left;
+    font-size: 58px;
+    -unity-font-definition: url('project://database/Assets/Fonts/Fira_Sans/FiraSans-SemiBold%20SDF.asset?fileID=11400000&guid=f2b30bdb006924f458d13fa9d2ae7592&type=2#FiraSans-SemiBold SDF');
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-left-width: 10px;
+    border-right-width: 10px;
+    border-top-width: 10px;
+    border-bottom-width: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.cms-filter-box-allesAnzeigen-enabled {
+    height: 150px;
+    -unity-text-align: middle-left;
+    font-size: 58px;
+    -unity-font-definition: url('project://database/Assets/Fonts/Fira_Sans/FiraSans-SemiBold%20SDF.asset?fileID=11400000&guid=f2b30bdb006924f458d13fa9d2ae7592&type=2#FiraSans-SemiBold SDF');
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-left-color: rgb(16, 159, 148);
+    border-right-color: rgb(16, 159, 148);
+    border-top-color: rgb(16, 159, 148);
+    border-bottom-color: rgb(16, 159, 148);
+    border-left-width: 10px;
+    border-right-width: 10px;
+    border-top-width: 10px;
+    border-bottom-width: 10px;
+    background-color: rgb(16, 159, 148);
+    color: rgb(255, 255, 255);
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.cms-filter-box-funde {
+    height: 150px;
+    -unity-text-align: middle-left;
+    font-size: 58px;
+    -unity-font-definition: url('project://database/Assets/Fonts/Fira_Sans/FiraSans-SemiBold%20SDF.asset?fileID=11400000&guid=f2b30bdb006924f458d13fa9d2ae7592&type=2#FiraSans-SemiBold SDF');
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-left-color: rgb(28, 179, 255);
+    border-right-color: rgb(28, 179, 255);
+    border-top-color: rgb(28, 179, 255);
+    border-bottom-color: rgb(28, 179, 255);
+    border-left-width: 10px;
+    border-right-width: 10px;
+    border-top-width: 10px;
+    border-bottom-width: 10px;
+    background-color: rgba(255, 255, 255, 0);
+    color: rgb(28, 179, 255);
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.cms-filter-box-panorama {
+    height: 150px;
+    -unity-text-align: middle-left;
+    font-size: 58px;
+    -unity-font-definition: url('project://database/Assets/Fonts/Fira_Sans/FiraSans-SemiBold%20SDF.asset?fileID=11400000&guid=f2b30bdb006924f458d13fa9d2ae7592&type=2#FiraSans-SemiBold SDF');
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-left-color: rgb(77, 49, 154);
+    border-right-color: rgb(77, 49, 154);
+    border-top-color: rgb(77, 49, 154);
+    border-bottom-color: rgb(77, 49, 154);
+    border-left-width: 10px;
+    border-right-width: 10px;
+    border-top-width: 10px;
+    border-bottom-width: 10px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(77, 49, 154);
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.cms-filter-box-spiele {
+    height: 150px;
+    -unity-text-align: middle-left;
+    font-size: 58px;
+    -unity-font-definition: url('project://database/Assets/Fonts/Fira_Sans/FiraSans-SemiBold%20SDF.asset?fileID=11400000&guid=f2b30bdb006924f458d13fa9d2ae7592&type=2#FiraSans-SemiBold SDF');
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-left-color: rgb(253, 131, 0);
+    border-right-color: rgb(253, 131, 0);
+    border-top-color: rgb(253, 131, 0);
+    border-bottom-color: rgb(253, 131, 0);
+    border-left-width: 10px;
+    border-right-width: 10px;
+    border-top-width: 10px;
+    border-bottom-width: 10px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(253, 131, 0);
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.cms-filter-box-touren {
+    height: 150px;
+    -unity-text-align: middle-left;
+    font-size: 58px;
+    -unity-font-definition: url('project://database/Assets/Fonts/Fira_Sans/FiraSans-SemiBold%20SDF.asset?fileID=11400000&guid=f2b30bdb006924f458d13fa9d2ae7592&type=2#FiraSans-SemiBold SDF');
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-left-color: rgb(80, 193, 42);
+    border-right-color: rgb(80, 193, 42);
+    border-top-color: rgb(80, 193, 42);
+    border-bottom-color: rgb(80, 193, 42);
+    border-left-width: 10px;
+    border-right-width: 10px;
+    border-top-width: 10px;
+    border-bottom-width: 10px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(80, 193, 42);
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.cms-filter-box-grabungen {
+    height: 150px;
+    -unity-text-align: middle-left;
+    font-size: 58px;
+    -unity-font-definition: url('project://database/Assets/Fonts/Fira_Sans/FiraSans-SemiBold%20SDF.asset?fileID=11400000&guid=f2b30bdb006924f458d13fa9d2ae7592&type=2#FiraSans-SemiBold SDF');
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-left-color: rgb(39, 48, 255);
+    border-right-color: rgb(39, 48, 255);
+    border-top-color: rgb(39, 48, 255);
+    border-bottom-color: rgb(39, 48, 255);
+    border-left-width: 10px;
+    border-right-width: 10px;
+    border-top-width: 10px;
+    border-bottom-width: 10px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(39, 48, 255);
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.cms-filter-box-landschaft {
+    height: 150px;
+    -unity-text-align: middle-left;
+    font-size: 58px;
+    -unity-font-definition: url('project://database/Assets/Fonts/Fira_Sans/FiraSans-SemiBold%20SDF.asset?fileID=11400000&guid=f2b30bdb006924f458d13fa9d2ae7592&type=2#FiraSans-SemiBold SDF');
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-left-color: rgb(92, 55, 2);
+    border-right-color: rgb(92, 55, 2);
+    border-top-color: rgb(92, 55, 2);
+    border-bottom-color: rgb(92, 55, 2);
+    border-left-width: 10px;
+    border-right-width: 10px;
+    border-top-width: 10px;
+    border-bottom-width: 10px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(92, 55, 2);
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.cms-filter-box-funde-dropdown-icon-closed {
+    background-image: url('project://database/Assets/Sprites/Path%203542.png?fileID=2800000&guid=4c418c97eab98fb4794a948a9c718608&type=3#Path 3542');
+    -unity-background-image-tint-color: rgb(28, 179, 255);
+    width: 100px;
+    height: 60px;
+    rotate: 180deg;
+    background-color: rgba(0, 0, 0, 0);
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    color: rgba(210, 210, 210, 0);
+    margin-top: 0;
+}
+
+.cms-filter-box-funde-dropdown-icon-wrapper {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cms-filter-box-funde-button {
+    -unity-text-align: middle-left;
+    width: 70%;
+    height: 150px;
+    font-size: 58px;
+    overflow: visible;
+    color: rgb(28, 179, 255);
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0);
+    visibility: visible;
+    margin-left: 0;
+}
+
+.cms-filter-box-funde-dropdown {
+    border-left-color: rgb(28, 179, 255);
+    border-right-color: rgb(28, 179, 255);
+    border-top-color: rgb(28, 179, 255);
+    border-bottom-color: rgb(28, 179, 255);
+    border-left-width: 10px;
+    border-right-width: 10px;
+    border-top-width: 10px;
+    border-bottom-width: 10px;
+    font-size: 52px;
+    color: rgb(146, 146, 146);
+    -unity-font-definition: url('project://database/Assets/Fonts/Fira_Sans/FiraSans-SemiBold%20SDF.asset?fileID=11400000&guid=f2b30bdb006924f458d13fa9d2ae7592&type=2#FiraSans-SemiBold SDF');
+    flex-direction: column;
+    margin-top: -25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: none;
+    margin-bottom: 20px;
+}
+
+.cms-filter-box-funde-dropdown-icon-opened {
+    background-image: url('project://database/Assets/Sprites/Path%203542.png?fileID=2800000&guid=4c418c97eab98fb4794a948a9c718608&type=3#Path 3542');
+    -unity-background-image-tint-color: rgb(28, 179, 255);
+    width: 100px;
+    height: 60px;
+    rotate: 0;
+    background-color: rgba(0, 0, 0, 0);
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    color: rgba(210, 210, 210, 0);
+    margin-top: 0;
+}
+
+.cms-filter-box-funde-button-selected {
+    -unity-text-align: middle-left;
+    width: 70%;
+    height: 150px;
+    font-size: 58px;
+    overflow: visible;
+    color: rgb(255, 255, 255);
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0);
+    visibility: visible;
+    margin-left: 0;
+}
+
+.cms-filter-box-funde-selected {
+    height: 150px;
+    -unity-text-align: middle-left;
+    font-size: 58px;
+    -unity-font-definition: url('project://database/Assets/Fonts/Fira_Sans/FiraSans-SemiBold%20SDF.asset?fileID=11400000&guid=f2b30bdb006924f458d13fa9d2ae7592&type=2#FiraSans-SemiBold SDF');
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-left-color: rgb(28, 179, 255);
+    border-right-color: rgb(28, 179, 255);
+    border-top-color: rgb(28, 179, 255);
+    border-bottom-color: rgb(28, 179, 255);
+    border-left-width: 10px;
+    border-right-width: 10px;
+    border-top-width: 10px;
+    border-bottom-width: 10px;
+    background-color: rgb(28, 179, 255);
+    color: rgb(28, 179, 255);
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.cms-filter-box-funde-dropdown-icon-opened-selected {
+    background-image: url('project://database/Assets/Sprites/Path%203542.png?fileID=2800000&guid=4c418c97eab98fb4794a948a9c718608&type=3#Path 3542');
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+    width: 100px;
+    height: 60px;
+    rotate: 0;
+    background-color: rgba(0, 0, 0, 0);
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    color: rgba(210, 210, 210, 0);
+    margin-top: 0;
+}
+
+.cms-filter-box-funde-dropdown-icon-closed-selected {
+    background-image: url('project://database/Assets/Sprites/Path%203542.png?fileID=2800000&guid=4c418c97eab98fb4794a948a9c718608&type=3#Path 3542');
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+    width: 100px;
+    height: 60px;
+    rotate: 180deg;
+    background-color: rgba(0, 0, 0, 0);
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    color: rgba(210, 210, 210, 0);
+    margin-top: 0;
+}
+
+.unity-button:disabled {
+    opacity: 1;
+}
+
+.cms-filter-box-panorama-selected {
+    height: 150px;
+    -unity-text-align: middle-left;
+    font-size: 58px;
+    -unity-font-definition: url('project://database/Assets/Fonts/Fira_Sans/FiraSans-SemiBold%20SDF.asset?fileID=11400000&guid=f2b30bdb006924f458d13fa9d2ae7592&type=2#FiraSans-SemiBold SDF');
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-left-color: rgb(77, 49, 154);
+    border-right-color: rgb(77, 49, 154);
+    border-top-color: rgb(77, 49, 154);
+    border-bottom-color: rgb(77, 49, 154);
+    border-left-width: 10px;
+    border-right-width: 10px;
+    border-top-width: 10px;
+    border-bottom-width: 10px;
+    background-color: rgb(77, 49, 154);
+    color: rgb(255, 255, 255);
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.cms-filter-angewendete-wrapper {
+    -unity-font-definition: url('project://database/Assets/Fonts/Fira_Sans/FiraSans-Medium%20SDF.asset?fileID=11400000&guid=2ed7cd1b7d2844dac8c5aa3504b8af57&type=2#FiraSans-Medium SDF');
+    color: rgb(0, 0, 0);
+    align-items: flex-start;
+    margin-bottom: 20px;
+    font-size: 42px;
+}
+
+.cms-filter-tag {
+    color: rgb(255, 255, 255);
+    font-size: 48px;
+    background-color: rgb(16, 159, 148);
+    padding-left: 120px;
+    padding-right: 40px;
+    margin-right: 30px;
+    align-items: center;
+    flex-direction: row;
+    height: 80px;
+    margin-bottom: 20px;
+}
+
+.cms-filter-tag-close-icon {
+    background-image: url('project://database/Assets/Sprites/InGameUI/exit_cross_sprite.png?fileID=2800000&guid=0cd603c8a0c4c794b8afd0a1b596654e&type=3#exit_cross_sprite');
+    background-color: rgba(0, 0, 0, 0);
+    width: 60px;
+    height: 60px;
+    margin-left: -100px;
+    margin-right: 40px;
+}
+
+.cms-filter-box-allesAnzeigen-disabled {
+    height: 150px;
+    -unity-text-align: middle-left;
+    font-size: 58px;
+    -unity-font-definition: url('project://database/Assets/Fonts/Fira_Sans/FiraSans-SemiBold%20SDF.asset?fileID=11400000&guid=f2b30bdb006924f458d13fa9d2ae7592&type=2#FiraSans-SemiBold SDF');
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-left-color: rgb(146, 146, 146);
+    border-right-color: rgb(146, 146, 146);
+    border-top-color: rgb(146, 146, 146);
+    border-bottom-color: rgb(146, 146, 146);
+    border-left-width: 10px;
+    border-right-width: 10px;
+    border-top-width: 10px;
+    border-bottom-width: 10px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(146, 146, 146);
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.cms-filter-tags-wrapper {
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.cms-filter-header-auswahlAnzeigen-enabled {
+    font-size: 42px;
+    -unity-font-definition: url('project://database/Assets/Fonts/Fira_Sans/FiraSans-Medium%20SDF.asset?fileID=11400000&guid=2ed7cd1b7d2844dac8c5aa3504b8af57&type=2#FiraSans-Medium SDF');
+    background-color: rgb(16, 159, 148);
+    border-left-color: rgb(16, 159, 148);
+    border-right-color: rgb(16, 159, 148);
+    border-top-color: rgb(16, 159, 148);
+    border-bottom-color: rgb(16, 159, 148);
+    border-left-width: 10px;
+    border-right-width: 10px;
+    border-top-width: 10px;
+    border-bottom-width: 10px;
+    color: rgb(255, 255, 255);
+    width: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.cms-filter-box-spiele-selected {
+    height: 150px;
+    -unity-text-align: middle-left;
+    font-size: 58px;
+    -unity-font-definition: url('project://database/Assets/Fonts/Fira_Sans/FiraSans-SemiBold%20SDF.asset?fileID=11400000&guid=f2b30bdb006924f458d13fa9d2ae7592&type=2#FiraSans-SemiBold SDF');
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-left-color: rgb(253, 131, 0);
+    border-right-color: rgb(253, 131, 0);
+    border-top-color: rgb(253, 131, 0);
+    border-bottom-color: rgb(253, 131, 0);
+    border-left-width: 10px;
+    border-right-width: 10px;
+    border-top-width: 10px;
+    border-bottom-width: 10px;
+    background-color: rgb(253, 131, 0);
+    color: rgb(255, 255, 255);
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.cms-filter-box-touren-selected {
+    height: 150px;
+    -unity-text-align: middle-left;
+    font-size: 58px;
+    -unity-font-definition: url('project://database/Assets/Fonts/Fira_Sans/FiraSans-SemiBold%20SDF.asset?fileID=11400000&guid=f2b30bdb006924f458d13fa9d2ae7592&type=2#FiraSans-SemiBold SDF');
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-left-color: rgb(80, 193, 42);
+    border-right-color: rgb(80, 193, 42);
+    border-top-color: rgb(80, 193, 42);
+    border-bottom-color: rgb(80, 193, 42);
+    border-left-width: 10px;
+    border-right-width: 10px;
+    border-top-width: 10px;
+    border-bottom-width: 10px;
+    background-color: rgb(80, 193, 42);
+    color: rgb(255, 255, 255);
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.cms-filter-box-landschaft-selected {
+    height: 150px;
+    -unity-text-align: middle-left;
+    font-size: 58px;
+    -unity-font-definition: url('project://database/Assets/Fonts/Fira_Sans/FiraSans-SemiBold%20SDF.asset?fileID=11400000&guid=f2b30bdb006924f458d13fa9d2ae7592&type=2#FiraSans-SemiBold SDF');
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-left-color: rgb(92, 55, 2);
+    border-right-color: rgb(92, 55, 2);
+    border-top-color: rgb(92, 55, 2);
+    border-bottom-color: rgb(92, 55, 2);
+    border-left-width: 10px;
+    border-right-width: 10px;
+    border-top-width: 10px;
+    border-bottom-width: 10px;
+    background-color: rgb(92, 55, 2);
+    color: rgb(255, 255, 255);
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.cms-filter-box-grabungen-dropdown-icon-closed {
+    background-image: url('project://database/Assets/Sprites/Path%203542.png?fileID=2800000&guid=4c418c97eab98fb4794a948a9c718608&type=3#Path 3542');
+    -unity-background-image-tint-color: rgb(39, 48, 255);
+    width: 100px;
+    height: 60px;
+    rotate: 180deg;
+    background-color: rgba(0, 0, 0, 0);
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    color: rgba(210, 210, 210, 0);
+    margin-top: 0;
+}
+
+.cms-filter-box-grabungen-button {
+    -unity-text-align: middle-left;
+    width: 70%;
+    height: 150px;
+    font-size: 58px;
+    overflow: visible;
+    color: rgb(39, 48, 255);
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0);
+    visibility: visible;
+    margin-left: 0;
+}
+
+.cms-filter-box-grabungen-dropdown {
+    border-left-color: rgb(39, 48, 255);
+    border-right-color: rgb(39, 48, 255);
+    border-top-color: rgb(39, 48, 255);
+    border-bottom-color: rgb(39, 48, 255);
+    border-left-width: 10px;
+    border-right-width: 10px;
+    border-top-width: 10px;
+    border-bottom-width: 10px;
+    font-size: 52px;
+    color: rgb(146, 146, 146);
+    -unity-font-definition: url('project://database/Assets/Fonts/Fira_Sans/FiraSans-SemiBold%20SDF.asset?fileID=11400000&guid=f2b30bdb006924f458d13fa9d2ae7592&type=2#FiraSans-SemiBold SDF');
+    flex-direction: column;
+    margin-top: -25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: none;
+    margin-bottom: 20px;
+}
+
+.cms-filter-box-grabungen-dropdown-icon-opened {
+    background-image: url('project://database/Assets/Sprites/Path%203542.png?fileID=2800000&guid=4c418c97eab98fb4794a948a9c718608&type=3#Path 3542');
+    -unity-background-image-tint-color: rgb(39, 48, 255);
+    width: 100px;
+    height: 60px;
+    rotate: 0;
+    background-color: rgba(0, 0, 0, 0);
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    color: rgba(210, 210, 210, 0);
+    margin-top: 0;
+}
+
+.cms-filter-box-grabungen-button-selected {
+    -unity-text-align: middle-left;
+    width: 70%;
+    height: 150px;
+    font-size: 58px;
+    overflow: visible;
+    color: rgb(255, 255, 255);
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0);
+    visibility: visible;
+    margin-left: 0;
+}
+
+.cms-filter-box-grabungen-selected {
+    height: 150px;
+    -unity-text-align: middle-left;
+    font-size: 58px;
+    -unity-font-definition: url('project://database/Assets/Fonts/Fira_Sans/FiraSans-SemiBold%20SDF.asset?fileID=11400000&guid=f2b30bdb006924f458d13fa9d2ae7592&type=2#FiraSans-SemiBold SDF');
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-left-color: rgb(39, 48, 255);
+    border-right-color: rgb(39, 48, 255);
+    border-top-color: rgb(39, 48, 255);
+    border-bottom-color: rgb(39, 48, 255);
+    border-left-width: 10px;
+    border-right-width: 10px;
+    border-top-width: 10px;
+    border-bottom-width: 10px;
+    background-color: rgb(39, 48, 255);
+    color: rgb(39, 48, 255);
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.cms-filter-box-grabungen-dropdown-icon-opened-selected {
+    background-image: url('project://database/Assets/Sprites/Path%203542.png?fileID=2800000&guid=4c418c97eab98fb4794a948a9c718608&type=3#Path 3542');
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+    width: 100px;
+    height: 60px;
+    rotate: 0;
+    background-color: rgba(0, 0, 0, 0);
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    color: rgba(210, 210, 210, 0);
+    margin-top: 0;
+}
+
+.cms-filter-box-grabungen-dropdown-icon-closed-selected {
+    background-image: url('project://database/Assets/Sprites/Path%203542.png?fileID=2800000&guid=4c418c97eab98fb4794a948a9c718608&type=3#Path 3542');
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+    width: 100px;
+    height: 60px;
+    rotate: 180deg;
+    background-color: rgba(0, 0, 0, 0);
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    color: rgba(210, 210, 210, 0);
+    margin-top: 0;
+}
+
+.cms-filter-box-grabungen-dropdown-icon-wrapper {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cms-filter-radiobutton {
+    width: 60px;
+    height: 60px;
+    border-left-color: rgb(196, 196, 196);
+    border-right-color: rgb(196, 196, 196);
+    border-top-color: rgb(196, 196, 196);
+    border-bottom-color: rgb(196, 196, 196);
+    border-left-width: 5px;
+    border-right-width: 5px;
+    border-top-width: 5px;
+    border-bottom-width: 5px;
+    border-top-left-radius: 60px;
+    border-bottom-left-radius: 60px;
+    border-top-right-radius: 60px;
+    border-bottom-right-radius: 60px;
+    -unity-text-align: middle-center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.cms-filter-radiobutton-wrapper {
+    align-items: center;
+    justify-content: center;
+    -unity-text-align: middle-center;
+}
+
+.cms-filter-radiobutton-grabungen-selected {
+    color: rgb(39, 48, 255);
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.unity-radio-button__checkmark-background {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: rgba(0, 0, 0, 0);
+    border-width: 6px;
+    border-color: rgb(196, 196, 196);
+    color: rgb(196, 196, 196);
+    padding-top: 0;
+    margin-right: 20px;
+    justify-content: center;
+}
+
+.unity-radio-button__checkmark {
+    width: 56px;
+    height: 56px;
+    border-radius: 56px;
+    background-color: rgb(196, 196, 196);
+}
+
+.unity-radio-button {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.cms-filter-radiobutton-checkmark-grabungen-selected {
+    background-color: rgb(39, 48, 255);
+}
+
+.cms-filter-radiobutton-background-grabungen-selected {
+    border-color: rgb(39, 48, 255);
+}
+
+.cms-filter-radiobutton-checkmark-funde-selected {
+    background-color: rgb(28, 179, 255);
+}
+
+.cms-filter-radiobutton-funde-selected {
+    color: rgb(28, 179, 255);
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.cms-filter-radiobutton-disabled {
+    color: rgb(146, 146, 146);
+}
+
+.cms-liste-button-spiele {
+    border-left-color: rgb(253, 131, 0);
+    border-right-color: rgb(253, 131, 0);
+    border-top-color: rgb(253, 131, 0);
+    border-bottom-color: rgb(253, 131, 0);
+    border-left-width: 10px;
+    border-right-width: 10px;
+    border-top-width: 10px;
+    border-bottom-width: 10px;
+    background-color: rgba(255, 255, 255, 0);
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(253, 131, 0);
+    -unity-text-align: middle-left;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    -unity-background-image-tint-color: rgb(253, 131, 0);
+    -unity-font-definition: url('project://database/Assets/Fonts/Fira_Sans/FiraSans-SemiBold%20SDF.asset?fileID=11400000&guid=f2b30bdb006924f458d13fa9d2ae7592&type=2#FiraSans-SemiBold SDF');
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 0;
+}
+
+.cms-liste-button-headline {
+    -unity-font-definition: url('project://database/Assets/Fonts/Fira_Sans/FiraSans-SemiBold%20SDF.asset?fileID=11400000&guid=f2b30bdb006924f458d13fa9d2ae7592&type=2#FiraSans-SemiBold SDF');
+    font-size: 62px;
+    -unity-font-style: normal;
+    margin-bottom: 0;
+    white-space: normal;
+    -unity-text-align: middle-left;
+}
+
+.cms-liste-button-subheadline {
+    -unity-font-definition: url('project://database/Assets/Fonts/Fira_Sans/FiraSans-Medium%20SDF.asset?fileID=11400000&guid=2ed7cd1b7d2844dac8c5aa3504b8af57&type=2#FiraSans-Medium SDF');
+    font-size: 52px;
+    margin-top: 0;
+    justify-content: center;
+    align-items: flex-start;
+    -unity-text-align: middle-left;
+}
+
+.cms-liste-button-icon-spiele {
+    background-image: url('project://database/Assets/Sprites/circle_arrow.png?fileID=2800000&guid=f77a5f3cd8ae8b840a12f9b25645d2d5&type=3#circle_arrow');
+    width: 150px;
+    height: 150px;
+    -unity-background-image-tint-color: rgb(255, 132, 0);
+}
+
+.cms-liste-button-fund {
+    border-left-color: rgb(28, 179, 255);
+    border-right-color: rgb(28, 179, 255);
+    border-top-color: rgb(28, 179, 255);
+    border-bottom-color: rgb(28, 179, 255);
+    border-left-width: 10px;
+    border-right-width: 10px;
+    border-top-width: 10px;
+    border-bottom-width: 10px;
+    background-color: rgba(255, 255, 255, 0);
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(28, 179, 255);
+    -unity-text-align: middle-left;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    -unity-background-image-tint-color: rgb(28, 179, 255);
+    -unity-font-definition: url('project://database/Assets/Fonts/Fira_Sans/FiraSans-SemiBold%20SDF.asset?fileID=11400000&guid=f2b30bdb006924f458d13fa9d2ae7592&type=2#FiraSans-SemiBold SDF');
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.cms-liste-button-touren {
+    border-left-color: rgb(80, 193, 42);
+    border-right-color: rgb(80, 193, 42);
+    border-top-color: rgb(80, 193, 42);
+    border-bottom-color: rgb(80, 193, 42);
+    border-left-width: 10px;
+    border-right-width: 10px;
+    border-top-width: 10px;
+    border-bottom-width: 10px;
+    background-color: rgba(255, 255, 255, 0);
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(80, 193, 42);
+    -unity-text-align: middle-left;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    -unity-background-image-tint-color: rgb(80, 193, 42);
+    -unity-font-definition: url('project://database/Assets/Fonts/Fira_Sans/FiraSans-SemiBold%20SDF.asset?fileID=11400000&guid=f2b30bdb006924f458d13fa9d2ae7592&type=2#FiraSans-SemiBold SDF');
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.cms-liste-button-panorama {
+    border-left-color: rgb(77, 49, 154);
+    border-right-color: rgb(77, 49, 154);
+    border-top-color: rgb(77, 49, 154);
+    border-bottom-color: rgb(77, 49, 154);
+    border-left-width: 10px;
+    border-right-width: 10px;
+    border-top-width: 10px;
+    border-bottom-width: 10px;
+    background-color: rgba(255, 255, 255, 0);
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(77, 49, 154);
+    -unity-text-align: middle-left;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    -unity-background-image-tint-color: rgb(77, 49, 154);
+    -unity-font-definition: url('project://database/Assets/Fonts/Fira_Sans/FiraSans-SemiBold%20SDF.asset?fileID=11400000&guid=f2b30bdb006924f458d13fa9d2ae7592&type=2#FiraSans-SemiBold SDF');
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.cms-liste-button-ausgrabung {
+    border-left-color: rgb(39, 48, 255);
+    border-right-color: rgb(39, 48, 255);
+    border-top-color: rgb(39, 48, 255);
+    border-bottom-color: rgb(39, 48, 255);
+    border-left-width: 10px;
+    border-right-width: 10px;
+    border-top-width: 10px;
+    border-bottom-width: 10px;
+    background-color: rgba(255, 255, 255, 0);
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(39, 48, 255);
+    -unity-text-align: middle-left;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    -unity-background-image-tint-color: rgb(39, 48, 255);
+    -unity-font-definition: url('project://database/Assets/Fonts/Fira_Sans/FiraSans-SemiBold%20SDF.asset?fileID=11400000&guid=f2b30bdb006924f458d13fa9d2ae7592&type=2#FiraSans-SemiBold SDF');
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.cms-liste-button-icon-fund {
+    background-image: url('project://database/Assets/Sprites/circle_arrow.png?fileID=2800000&guid=f77a5f3cd8ae8b840a12f9b25645d2d5&type=3#circle_arrow');
+    width: 150px;
+    height: 150px;
+    -unity-background-image-tint-color: rgb(28, 179, 255);
+}
+
+.cms-liste-button-icon-touren {
+    background-image: url('project://database/Assets/Sprites/circle_arrow.png?fileID=2800000&guid=f77a5f3cd8ae8b840a12f9b25645d2d5&type=3#circle_arrow');
+    width: 150px;
+    height: 150px;
+    -unity-background-image-tint-color: rgb(80, 193, 42);
+}
+
+.cms-liste-button-icon-panorama {
+    background-image: url('project://database/Assets/Sprites/circle_arrow.png?fileID=2800000&guid=f77a5f3cd8ae8b840a12f9b25645d2d5&type=3#circle_arrow');
+    width: 150px;
+    height: 150px;
+    -unity-background-image-tint-color: rgb(77, 49, 154);
+}
+
+.cms-liste-button-icon-ausgrabung {
+    background-image: url('project://database/Assets/Sprites/circle_arrow.png?fileID=2800000&guid=f77a5f3cd8ae8b840a12f9b25645d2d5&type=3#circle_arrow');
+    width: 150px;
+    height: 150px;
+    -unity-background-image-tint-color: rgb(39, 48, 255);
+}
+
+.cms-belohnungen-coins-active {
+    border-left-width: 10px;
+    border-right-width: 10px;
+    border-top-width: 10px;
+    border-bottom-width: 10px;
+    border-left-color: rgb(92, 55, 2);
+    border-right-color: rgb(92, 55, 2);
+    border-top-color: rgb(92, 55, 2);
+    border-bottom-color: rgb(92, 55, 2);
+    height: 250px;
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+    -unity-text-align: middle-left;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 40px;
+    flex-direction: row;
+    -unity-font-definition: url('project://database/Assets/Fonts/Fira_Sans/FiraSans-ExtraBold%20SDF.asset?fileID=11400000&guid=1b3c08b7161dd4c27bfdfd7f145fce61&type=2#FiraSans-ExtraBold SDF');
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: rgb(92, 55, 2);
+    -unity-font: none;
+    -unity-font-style: normal;
+}
+
+.cms-belohnungen-icon-active {
+    background-image: url('project://database/Assets/Sprites/roemisch-nicht-roemisch/noun-dollar-coins-481813-1A1A1A.png?fileID=2800000&guid=8b622c847dba0e340ac9b25db77e092b&type=3#noun-dollar-coins-481813-1A1A1A');
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+    width: 90px;
+    height: 110px;
+    margin-right: 30px;
+    -unity-font-style: normal;
+}
+
+.cms-belohnungen-button-active {
+    border-left-color: rgb(77, 49, 154);
+    border-right-color: rgb(77, 49, 154);
+    border-top-color: rgb(77, 49, 154);
+    border-bottom-color: rgb(77, 49, 154);
+    border-left-width: 20px;
+    border-right-width: 20px;
+    border-top-width: 20px;
+    border-bottom-width: 20px;
+    border-top-left-radius: 150px;
+    border-bottom-left-radius: 150px;
+    border-top-right-radius: 150px;
+    border-bottom-right-radius: 150px;
+    width: 90%;
+    -unity-text-align: middle-left;
+    align-items: center;
+    height: 300px;
+    color: rgb(77, 49, 154);
+    justify-content: space-between;
+    flex-direction: row;
+    padding-left: 100px;
+    padding-right: 50px;
+    -unity-font-definition: url('project://database/Assets/Fonts/Fira_Sans/FiraSans-Medium%20SDF.asset?fileID=11400000&guid=2ed7cd1b7d2844dac8c5aa3504b8af57&type=2#FiraSans-Medium SDF');
+    -unity-font-style: bold;
+    background-color: rgba(255, 255, 255, 0);
+    margin-top: 150px;
+}
+
+.cms-belohnungen-button-icon-active {
+    background-image: url('project://database/Assets/Sprites/camera.png?fileID=2800000&guid=7fd721b2a56fcbd40a05d5c0779d5f2e&type=3#camera');
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+    width: 200px;
+    height: 200px;
+}
+
+.cms-belohnungen-accordion-icon-disabled {
+    background-image: url('project://database/Assets/Sprites/Path%203542.png?fileID=2800000&guid=4c418c97eab98fb4794a948a9c718608&type=3#Path 3542');
+    -unity-background-image-tint-color: rgb(92, 55, 2);
+    width: 80px;
+    height: 50px;
+    rotate: 180deg;
+}
+
+.belohnungen-background-inverted {
+    background-color: rgb(92, 55, 2);
+    border-left-color: rgb(92, 55, 2);
+    border-right-color: rgb(92, 55, 2);
+    border-top-color: rgb(92, 55, 2);
+    border-bottom-color: rgb(92, 55, 2);
+    border-left-width: 8px;
+    border-right-width: 8px;
+    border-top-width: 8px;
+    border-bottom-width: 8px;
+    color: rgb(255, 255, 255);
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-right: 120px;
+    align-items: center;
+    -unity-text-align: upper-left;
+}
+
+.cms-menu-entry-icon-belohnungen-inverted {
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+    background-image: url('project://database/Assets/Sprites/roemisch-nicht-roemisch/noun-dollar-coins-481813-1A1A1A.png?fileID=2800000&guid=8b622c847dba0e340ac9b25db77e092b&type=3#noun-dollar-coins-481813-1A1A1A');
+    flex-direction: row;
+    justify-content: space-around;
+    margin-right: 50px;
+    margin-left: 0;
+    padding-left: 100px;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    align-items: center;
+    -unity-font-definition: none;
+    -unity-font: url('project://database/Assets/Fonts/KalkrBru.ttf?fileID=12800000&guid=ff21b0fabe037e64197c11e63d384b62&type=3#KalkrBru');
+    font-size: 100px;
+    -unity-text-align: upper-center;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.cms-belohnungen-category {
+    font-size: 42px;
+    -unity-font-definition: url('project://database/Assets/Fonts/Fira_Sans/FiraSans-Medium%20SDF.asset?fileID=11400000&guid=2ed7cd1b7d2844dac8c5aa3504b8af57&type=2#FiraSans-Medium SDF');
+    color: rgb(92, 55, 2);
+    margin-bottom: 50px;
+}
+
+.cms-fragen-background-waves {
+    width: 100%;
+    height: 100%;
+    background-image: url('project://database/Assets/Sprites/waves.png?fileID=2800000&guid=1c474949d75f12f4aaba322c804163cc&type=3#waves');
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+}
+
+.cms-cards-header-wrapper-fragen {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    -unity-text-align: middle-left;
+    -unity-font-definition: none;
+    -unity-font: url('project://database/Assets/Fonts/Fira_Sans/FiraSans-Medium.ttf?fileID=12800000&guid=c8cad423f7ade48afb118eaa04dee0dd&type=3#FiraSans-Medium');
+    font-size: 58px;
+    letter-spacing: 0;
+    color: rgb(92, 55, 2);
+}
+
+.cms-cards-header-wrapper-spiele {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    -unity-text-align: middle-left;
+    -unity-font-definition: none;
+    -unity-font: url('project://database/Assets/Fonts/Fira_Sans/FiraSans-Medium.ttf?fileID=12800000&guid=c8cad423f7ade48afb118eaa04dee0dd&type=3#FiraSans-Medium');
+    font-size: 58px;
+    letter-spacing: 0;
+    color: rgb(253, 131, 0);
+}
+
+.cms-cards-header-wrapper-touren {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    -unity-text-align: middle-left;
+    -unity-font-definition: none;
+    -unity-font: url('project://database/Assets/Fonts/Fira_Sans/FiraSans-Medium.ttf?fileID=12800000&guid=c8cad423f7ade48afb118eaa04dee0dd&type=3#FiraSans-Medium');
+    font-size: 58px;
+    letter-spacing: 0;
+    color: rgb(80, 193, 42);
+}
+
+.cms-cards-header-wrapper-grabungen {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    -unity-text-align: middle-left;
+    -unity-font-definition: none;
+    -unity-font: url('project://database/Assets/Fonts/Fira_Sans/FiraSans-Medium.ttf?fileID=12800000&guid=c8cad423f7ade48afb118eaa04dee0dd&type=3#FiraSans-Medium');
+    font-size: 70px;
+    letter-spacing: 0;
+    color: rgb(39, 48, 255);
+    word-spacing: -20px;
+}
+
+.cms-liste-button-labelwrapper {
+    -unity-text-align: middle-left;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    background-color: rgba(255, 255, 255, 0);
+    flex-direction: column;
+    width: 80%;
+}
+
+.unity-foldout__toggle > .unity-toggle__input:focus > .unity-label {
+    color: black;
+}
+
+.unity-toggle__checkmark {
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+}
+
+.cms-filter-checkbox-options {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    -unity-text-align: middle-left;
+}
+
+.toggle-label {
+    white-space: normal;
+    padding-left: 30px;
+    -unity-text-align: middle-left;
+}
+
+.cms-app-title-part2 {
+    -unity-text-align: middle-center;
+    -unity-font: url('project://database/Assets/Fonts/KalkrBru.ttf?fileID=12800000&guid=ff21b0fabe037e64197c11e63d384b62&type=3#KalkrBru');
+    -unity-font-definition: none;
+    font-size: 150px;
+    color: rgb(28, 179, 255);
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.cms-app-title-part3 {
+    -unity-font-definition: url('project://database/Assets/Fonts/Fira_Sans/FiraSans-SemiBold%20SDF.asset?fileID=11400000&guid=f2b30bdb006924f458d13fa9d2ae7592&type=2#FiraSans-SemiBold SDF');
+    color: rgb(92, 55, 2);
+    font-size: 80px;
+    -unity-text-align: upper-center;
+}
+
+.animation-move-slider {
+    transition-property: translate;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+}
+
+.animation-test {
+    translate: -1000px 0;
+}
+
+.cms-cards-groupbox {
+    flex-direction: row;
+    height: 100%;
+    width: 10000px;
+    transition-property: translate;
+    transition-duration: 0.5s;
+    transition-timing-function: linear;
+}
+
+.cms-archaologie-grabungen-decade {
+    -unity-font-definition: url('project://database/Assets/Fonts/Fira_Sans/FiraSans-Medium%20SDF.asset?fileID=11400000&guid=2ed7cd1b7d2844dac8c5aa3504b8af57&type=2#FiraSans-Medium SDF');
+    color: rgb(39, 48, 255);
+    -unity-text-align: middle-left;
+    font-size: 80px;
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 10px;
+    border-bottom-width: 0;
+    border-left-color: rgb(0, 0, 0);
+    border-right-color: rgb(0, 0, 0);
+    border-top-color: rgb(0, 0, 0);
+    border-bottom-color: rgb(0, 0, 0);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    justify-content: flex-start;
+    margin-left: 0;
+    width: 100%;
+    padding-left: -20px;
+}
+
+.cms-archaologie-grabungen-year {
+    -unity-font-definition: url('project://database/Assets/Fonts/Fira_Sans/FiraSans-Medium%20SDF.asset?fileID=11400000&guid=2ed7cd1b7d2844dac8c5aa3504b8af57&type=2#FiraSans-Medium SDF');
+    color: rgb(0, 0, 0);
+    font-size: 70px;
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 4px;
+    border-bottom-width: 0;
+    border-left-color: rgb(0, 0, 0);
+    border-right-color: rgb(0, 0, 0);
+    border-top-color: rgb(0, 0, 0);
+    border-bottom-color: rgb(0, 0, 0);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    margin-right: 0;
+    -unity-text-outline-color: rgb(0, 0, 0);
+    margin-left: 0;
+    width: 100%;
+}
+
+.cms-archaologie-accordeon-decade {
+    -unity-background-image-tint-color: rgb(39, 48, 255);
+    background-image: url('project://database/Assets/Sprites/Path%203542.png?fileID=2800000&guid=4c418c97eab98fb4794a948a9c718608&type=3#Path 3542');
+    height: 60px;
+    width: 95px;
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0);
+    align-items: center;
+    justify-content: center;
+    -unity-text-align: middle-left;
+    -unity-text-outline-color: rgba(0, 0, 0, 0);
+    padding-top: 0;
+    margin-top: 20px;
+    rotate: 0;
+}
+
+.cms-archaologie-accordeon-year {
+    -unity-background-image-tint-color: rgb(0, 0, 0);
+    background-image: url('project://database/Assets/Sprites/Path%203542.png?fileID=2800000&guid=4c418c97eab98fb4794a948a9c718608&type=3#Path 3542');
+    height: 45px;
+    width: 80px;
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0);
+    align-items: center;
+    justify-content: center;
+    -unity-text-align: middle-left;
+    -unity-text-outline-color: rgba(0, 0, 0, 0);
+    padding-top: 0;
+    margin-top: 20px;
+    rotate: 0;
+    margin-right: 0;
+    padding-right: 5px;
+}
+
+.cms-archaologie-grabungen-button {
+    -unity-font-definition: url('project://database/Assets/Fonts/Fira_Sans/FiraSans-Regular%20SDF.asset?fileID=11400000&guid=36e729ffba2314c35b160205607647ca&type=2#FiraSans-Regular SDF');
+    font-size: 58px;
+    width: 98%;
+    height: 225px;
+    color: rgb(39, 48, 255);
+    background-color: rgb(255, 255, 255);
+    border-left-color: rgb(39, 48, 255);
+    border-right-color: rgb(39, 48, 255);
+    border-top-color: rgb(39, 48, 255);
+    border-bottom-color: rgb(39, 48, 255);
+    border-left-width: 10px;
+    border-right-width: 10px;
+    border-top-width: 10px;
+    border-bottom-width: 10px;
+    -unity-text-align: middle-left;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 250px;
+    margin-bottom: 50px;
+    padding-top: 0;
+}
+
+.cms-archaologie-grabungen-button-icon {
+    background-image: url('project://database/Assets/Sprites/link_iconw.png?fileID=2800000&guid=503ec8db160a242d58546865fe1f064c&type=3#link_iconw');
+    -unity-background-image-tint-color: rgb(39, 48, 255);
+    width: 150px;
+    height: 150px;
+    border-left-color: rgba(255, 255, 255, 0);
+    border-right-color: rgba(255, 255, 255, 0);
+    border-top-color: rgba(255, 255, 255, 0);
+    border-bottom-color: rgba(255, 255, 255, 0);
+    background-color: rgba(255, 255, 255, 0);
+    padding-left: 0;
+    margin-left: -200px;
+}
+
+#decade > .unity-foldout__toggle > .unity-toggle__input:focus > .unity-label {
+    color: rgb(39, 48, 255);
+}
+
+.MainCompass {
+    background-image: url('project://database/Assets/Sprites/kompass/ohnenadel.png?fileID=2800000&guid=351fcaa60aeb646288c8c441c8159f91&type=3#ohnenadel');
+    height: 100%;
+    width: 25%;
+    -unity-background-scale-mode: scale-to-fit;
+    -unity-slice-top: 0;
+    -unity-slice-left: 0;
+    -unity-slice-right: 0;
+    -unity-slice-bottom: 0;
+    scale: 1.5 1.5;
+    translate: 0 -30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ARCompass {
+    background-image: url('project://database/Assets/Sprites/kompass/ohnenadelwhite.png?fileID=2800000&guid=ba750bf856935c84e84c714b0da71580&type=3#ohnenadelwhite');
+}
+
+.Ar360Button {
+    background-image: url('project://database/Assets/Sprites/kompass/360CloseIcon.png?fileID=21300000&guid=e412fb5ec2ea78f4eace9522ef01f26b&type=3#360CloseIcon');
+}
+
+.Ar360Btn {
+    -unity-background-scale-mode: scale-to-fit;
+    background-image: url('project://database/Assets/Sprites/kompass/360CloseIcon.png?fileID=2800000&guid=e412fb5ec2ea78f4eace9522ef01f26b&type=3#360CloseIcon');
+}
+
+.b360Btn {
+    background-image: resource('menu/icons/innactive/360');
+    -unity-background-scale-mode: scale-to-fit;
+}
+
+.cms-video-thumbnail {
+    width: auto;
+    height: 600px;
+    background-color: rgb(0, 0, 0);
+    align-items: center;
+    justify-content: center;
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+.cms-video-play-icon {
+    background-image: url('project://database/Assets/Sprites/play-video.png?fileID=2800000&guid=835c66b2e4dbd174daffaf36f5d6a477&type=3#play-video');
+    width: 300px;
+    height: 300px;
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0);
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+}
+
+.cms-menu-cards-arrow-wrapper {
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    position: absolute;
+    padding-left: 0;
+    margin-right: 0;
+    padding-right: 0;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.cms-menu-cards-arrow-icon-rounded {
+    width: 175px;
+    height: 175px;
+    align-items: center;
+    justify-content: center;
+    padding-right: 0;
+    background-image: url('project://database/Assets/Sprites/RadialMenu/circle.png?fileID=2800000&guid=4cd3023911445224daafe94e808c75cb&type=3#circle');
+    -unity-background-image-tint-color: rgb(92, 55, 2);
+    border-left-width: 10px;
+    border-right-width: 10px;
+    border-top-width: 10px;
+    border-bottom-width: 10px;
+    border-top-left-radius: 100%;
+    border-bottom-left-radius: 100%;
+    border-top-right-radius: 100%;
+    border-bottom-right-radius: 100%;
+    border-left-color: rgb(255, 255, 255);
+    border-right-color: rgb(255, 255, 255);
+    border-top-color: rgb(255, 255, 255);
+    border-bottom-color: rgb(255, 255, 255);
+    padding-left: 0;
+}
+
+.cms-menu-cards-arrow-icon {
+    background-image: url('project://database/Assets/Sprites/010203.png?fileID=2800000&guid=bdd92e46f8e70594bbc4d2aee477a3a0&type=3#010203');
+    width: 60px;
+    height: 100px;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.cms-cards-arrow-wrapper {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-color: rgba(0, 13, 255, 0);
+    display: flex;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    max-width: none;
+    min-width: auto;
+}
+
+.cms-menu-fragen-context-headline {
+    -unity-font: url('project://database/Assets/Fonts/KalkrBru.ttf?fileID=12800000&guid=ff21b0fabe037e64197c11e63d384b62&type=3#KalkrBru');
+    -unity-font-definition: none;
+    font-size: 120px;
+    color: rgba(0, 0, 0, 255);
+    -unity-text-align: upper-center;
+}
