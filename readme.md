@@ -101,3 +101,6 @@ Die VAP-App, unser interaktives Tool zur Varusschlacht + Archäologie im Park en
 - [Credits](#Credits)
 
 - [Lizenz](#Lizenz)
+- Die hier hinterlegte Anwendung wird unter der GNU GPLv3 Lizenz veröffentlicht. 
+- Sämtliche verwendete Programmteile Dritter sind mit der jeweiligen Lizenz:
+-   Unity 
