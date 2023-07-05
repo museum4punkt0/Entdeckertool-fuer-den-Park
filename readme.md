@@ -44,7 +44,7 @@ Das Projekt museum4punkt0 wird gefördert durch die Beauftragte der Bundesregier
         - [Lean Touch](https://assetstore.unity.com/packages/tools/input-management/lean-touch-30111)
     - Aufbau der Entwicklungsumgebung
       - Download 3D-Assets
-        Das Projekt verwendet 3D-Assets, die nicht in diesem Repository enthalten sind. Diese müssen vor dem Build heruntergeladen werden. Dazu muss der Ordner `Assets/0_3dAssets` angelegt werden. In diesem Ordner müssen die folgenden Assets abgelegt werden: https://var-production.xailabs.com/static/0_3dAssets.zip
+        Das Projekt verwendet 3D-Assets, die nicht in diesem Repository enthalten sind. Diese müssen vor dem Build heruntergeladen werden. Dazu muss der Ordner `Assets/0_3dAssets` angelegt werden. In diesem Ordner müssen die folgenden Assets abgelegt werden: [https://var-production.xailabs.com/static/0_3dAssets.zip](https://vap-production.kalkriese-varusschlacht.de/static/0_3dAssets.zip)
 
       - Installation der Unity-Plugins
         Die Unity-Plugins müssen über den Unity Package Manager installiert werden. Dazu muss im Unity-Editor unter `Window > Package Manager` der Package Manager geöffnet werden. Dort können die Plugins über den Button `+` installiert werden.
