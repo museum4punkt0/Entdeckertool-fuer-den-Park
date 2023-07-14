@@ -105,6 +105,18 @@ Das Projekt museum4punkt0 wird gefördert durch die Beauftragte der Bundesregier
    siehe Handbuch
 
 ## [Credits](#Credits)
+  
+  ### xailabs Team
+ - Creativ Direction / Concept : Claudius Brodmann
+ - Art Direction/ Lead UX/UI / Concept: Stephanie Hotz
+ - Software System Consulting/ Concept : Remo Zellmer
+ - Lead Developer / IT-Concept: Florian Weinrich
+ - Development / Unity : Isabela Costa
+ - Development / Unity : Esben Holk
+ - 3D Design, Modelling & Animation: Alex Macek
+ - Prototype/ Interaction Design: Kien Nguyen
+ - Sound Design: Media Apes
+
 
 ## [Lizenz](#Lizenz)
   - Die hier hinterlegte Anwendung wird unter der GNU GPLv3 Lizenz veröffentlicht.
