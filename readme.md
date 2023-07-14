@@ -107,6 +107,7 @@ Das Projekt museum4punkt0 wird gefördert durch die Beauftragte der Bundesregier
 ## [Credits](#Credits)
 
 ## [Lizenz](#Lizenz)
-  - Die hier hinterlegte Anwendung wird unter der GNU GPLv3 Lizenz veröffentlicht. 
+  - Die hier hinterlegte Anwendung wird unter der GNU GPLv3 Lizenz veröffentlicht.
+  - Die Assets unterliegen der Lizenz CC BY-NC 4.0.
   - Sämtliche verwendete Programmteile Dritter sind mit der jeweiligen Lizenz:
     - Unity 
