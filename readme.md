@@ -9,7 +9,7 @@ Ziel der App ist es, ein Vermittlungstool zu bieten, dass den Nutzer:innen das s
 
 Die App navigiert die Besucher:innen anhand GPS-verbundener Points of Interest (PoI) zu den Fundstellen Verknüpft mit den PoI sind digitale Kontexträume, die sich bei Annäherung freischalten und Informationen in Form von Bildern, Texten und Videos auf verschiedenen Vertiefungsebenen zu den einzelnen Funden zur Verfügung stellen. Ergänzend dazu bietet die App unterschiedliche Spiele (teilweise als AR-Spiele) und Thementouren mit ausgewählten PoI an, die spezifische methodische Forschungsaspekte in den Mittelpunkt rücken, angefangen bei der Prospektion über die Ausgrabung hin zur Restaurierung. Einige erlebnisorientierte Überraschungsmomente runden das Aktiv-Angebot ab. Sehr Interessierten bietet sich überdies die Möglichkeit, mit Hilfe der App im Gelände Entwicklung und Fortgang Forschungsansatzes nachzuverfolgen und den Zusammenhang zwischen Fragestellung und Grabungsdesign nachzuvollziehen.
 
-Alle Elemente funktionieren zwar, dennoch können kleinere Bugs auftreten können.
+Alle Elemente funktionieren zwar, dennoch können kleinere Bugs auftreten.
 
 ## **[Förderhinweis](#Förderhinweis)**
 
